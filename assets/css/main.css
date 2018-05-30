@@ -10,9 +10,14 @@
 
 /* Custom Styles */
 	
+	#eboard > img {
+		content: url('../../images/eboard_serious.jpg');
+	}
 
-
-
+	#eboard:hover > img {
+		content: url('../../images/eboard_funny.jpg');
+	}
+	
 	/* Project images */
 	.project_image_wrap {
 		border: solid, 1px;
