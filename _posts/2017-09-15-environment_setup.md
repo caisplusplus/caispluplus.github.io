@@ -52,8 +52,12 @@ comments: true
    versions of Python. Download the Python 3.6 version of Anaconda from <a
    href='https://www.anaconda.com/download/'>here</a>. Note that if you currently
    have Python installed, you may need to uninstall your existing installation
-   first in order to avoid any conflicts during the Anaconda setup.
-2. Check that anaconda is installed by running in your terminal <code class='language-bash'>conda info</code>
+   first in order to avoid any conflicts during the Anaconda setup. Lastly, if
+   you are on Windows, make sure you check the box "Add Anaconda to my PATH 
+   environment variable" during setup. It is not the default option, so be
+   sure not to miss it!
+2. Check that anaconda is installed by running in your terminal <code class='language-bash'>conda info</code>. If you are on Windows and getting an error, see Raghav's comment
+   below for a possible fix.
 3. Create your conda environment. This will specify a certain version of Python to use, and will act as separated container (apart from your root installation) for all of your Python packages to exist. Run <code
    class='language-bash'>conda create -n caispp python=3.5</code> in your
    terminal. This command specifies to use Python 3.5 for our virtual environment,
@@ -63,7 +67,8 @@ comments: true
    through <code class='language-bash'>activate caispp</code> on Windows or
    <code class='language-bash'>source activate caispp</code> on Unix systems.
    You should see your prompt change with the name of the environment to the
-   left of the input line.
+   left of the input line. Make sure this environment is activated while doing
+   the remaining steps.
 5. Make sure that **pip** is installed by running <code class='language-bash'>pip
    -v</code>. Pip is an easy-to-use package manager built for Python, and we will use it to install several of the packages we will need in the future.
    If pip is not installed, follow the instructions <a
