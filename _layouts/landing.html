@@ -31,6 +31,7 @@
 										<ul>
 											<li><a href="index.html">Home</a></li>
 											<li><a href="/people">People</a></li>
+											<li><a href="/clients_professors">For Clients/Professors</a></li>
 											<li><a href="/curriculum">Curriculum</a></li>
 											<li><a href="/blog/">Student Blog</a></li>
 											<li><a href="https://www.cais.usc.edu">CAIS Homepage</a></li>
@@ -132,21 +133,21 @@
 
 						
 						<!-- Modal content -->
-							<div id="melanomaModal" class="modal">
-								<div id="melanomaSpan" class="modal-content">
+							<div id="pneumoniaModal" class="modal">
+								<div id="pneumoniaSpan" class="modal-content">
 									<span class="close">&times;</span>
-									<h4>Melanoma Detection: Computer Vision for Skin Cancer</h4>
-									<p>Early detection, diagnosis, and prevention of melanoma skin cancer is crucial for patient survival. Far too often, melanoma progresses to advanced stages because patients lack the ability to self-diagnose malignant moles and do not feel the need to consult a dermatologist until it becomes too late. We are using a style transfer algorithm to create a unique dataset of cell-phone quality, labelled, melanoma mole images. Using this data, we will be training a convolutional neural network to predict the likelihood of moles being cancerous, in order to inspire patients to pursue further treatment and medical consultation to reduce the likelihood of fatal melanoma.</p>
+									<h4>Pneumonia: Improving efficiency and scale of diagnosis</h4>
+									<p>Pneumonia accounts for over 15% of all deaths of children under 5 years old internationally. In 2015, 920,000 children under the age of 5 died from the disease. While common, accurately diagnosing pneumonia is a tall order. It requires review of a chest radiograph (CXR) by highly trained specialists and confirmation through clinical history, vital signs and laboratory exams. Through deep learning techniques, we hope that we are able to improve both the efficiency and scale of diagnostic services.</p>
 								</div>
 							</div>
 
-							<div id="nucleusModal" class="modal">
+							<div id="brainModal" class="modal">
 								<div class="modal-content">
-									<span id="nucleusSpan" class="close">&times;</span>
-									<h4>2018 National Data Science Bowl: Cell Nucleus Segmentation
+									<span id="brainSpan" class="close">&times;</span>
+									<h4>The Brain Sees, The Brain Hears
 									</h4>
 									
-									<p>Identifying cell nuclei, which hold the cell’s DNA, is the starting point for most disease analysis. Identifying nuclei allows researchers to identify each individual cell in a sample, and by measuring how cells react to various treatments, researchers can understand the underlying biological processes at work. By using deep learning-based image segmentation techniques, we hope to automate the process of identifying nuclei, which will allow for more efficient drug testing, shortening the 10 years it takes for each new drug to come to market.</p>
+									<p>Humans experience sensory input in a continuous way, while machines tend to take in images and sound in a discrete way. Our aim is to build a multi-modal auto encoder that can intertwine visual and audio data in a way that replicates the human brain.</p>
 								</div>
 							</div>
 
@@ -160,13 +161,13 @@
 								</div>
 							</div>
 
-							<div id="LAModal" class="modal">
+							<div id="languageModal" class="modal">
 								<div class="modal-content">
-									<span id="LASpan" class="close">&times;</span>
-									<h4>LA City Budget: Understanding Civic Spending
+									<span id="languageSpan" class="close">&times;</span>
+									<h4>The Ladin Language: preserving endangered languages through phoneme recognition
 									</h4>
 									
-									<p>Every year, the LA budget team manually goes through the year’s budget appropriations and manually categorizes each budget entry; this categorization makes it easier to aggregate the city’s spending by category later on. However, since new entries may not perfectly corresponding to existing, pre-categorized budget entries, it takes not only large amounts of work, but also subjective institutional knowledge to correctly categorize each entry. For this reason, many entries simply go uncategorized year-to-year. We are currently working with the LA Mayor’s Office to apply natural language processing techniques to automatically categorize new budget entries, making it understand LA’s annual spending, and to hopefully enable additional insights on how this spending could be improved.</p>
+									<p>With hundreds of languages on the verge of extinction across the world, language documentation is becoming increasingly crucial to the survival of the world’s cultural diversity. Being one of the earliest and most important stages in documenting languages, producing phonetic transcriptions of audio samples often proves to be the bottleneck due to its time-consuming nature and limited data. By training a recurrent neural network on spoken samples of the Ladin language to segment and label individual phonemes, we aim to automate this process and produce a model that is applicable to most human languages.</p>
 								</div>
 							</div>
 
@@ -176,17 +177,17 @@
 									<h4>Sports Analytics
 									</h4>
 									
-									<p>Sporting events are often an emotional rollercoaster, with fans often voicing opinions and reactions on Social Media. Using Machine Learning and Natural Language Processing techniques such as Sentiment Analysis, our aim is to study sentiment surrounding teams and players, and to see whether any correlation can be found between sentiment, game predictions by fans, and actual game outcomes.</p>
+									<p>There seems to be a huge discrepancy between the richness of data that the traditional gold standard for sports betting, Vegas, uses and the data that most machine learning papers written on the topic of NBA games use. For the most part, machine learning/algorithmic predictions of NBA games have used exclusively coarse overview statistics such as team win/loss records and offensive rating (essentially points scored per game). Even though the papers have managed to match or slightly exceed the performance of Vegas, they have done so without even the basic knowledge of which players partake in the game. Therefore, it seems possible that using much finer statistics to try making these predictions could potentially lead to much more accurate results. This project aims to find out whether the prior performance of players appearing in the game could be a better metric to predict the outcome of a game than the team's high level statistics. Using these, we can integrate a much richer understanding of things like which players are having hot streaks and injuries into our model. The project also brings up some interesting questions about machine learning, such as how to handle variable input amounts in non-recurrent models. There may be a reason that current papers have not used fine statistics, but the exercise of trying a different approach to this problem will be enlightening whether it leads to success or not.</p>
 								</div>
 							</div>
 
-							<div id="musicModal" class="modal">
+							<div id="droughtModal" class="modal">
 								<div class="modal-content">
-									<span id="musicSpan" class="close">&times;</span>
-									<h4>Music
+									<span id="droughtSpan" class="close">&times;</span>
+									<h4>Drought from the sky: Time series analysis of climate data
 									</h4>
 									
-									<p>Applying artificial intelligence to create music has been a popular research task for many years. However, recent deep learning approaches have allowed for significant improvement in this domain and have opened many potential avenues for this task. We are working to further explore music creation through the deep learning lense as well as developing methods that use artificial intelligence to assist with the creative process. Current projects include developing algorithms to assist in the creation of jazz heads (sheet music that includes a melody and the corresponding chords) and using Generative Adversarial Networks to develop different styles of drum beats.</p>
+									<p>Forecasting rainfall, especially in drought-ridden Southern California, is a necessity for professionals and consumers in all industries. This group is collaborating with Lowell Stott, a climate researcher at USC, to track atmospheric oxygen isotope composition as a means of predicting rainfall across the Western Seaboard. Given a range of climate indicators, we will be combining a time series analysis with deep learning techniques to improve upon current predictive models plagued by noise.</p>
 								</div>
 							</div>
 
@@ -195,26 +196,26 @@
 						<div class="inner">
 							<header class="major">
 								<h2>Projects</h2>
-								<p>A list of projects from Spring 2018:</p>
+								<p>A list of projects from Fall 2018</p>
 							</header>
 
 
 							<div class="row uniform 50%">
 								
-								<div data-modal="melanomaModal" data-span="melanomaSpan" id="melanoma" class="4u project_image_wrap">
-									<span class="image fit"><img class="project_image" src="images/projects/melanoma.png" alt="" />
+								<div data-modal="pneumoniaModal" data-span="pneumoniaSpan" id="pneumonia" class="4u project_image_wrap">
+									<span class="image fit"><img class="project_image" src="images/projects/pneumonia.png" alt="" />
 										<div class="text_over_image">
-											<h4>Melanoma Detection: Computer Vision for Skin Cancer</h4> 
+											<h4>Pneumonia: diagnosis through deep learning</h4> 
 										</div>
 									</span>
 								</div>
 
 
-								<div data-modal="nucleusModal" 
-								data-span="nucleusSpan" id="nucleus" class="4u project_image_wrap">
-									<span class="image fit"><img class="project_image" src="images/projects/nucleus.png" alt="" />
+								<div data-modal="brainModal" 
+								data-span="brainSpan" id="brain" class="4u project_image_wrap">
+									<span class="image fit"><img class="project_image" src="images/projects/brain.png" alt="" />
 										<div class="text_over_image">
-											<h4>2018 Data Science Bowl: Cell Nucleus Segmentation</h4> 
+											<h4>The Brain Project</h4> 
 										</div>
 									</span>
 								</div>
@@ -226,10 +227,10 @@
 										</div>
 									</span>
 								</div>
-								<div data-modal="LAModal" data-span="LASpan" class="4u project_image_wrap">
-									<span class="image fit"><img class="project_image" src="images/projects/LA.png" alt="" />
+								<div data-modal="languageModal" data-span="languageSpan" class="4u project_image_wrap">
+									<span class="image fit"><img class="project_image" src="images/projects/book.png" alt="" />
 										<div class="text_over_image">
-											<h4>LA City Budget: Understanding Civic Spending</h4> 
+											<h4>Preserving Language</h4> 
 										</div>
 									</span>
 								</div>
@@ -240,10 +241,10 @@
 										</div>
 									</span>
 								</div>
-								<div data-modal="musicModal" data-span="musicSpan" class="4u project_image_wrap">
-									<span class="image fit"><img class="project_image" src="images/projects/music.png" alt="" />
+								<div data-modal="droughtModal" data-span="droughtSpan" class="4u project_image_wrap">
+									<span class="image fit"><img class="project_image" src="images/projects/rain.png" alt="" />
 										<div class="text_over_image">
-											<h4>Music</h4> 
+											<h4>Predicting Drought</h4> 
 										</div>
 									</span>
 								</div>
