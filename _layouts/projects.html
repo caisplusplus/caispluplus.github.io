@@ -6,7 +6,7 @@
 -->
 <html>
     <head>
-        <title>Past Projects | CAIS++</title>
+        <title>Projects | CAIS++</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -33,7 +33,7 @@
                                             <li><a href="/people">People</a></li>
                                             <li><a href="/clients_professors">For Clients/Professors</a></li>
                                             <li><a href="/sponsors">For Sponsors</a></li>
-                                            <li><a href="/past_projects">Past Projects</a></li>
+                                            <li><a href="/projects">Projects</a></li>
                                             <li><a href="/curriculum">Curriculum</a></li>
                                             <li><a href="/blog/">Student Blog</a></li>
                                             <li><a href="https://www.cais.usc.edu">CAIS Homepage</a></li>
@@ -47,10 +47,132 @@
                 <!-- Main -->
                     <article id="main">
                         <header>
-                            <h2>Past Projects</h2>
+                            <h2>Projects</h2>
                             <p>See what we've been up to</p>
                         </header>
                         <section class="wrapper style5">
+                            
+                            <!-- Modal content -->
+                            <div id="pneumoniaModal" class="modal">
+                                <div id="pneumoniaSpan" class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <h4>Pneumonia: Improving efficiency and scale of diagnosis</h4>
+                                    <p>Pneumonia accounts for over 15% of all deaths of children under 5 years old internationally. In 2015, 920,000 children under the age of 5 died from the disease. While common, accurately diagnosing pneumonia is a tall order. It requires review of a chest radiograph (CXR) by highly trained specialists and confirmation through clinical history, vital signs and laboratory exams. Through deep learning techniques, we hope that we are able to improve both the efficiency and scale of diagnostic services.</p>
+                                </div>
+                            </div>
+
+                            <div id="brainModal" class="modal">
+                                <div class="modal-content">
+                                    <span id="brainSpan" class="close">&times;</span>
+                                    <h4>The Brain Sees, The Brain Hears
+                                    </h4>
+                                    
+                                    <p>Humans experience sensory input in a continuous way, while machines tend to take in images and sound in a discrete way. Our aim is to build a multi-modal auto encoder that can intertwine visual and audio data in a way that replicates the human brain.</p>
+                                </div>
+                            </div>
+
+                            <div id="kawasakiModal" class="modal">
+                                <div class="modal-content">
+                                    <span id="kawasakiSpan" class="close">&times;</span>
+                                    <h4>Kawasaki Disease: Rare Disease Diagnosis Using Machine Learning
+                                    </h4>
+                                    
+                                    <p>Kawasaki Disease is a rare heart disease that affects children all over the world; however, there is currently no successful diagnostic test for the disease. This means that Kawasaki Disease can often be left undiagnosed, sometimes with fatal consequences. We aim to use machine learning techniques such as SVMs, Boosted Decision Trees, and Deep Neural Networks to create a robust diagnosis algorithm that learns from its mistakes and helps save lives.</p>
+                                </div>
+                            </div>
+
+                            <div id="languageModal" class="modal">
+                                <div class="modal-content">
+                                    <span id="languageSpan" class="close">&times;</span>
+                                    <h4>The Ladin Language: preserving endangered languages through phoneme recognition
+                                    </h4>
+                                    
+                                    <p>With hundreds of languages on the verge of extinction across the world, language documentation is becoming increasingly crucial to the survival of the world’s cultural diversity. Being one of the earliest and most important stages in documenting languages, producing phonetic transcriptions of audio samples often proves to be the bottleneck due to its time-consuming nature and limited data. By training a recurrent neural network on spoken samples of the Ladin language to segment and label individual phonemes, we aim to automate this process and produce a model that is applicable to most human languages.</p>
+                                </div>
+                            </div>
+
+                            <div id="sportModal" class="modal">
+                                <div class="modal-content">
+                                    <span id="sportSpan" class="close">&times;</span>
+                                    <h4>Sports Analytics
+                                    </h4>
+                                    
+                                    <p>There seems to be a huge discrepancy between the richness of data that the traditional gold standard for sports betting, Vegas, uses and the data that most machine learning papers written on the topic of NBA games use. For the most part, machine learning/algorithmic predictions of NBA games have used exclusively coarse overview statistics such as team win/loss records and offensive rating (essentially points scored per game). Even though the papers have managed to match or slightly exceed the performance of Vegas, they have done so without even the basic knowledge of which players partake in the game. Therefore, it seems possible that using much finer statistics to try making these predictions could potentially lead to much more accurate results. This project aims to find out whether the prior performance of players appearing in the game could be a better metric to predict the outcome of a game than the team's high level statistics. Using these, we can integrate a much richer understanding of things like which players are having hot streaks and injuries into our model. The project also brings up some interesting questions about machine learning, such as how to handle variable input amounts in non-recurrent models. There may be a reason that current papers have not used fine statistics, but the exercise of trying a different approach to this problem will be enlightening whether it leads to success or not.</p>
+                                </div>
+                            </div>
+
+                            <div id="droughtModal" class="modal">
+                                <div class="modal-content">
+                                    <span id="droughtSpan" class="close">&times;</span>
+                                    <h4>Drought from the sky: Time series analysis of climate data
+                                    </h4>
+                                    
+                                    <p>Forecasting rainfall, especially in drought-ridden Southern California, is a necessity for professionals and consumers in all industries. This group is collaborating with Lowell Stott, a climate researcher at USC, to track atmospheric oxygen isotope composition as a means of predicting rainfall across the Western Seaboard. Given a range of climate indicators, we will be combining a time series analysis with deep learning techniques to improve upon current predictive models plagued by noise.</p>
+                                </div>
+                            </div>
+
+
+
+                        <div class="inner">
+                            <header class="major">
+                                <h2>Projects</h2>
+                            </header>
+                            <h4>FALL 2018</h4>
+
+                            <div class="row uniform 50%">
+                                
+                                <div data-modal="pneumoniaModal" data-span="pneumoniaSpan" id="pneumonia" class="4u project_image_wrap">
+                                    <span class="image fit"><img class="project_image" src="images/projects/pneumonia.png" alt="" />
+                                        <div class="text_over_image">
+                                            <h4>Pneumonia: diagnosis through deep learning</h4> 
+                                        </div>
+                                    </span>
+                                </div>
+
+
+                                <div data-modal="brainModal" 
+                                data-span="brainSpan" id="brain" class="4u project_image_wrap">
+                                    <span class="image fit"><img class="project_image" src="images/projects/brain.png" alt="" />
+                                        <div class="text_over_image">
+                                            <h4>The Brain Project</h4> 
+                                        </div>
+                                    </span>
+                                </div>
+                                
+                                <div data-modal="kawasakiModal" data-span="kawasakiSpan" class="4u project_image_wrap">
+                                    <span class="image fit"><img class="project_image" src="images/projects/kawasaki.png" alt="" />
+                                        <div class="text_over_image">
+                                            <h4>Kawasaki Disease: Rare Disease Diagnosis using AI</h4> 
+                                        </div>
+                                    </span>
+                                </div>
+                                <div data-modal="languageModal" data-span="languageSpan" class="4u project_image_wrap">
+                                    <span class="image fit"><img class="project_image" src="images/projects/book.png" alt="" />
+                                        <div class="text_over_image">
+                                            <h4>Preserving Language</h4> 
+                                        </div>
+                                    </span>
+                                </div>
+                                <div data-modal="sportModal" data-span="sportSpan" class="4u project_image_wrap">
+                                    <span class="image fit"><img class="project_image" src="images/projects/sports.png" alt="" />
+                                        <div class="text_over_image">
+                                            <h4>Sports Analytics</h4> 
+                                        </div>
+                                    </span>
+                                </div>
+                                <div data-modal="droughtModal" data-span="droughtSpan" class="4u project_image_wrap">
+                                    <span class="image fit"><img class="project_image" src="images/projects/rain.png" alt="" />
+                                        <div class="text_over_image">
+                                            <h4>Predicting Drought</h4> 
+                                        </div>
+                                    </span>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+
+
                             
                             <!-- Modal content -->
                             <div id="melanomaModal" class="modal">
@@ -75,9 +197,9 @@
                                 </div>
                             </div>
 
-                            <div id="kawasakiModal" class="modal">
+                            <div id="kawasakiSp2018Modal" class="modal">
                                 <div class="modal-content">
-                                    <span id="kawasakiSpan" class="close">&times;</span>
+                                    <span id="kawasakiSp2018Span" class="close">&times;</span>
                                     <h4>Kawasaki Disease: Rare Disease Diagnosis Using Machine Learning
                                     </h4>
                                     
@@ -99,9 +221,9 @@
                                 </div>
                             </div> 
 
-                            <div id="sportModal" class="modal">
+                            <div id="sportSp2018Modal" class="modal">
                                 <div class="modal-content">
-                                    <span id="sportSpan" class="close">&times;</span>
+                                    <span id="sportSp2018Span" class="close">&times;</span>
                                     <h4>Sports Analytics
                                     </h4>
                                     
@@ -124,12 +246,9 @@
 
 
                         <div class="inner">
-                            <header class="major">
-                                <h2>Projects</h2>
-                                <p>A list of projects from Spring 2018:</p>
-                            </header>
-
-
+                            <br />
+                            <br />
+                            <h4>SPRING 2018</p>
                             <div class="row uniform 50%">
                                 
                                 <div data-modal="melanomaModal" data-span="melanomaSpan" id="melanoma" class="4u project_image_wrap">
@@ -150,7 +269,7 @@
                                     </span>
                                 </div>
                                 
-                                <div data-modal="kawasakiModal" data-span="kawasakiSpan" class="4u project_image_wrap">
+                                <div data-modal="kawasakiSp2018Modal" data-span="kawasakiSp2018Span" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/kawasaki.png" alt="" />
                                         <div class="text_over_image">
                                             <h4>Kawasaki Disease: Rare Disease Diagnosis using AI</h4> 
@@ -164,7 +283,7 @@
                                         </div>
                                     </span>
                                 </div>
-                                <div data-modal="sportModal" data-span="sportSpan" class="4u project_image_wrap">
+                                <div data-modal="sportSp2018Modal" data-span="sportSp2018Span" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/sports.png" alt="" />
                                         <div class="text_over_image">
                                             <h4>Sports Analytics</h4> 
