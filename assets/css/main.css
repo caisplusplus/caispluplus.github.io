@@ -3357,10 +3357,7 @@
 /* Header */
 
 	#header {
-		-moz-transition: background-color 0.2s ease;
-		-webkit-transition: background-color 0.2s ease;
-		-ms-transition: background-color 0.2s ease;
-		transition: background-color 0.2s ease;
+		
 		/*background: #2e3842;*/
 		background: #900000;
 		height: 3em;
@@ -3373,10 +3370,7 @@
 	}
 
 		#header h1 {
-			-moz-transition: opacity 0.2s ease;
-			-webkit-transition: opacity 0.2s ease;
-			-ms-transition: opacity 0.2s ease;
-			transition: opacity 0.2s ease;
+			
 			height: inherit;
 			left: 0.3em;
 			line-height: inherit;
@@ -3391,13 +3385,7 @@
 				line-height: inherit;
 			}
 
-				@media screen and (max-width: 736px) {
-
-					#header h1 a {
-						font-size: 0.8em;
-					}
-
-				}
+				
 
 		#header nav {
 			height: inherit;
@@ -3469,17 +3457,9 @@
 						margin-left: 0;
 					}
 
-		#header.alt {
-			background: transparent;
-		}
+		
 
-			#header.alt h1 {
-				-moz-pointer-events: none;
-				-webkit-pointer-events: none;
-				-ms-pointer-events: none;
-				pointer-events: none;
-				opacity: 0;
-			}
+			
 
 /* Banner */
 
