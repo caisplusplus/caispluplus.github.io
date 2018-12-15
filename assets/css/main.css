@@ -3328,9 +3328,9 @@
 						border: 0;
 						color: #fff;
 						display: block;
-						font-size: 0.8em;
-						letter-spacing: 0.225em;
-						padding: 0 1.5em;
+						font-size: 0.7em;
+						letter-spacing: 0.20em;
+						padding: 0 .69em;
 						text-transform: uppercase;
 					}
 						
@@ -3407,8 +3407,8 @@
 	
 		
 		#banner ul li {
-			height: 30px; 
-			margin-bottom: 25px; 
+			height: 2.0em; 
+			margin-bottom: 1.5em; 
 		}
 
 		#banner h2 {
@@ -3458,7 +3458,7 @@
 		#banner p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
-			margin-bottom: 10px; 
+			margin-bottom: 1.0em; 
 		}
 
 			#banner p a {
