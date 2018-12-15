@@ -2146,97 +2146,14 @@
 
 			ul.actions li {
 				display: inline-block;
-				padding: 0 1.5em 0 0;
+				padding-bottom: 7px;
 				vertical-align: middle;
 			}
 
 				ul.actions li:last-child {
-					padding-right: 0;
+					padding-bottom: 0;
 				}
 
-			ul.actions.small li {
-				padding: 0 0.75em 0 0;
-			}
-
-			ul.actions.vertical li {
-				display: block;
-				padding: 1.5em 0 0 0;
-			}
-
-				ul.actions.vertical li:first-child {
-					padding-top: 0;
-				}
-
-				ul.actions.vertical li > * {
-					margin-bottom: 0;
-				}
-
-			ul.actions.vertical.small li {
-				padding: 0.75em 0 0 0;
-			}
-
-				ul.actions.vertical.small li:first-child {
-					padding-top: 0;
-				}
-
-			ul.actions.fit {
-				display: table;
-				margin-left: -1.5em;
-				padding: 0;
-				table-layout: fixed;
-				width: calc(100% + 1.5em);
-			}
-
-				ul.actions.fit li {
-					display: table-cell;
-					padding: 0 0 0 1.5em;
-				}
-
-					ul.actions.fit li > * {
-						margin-bottom: 0;
-					}
-
-				ul.actions.fit.small {
-					margin-left: -0.75em;
-					width: calc(100% + 0.75em);
-				}
-
-					ul.actions.fit.small li {
-						padding: 0 0 0 0.75em;
-					}
-
-			@media screen and (max-width: 736px) {
-
-				ul.actions li {
-					display: block;
-					padding: 1em 0 0 0;
-					text-align: center;
-					width: 100%;
-				}
-
-					ul.actions li:first-child {
-						padding-top: 0;
-					}
-
-					ul.actions li > * {
-						margin: 0 auto !important;
-						max-width: 30em;
-						width: 100%;
-					}
-
-						ul.actions li > *.icon:before {
-							margin-left: -1em;
-						}
-
-				ul.actions.small li {
-					padding: 0.5em 0 0 0;
-				}
-
-					ul.actions.small li:first-child {
-						padding-top: 0;
-					}
-
-			}
 
 	dl {
 		margin: 0 0 2em 0;
@@ -3483,6 +3400,10 @@
 		position: relative;
 		text-align: center;
 	}
+	
+		#banner ul li {
+			margin-left: -25px; 
+		}
 
 		#banner h2 {
 			-moz-transform: scale(1);
@@ -3531,6 +3452,7 @@
 		#banner p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
+			margin-bottom: 10px; 
 		}
 
 			#banner p a {
