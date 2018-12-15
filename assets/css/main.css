@@ -3401,6 +3401,10 @@
 		text-align: center;
 	}
 	
+		#banner ul li {
+			height: 30px; 
+		}
+	
 		
 
 		#banner h2 {
