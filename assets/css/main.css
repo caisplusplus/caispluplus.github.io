@@ -32,6 +32,10 @@
 			width: auto; 
 			font-size: 8pt; 
 		}
+		
+		#mobileNav {
+			display: none; 
+		}
 	}
 	
 	@media only screen and (min-width: 521px) {
