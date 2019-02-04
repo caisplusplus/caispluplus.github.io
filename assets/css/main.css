@@ -34,6 +34,13 @@
 		}
 	}
 	
+	@media only screen and (min-width: 521px) {
+		#sponsors {
+		
+			width: 23.2em; 
+		}
+	}
+	
 	
 	
 	
