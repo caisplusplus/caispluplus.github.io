@@ -9,6 +9,34 @@
 
 
 /* Custom Styles */
+	@media only screen and (max-width: 678px) {
+		#header {
+			display: none; 
+		}
+		
+		#clients {
+			
+			
+			
+			top: 27em; 
+			width: auto; 
+			font-size: 8pt; 
+			
+		}
+		
+		#sponsors {
+			
+			top: 32.5em; 
+			
+			
+			width: auto; 
+			font-size: 8pt; 
+		}
+	}
+	
+	
+	
+	
 	
 	#eboard > img {
 		content: url('../../images/eboard_serious.jpg');
