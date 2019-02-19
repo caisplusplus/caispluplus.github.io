@@ -33,15 +33,18 @@
 			font-size: 8pt; 
 		}
 		
-		#mobileNav {
-			display: none; 
-		}
 	}
 	
 	@media only screen and (min-width: 521px) {
 		#sponsors {
 		
 			width: 23.2em; 
+		}
+	}
+
+	@media only screen and (min-width: 679px) {
+		#mobile {
+			display: none;
 		}
 	}
 	
@@ -3867,3 +3870,44 @@
 	body.is-mobile.landing #footer {
 		background-color: #ad0000;
 	}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #900000;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #900000;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+i {
+	width: 40px;
+}
+
+/* Add a grey background color on mouse-over */
+
+
+/* Style the active link (or home/logo) */
+
+

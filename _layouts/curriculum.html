@@ -27,14 +27,47 @@
 						<h1><a href="index.html"><img src="images/whitecircle.png" style='max-height: 100%; max-width: 100%; object-fit: contain; border: 0' align="left"</a></h1>
 						<nav id="nav">
 							<ul>
-								<li><a href="/people">People</a></li>
-								<li><a href="/projects">Projects</a></li>
-								<li><a href="/curriculum">Curriculum</a></li>
-								<li><a href="/blog/">Student Blog</a></li>
-								<li><a style="margin-right: 1.5em;"href="https://www.cais.usc.edu">CAIS Homepage</a></li>
-							</ul>
+                                <li><a href="/people">People</a></li>
+                                <li><a href="/projects">Projects</a></li>
+                                <li><a href="/curriculum">Curriculum</a></li>
+                                <li><a href="/blog/">Student Blog</a></li>
+                                <li><a href="https://www.cais.usc.edu">CAIS Homepage</a></li>
+                                <li><a style="margin-right: 1.5em;"href="/contactus">Contact Us</a></li>
+                            </ul>
 						</nav>
 					</header>
+
+					<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+					<script> 
+						function myFunction() {
+						  var x = document.getElementById("myLinks");
+						  if (x.style.display === "block") {
+						    x.style.display = "none";
+						  } else {
+						    x.style.display = "block";
+						  }
+						}
+					</script>
+					<!-- Top Navigation Menu -->
+					<div id="mobile" class="topnav" syle="position: fixed">
+					  <!-- Navigation links (hidden by default) -->
+					  <a href="index.html" style="height: 60px">
+					  	<image src="images/whitecircle.png" style="max-width: 60px">
+					  </a>
+					  <div id="myLinks">
+					    <a href="/people">People</a>
+					    <a href="/projects">Projects</a>
+					    <a href="/curriculum">Curriculum</a>
+					    <a href="/blog/">Student Blog</a>
+					    <a href="https://www.cais.usc.edu">CAIS Homepage</a>
+					    <a href="/contactus">Contact Us</a>
+					  </div>
+					  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+					  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					    <img src="/images/projects/menubars.png" style="max-height: 30px"/>
+					  </a>
+					</div>
 
 				<!-- Main -->
 					<article id="main">

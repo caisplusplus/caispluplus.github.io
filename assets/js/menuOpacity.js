@@ -8,7 +8,7 @@ $(window).scroll(function() {
     if (scroll > t1 && scroll < t1 + d1) {
         var newOpac = .75 + (((scroll - t1) / d1) * .25);
         $("#header").css({'opacity': newOpac});
-    } else if (scroll > t1 + d1 && scroll < t2) {
+    } else if (scroll > t1 + d1) {
         $("#header").css({'opacity': 1});
     } else if (scroll > t2) {
         var newOpac = 1 - (((scroll - t2) / d2) * .25);
