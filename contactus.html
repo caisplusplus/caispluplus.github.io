@@ -37,6 +37,37 @@
                         </nav>
                     </header>
 
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <script> 
+                        function myFunction() {
+                          var x = document.getElementById("myLinks");
+                          if (x.style.display === "block") {
+                            x.style.display = "none";
+                          } else {
+                            x.style.display = "block";
+                          }
+                        }
+                    </script>
+                    <!-- Top Navigation Menu -->
+                    <div id="mobile" class="topnav" syle="position: fixed">
+                      <!-- Navigation links (hidden by default) -->
+                      <div id="bar" style="height: 60px; top: 0px;">
+                        
+                      </div>
+                      <div id="myLinks">
+                        <a href="/index.html">Home</a>
+                        <a href="/people">People</a>
+                        <a href="/projects">Projects</a>
+                        <a href="/curriculum">Curriculum</a>
+                        <a href="/blog/">Student Blog</a>
+                        <a href="https://www.cais.usc.edu">CAIS Homepage</a>
+                        <a href="/contactus">Contact Us</a>
+                      </div>
+                      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <img src="/images/projects/menubars.png" style="max-height: 25px; position: relative; top: -10px;"/>
+                      </a>
+                    </div>
                 <!-- Main -->
                     <article id="main">
                          <header>
