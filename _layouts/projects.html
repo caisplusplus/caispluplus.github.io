@@ -39,7 +39,7 @@
 
                     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                    <script> 
+                    <script>
                         function myFunction() {
                           var x = document.getElementById("myLinks");
                           if (x.style.display === "block") {
@@ -53,7 +53,7 @@
                     <div id="mobile" class="topnav" syle="position: fixed">
                       <!-- Navigation links (hidden by default) -->
                       <div id="bar" style="height: 60px; top: 0px;">
-                        
+
                       </div>
                       <div id="myLinks">
                         <a href="/index.html">Home</a>
@@ -77,42 +77,14 @@
                             <p>See what we've been up to</p>
                         </header>
                         <section class="wrapper style5">
-                            
-                            <div id="financeModal" class="modal">
-                                <div id="financeSpan" class="modal-content">
-                                    <span class="close">&times;</span>
-                                    <h4>Predicting Stock Shifts Using AI</h4>
-                                    <p>The stock market is one of the most competitive “adversarial games” in the world. Can we train an agent to play this game successfully? There are so many applications of machine learning in finance. You could build an RNN on raw time series data, use NLP to determine sentiment from news articles, or estimate oil production from satellite images. We’ll be focusing on reinforcement learning for this project––specifically building a trading agent that can *hopefully* make intelligent predictions about the market.</p>
-                                </div>
-                            </div>
 
-                            <div id="chessModal" class="modal">
+                            <div id="musicAndBrainModal" class="modal">
                                 <div class="modal-content">
-                                    <span id="chessSpan" class="close">&times;</span>
-                                    <h4>Building a Chess Engine
+                                    <span id="musicAndBrainSpan" class="close">&times;</span>
+                                    <h4>Music and the Brain
                                     </h4>
-                                    
-                                    <p>Chess is a game of forethought. When making a move, the average grandmaster has the skillset to take into account progressions of up to 20 steps beyond the current board, and many computers can comfortably explore sequences well beyond the 20-move mark. This team will explore a history of chess computing ranging from IBM’s Deep Blue, to Stockfish, which currently has an ELO of 3438 (for reference, Magnus Carlsen—the current world champion—has a rating of 2954). Our scope will then broaden to look at other game engines to help identify successful ML techniques that have been developed throughout the last few decades. In particular, we will study AlphaGo’s RL implementation in an attempt to help us complete our culminating project: our own chess engine. </p>
-                                </div>
-                            </div>
 
-                            <div id="fairnessModal" class="modal">
-                                <div class="modal-content">
-                                    <span id="fairnessSpan" class="close">&times;</span>
-                                    <h4>Machine Learning Fairness
-                                    </h4>
-                                    
-                                    <p>In 2017, Google came under fire for YouTube’s machine learning algorithms incorrectly flagging LGBTQ content as “inappropriate”. This led to an explosion of research in machine learning fairness in pursuit of their goal of “AI for Everyone”. In this project, we will first dissect the concept of fairness in a mathematical sense via reading and discussing several recent papers on the topic. Then, we will use Google Colab resources to explore applications of ML fairness and discuss results. Finally, we will read Zhang et al.’s “Mitigating Unwanted Biases with Adversarial Learning” and build our own adversarial GAN to explore the implications of such “debiasing” techniques.</p>
-                                </div>
-                            </div>
-
-                            <div id="airbnbModal" class="modal">
-                                <div class="modal-content">
-                                    <span id="airbnbSpan" class="close">&times;</span>
-                                    <h4>Natural Language Processing: Airbnb
-                                    </h4>
-                                    
-                                    <p>This project will utilize NLP to analyze the correlation between Airbnb reviews and gentrification in neighborhoods. In particular, we will attempt to predict crime rates, race/income diversity, house prices, and other similar statistics from Airbnb reviews in a particular geographical region. This is advantageous because it provides a detailed local picture and real time statistics about a neighborhood compared to years old government data. This project builds on a recent Harvard study that used Yelp data to predict economic opportunity in neighborhoods, and can expand to include other consumer based data as well.</p>
+                                    <p>This project comes from the Brain and Creativity Institute and is lead by PhD student Matthew Sachs. His goal is to predict brain activations based on the emotions of a song. Matt collects data by placing each subject in an fMRI scanner and playing them a song, where he records voxel activations in the brain. He also has each subject manually rate how they are feeling on a numerical scale. Matt's focus is on mapping from these behavioral ratings to brain data. However, the scope of this research project is a little broader; anything that helps us better understand the relationship between brain activity and emotional response is fair game. To that end, we have some freedom regarding what we decide to do with the data. We can try mapping from ratings to brain data just like Matt, we can map from acoustic song data to brain data, we can use both as input, or take a different approach entirely. The significance of being able to predict brain data based on some stimuli has wide implications for social good; Matt gave one example of a related project that maps between brain data and reading rates in children. Understanding this connection may allow us to engineer solutions that improve the lives of others, say, by improving how children are taught to read.</p>
                                 </div>
                             </div>
 
@@ -121,18 +93,38 @@
                                     <span id="languageSpan" class="close">&times;</span>
                                     <h4>The Death of a Language
                                     </h4>
-                                    
+
                                     <p>In this project, we are trying to speed up the process of language documentation by building a model that produces phonetic transcriptions from audio samples of human languages. The ultimate goal of our project is to develop a model that could be applied to any human language with minimal changes. We will be using around 3-4 hours of partially labeled audio data in an endangered language called Ladin, which we are using as our main training/test data. As of now we have produced some decent results in vowel identifications and are currently working on phoneme segmentation and identification of larger consonant categories.</p>
                                 </div>
                             </div>
 
-                            <div id="musicAndBrainModal" class="modal">
+                            <div id="fairnessModal" class="modal">
                                 <div class="modal-content">
-                                    <span id="musicAndBrainSpan" class="close">&times;</span>
-                                    <h4>Music and the Brain
+                                    <span id="fairnessSpan" class="close">&times;</span>
+                                    <h4>Machine Learning Fairness
                                     </h4>
-                                    
-                                    <p>This project comes from the Brain and Creativity Institute and is lead by PhD student Matthew Sachs. His goal is to predict brain activations based on the emotions of a song. Matt collects data by placing each subject in an fMRI scanner and playing them a song, where he records voxel activations in the brain. He also has each subject manually rate how they are feeling on a numerical scale. Matt's focus is on mapping from these behavioral ratings to brain data. However, the scope of this research project is a little broader; anything that helps us better understand the relationship between brain activity and emotional response is fair game. To that end, we have some freedom regarding what we decide to do with the data. We can try mapping from ratings to brain data just like Matt, we can map from acoustic song data to brain data, we can use both as input, or take a different approach entirely. The significance of being able to predict brain data based on some stimuli has wide implications for social good; Matt gave one example of a related project that maps between brain data and reading rates in children. Understanding this connection may allow us to engineer solutions that improve the lives of others, say, by improving how children are taught to read.</p>
+
+                                    <p>In 2017, Google came under fire for YouTube’s machine learning algorithms incorrectly flagging LGBTQ content as “inappropriate”. This led to an explosion of research in machine learning fairness in pursuit of their goal of “AI for Everyone”. In this project, we will first dissect the concept of fairness in a mathematical sense via reading and discussing several recent papers on the topic. Then, we will use Google Colab resources to explore applications of ML fairness and discuss results. Finally, we will read Zhang et al.’s “Mitigating Unwanted Biases with Adversarial Learning” and build our own adversarial GAN to explore the implications of such “debiasing” techniques.</p>
+                                </div>
+                            </div>
+
+                            <div id="chessModal" class="modal">
+                                <div class="modal-content">
+                                    <span id="chessSpan" class="close">&times;</span>
+                                    <h4>Building a Chess Engine
+                                    </h4>
+
+                                    <p>Chess is a game of forethought. When making a move, the average grandmaster has the skillset to take into account progressions of up to 20 steps beyond the current board, and many computers can comfortably explore sequences well beyond the 20-move mark. This team will explore a history of chess computing ranging from IBM’s Deep Blue, to Stockfish, which currently has an ELO of 3438 (for reference, Magnus Carlsen—the current world champion—has a rating of 2954). Our scope will then broaden to look at other game engines to help identify successful ML techniques that have been developed throughout the last few decades. In particular, we will study AlphaGo’s RL implementation in an attempt to help us complete our culminating project: our own chess engine. </p>
+                                </div>
+                            </div>
+
+                            <div id="airbnbModal" class="modal">
+                                <div class="modal-content">
+                                    <span id="airbnbSpan" class="close">&times;</span>
+                                    <h4>Natural Language Processing: Airbnb
+                                    </h4>
+
+                                    <p>This project will utilize NLP to analyze the correlation between Airbnb reviews and gentrification in neighborhoods. In particular, we will attempt to predict crime rates, race/income diversity, house prices, and other similar statistics from Airbnb reviews in a particular geographical region. This is advantageous because it provides a detailed local picture and real time statistics about a neighborhood compared to years old government data. This project builds on a recent Harvard study that used Yelp data to predict economic opportunity in neighborhoods, and can expand to include other consumer based data as well.</p>
                                 </div>
                             </div>
 
@@ -141,7 +133,7 @@
                                     <span id="wordDetectorSpan" class="close">&times;</span>
                                     <h4>Word Detector
                                     </h4>
-                                    
+
                                     <p>Given a particular word (for example, “Botánica”) can we generate a synthetic training dataset, train a detector, then apply the detector to find all instances of signage that says “Botánica”? This has the potential to be more robust to obstructions (for example, trees that cover part of the signage) than lexicon-free detection. This connection may allow us to engineer solutions that improve the lives of others, say, by improving how children are taught to read.</p>
                                 </div>
                             </div>
@@ -151,8 +143,16 @@
                                     <span id="brainSpan" class="close">&times;</span>
                                     <h4>The Brain Sees, The Brain Hears
                                     </h4>
-                                    
+
                                     <p>We’re trying to build a neural network that uses CNNs and auto encoders to process audio and visual input together, much like the human brain does. As humans, we process sensory input in a continuous way, instead of discretely, and we want to replicate that with machine learning.</p>
+                                </div>
+                            </div>
+
+                            <div id="financeModal" class="modal">
+                                <div id="financeSpan" class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <h4>Reinforcement Learning in Finance</h4>
+                                    <p>The stock market is one of the most competitive arenas in the world. In this project we're testing some cutting-edge reinforcement learning algorithms by building an automated trading bot.</p>
                                 </div>
                             </div>
 
@@ -161,7 +161,7 @@
                                     <span id="wormSpan" class="close">&times;</span>
                                     <h4>Your Tongue is a Worm
                                     </h4>
-                                    
+
                                     <p>This research focuses on the similarities between the human tongue and a humble invertebrate: the worm. Tongues are in fact invertebrate systems in vertebrate organisms, so the comparison is an apt one. By analyzing the movement of the worm, we can classify for the presence of a mutated dopamine gene because dopamine plays an important role in movement signaling. This may one day allow us to detect Parkinson’s early: by looking at the tongue in the same way.</p>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@
                                     <span id="codeSpan" class="close">&times;</span>
                                     <h4>Code to English
                                     </h4>
-                                    
+
                                     <p>An integral step to learning how to code is being able to decipher the meaning of a code block. In this project we aim to use pairs of python questions from StackOverflow and code from their accepted answers to try and build a model that will generate an English description given a block of code. This project will begin by building the data set by writing a crawler to grab the code/description pairs from StackOverflow. We will then utilize NLP and GANs/VAEs to decompose code into a latent space, transfer between the code and description latent spaces, and then recompose the description from the latent space. The intended outcome of this project is to roll out a tool to allow beginners to understand what their code is doing, potentially as a website. As with any non-vetted data set, this project is an experiment and may fail. However, it will teach valuable skills across the ML project life cycle, from data gathering to writing testing suites to building the actual models.</p>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@
                                     <span id="aiMusicSpan" class="close">&times;</span>
                                     <h4>AI Assisted Music Technology
                                     </h4>
-                                    
+
                                     <p>The goal of this project is to develop algorithms that can assist with various tasks in music production and musical analysis. Specifically, we are currently talking with researchers at Carnegie Mellon University about obtaining a labeled soundscapes dataset that includes descriptive tags. We will then develop an algorithm that can automatically tag and group soundscapes. We are also currently talking to Mom & Pop Records about a potential collaboration; more info will come soon on this front, but it will involve developing ways to assist A & R tasks. Other projects will include finding ways to analyse and organize sample libraries to help producers search and find samples more efficiently, recognizing when specific sounds occur in a music file in order to assist with music visualizations, and developing a method to “upsample” sounds to bring high fidelity to low fidelity sounds.  Lastly, any ideas and projects will be welcomed as well. Music makes everyone happy, so the social good implications of this project are exorbitant. </p>
                                 </div>
                             </div>
@@ -198,58 +198,58 @@
 
 
                             <div class="row uniform 50%">
-                                
+
                                 <div data-modal="financeModal" data-span="financeSpan" id="finance" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/rlfinance.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Predicting stock shifts using AI</h4> 
+                                            <h4>Predicting stock shifts using AI</h4>
                                         </div>
                                     </span>
                                 </div>
 
 
-                                <div data-modal="chessModal" 
+                                <div data-modal="chessModal"
                                 data-span="chessSpan" id="chess" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/rlchess.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Building a Chess Engine</h4> 
+                                            <h4>Building a Chess Engine</h4>
                                         </div>
                                     </span>
                                 </div>
-                                
+
                                 <div data-modal="fairnessModal" data-span="fairnessSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/mlfairness.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Machine Learning Fairness</h4> 
+                                            <h4>Machine Learning Fairness</h4>
                                         </div>
                                     </span>
                                 </div>
                                 <div data-modal="airbnbModal" data-span="airbnbSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/airbnb.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Natural Language Processing: Airbnb</h4> 
+                                            <h4>Natural Language Processing: Airbnb</h4>
                                         </div>
                                     </span>
                                 </div>
                                 <div data-modal="languageModal" data-span="languageSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/language.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>The Death of a Language</h4> 
+                                            <h4>The Death of a Language</h4>
                                         </div>
                                     </span>
                                 </div>
                                 <div data-modal="musicAndBrainModal" data-span="musicAndBrainSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/musicandthebrain.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Music and the Brain</h4> 
+                                            <h4>Music and the Brain</h4>
                                         </div>
                                     </span>
                                 </div>
-                                
+
                                 <div data-modal="wordDetectorModal" data-span="wordDetectorSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/slab.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Word Detector</h4> 
+                                            <h4>Word Detector</h4>
                                         </div>
                                     </span>
                                 </div>
@@ -257,7 +257,7 @@
                                 <div data-modal="brainModal" data-span="brainSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/brain.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>The Brain Sees, The Brain Hears</h4> 
+                                            <h4>The Brain Sees, The Brain Hears</h4>
                                         </div>
                                     </span>
                                 </div>
@@ -265,7 +265,7 @@
                                 <div data-modal="wormModal" data-span="wormSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/worm.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Your Tongue is a Worm</h4> 
+                                            <h4>Your Tongue is a Worm</h4>
                                         </div>
                                     </span>
                                 </div>
@@ -273,7 +273,7 @@
                                 <div data-modal="codeModal" data-span="codeSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/code.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Code to English</h4> 
+                                            <h4>Code to English</h4>
                                         </div>
                                     </span>
                                 </div>
@@ -281,11 +281,11 @@
                                 <div data-modal="aiMusicModal" data-span="aiMusicSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/music.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>AI Assisted Music Technology</h4> 
+                                            <h4>AI Assisted Music Technology</h4>
                                         </div>
                                     </span>
                                 </div>
-                                
+
                             </div>
                         </div>
                             <!-- Modal content -->
@@ -303,7 +303,7 @@
                                     <span id="brainSpan" class="close">&times;</span>
                                     <h4>The Brain Sees, The Brain Hears
                                     </h4>
-                                    
+
                                     <p>Humans experience sensory input in a continuous way, while machines tend to take in images and sound in a discrete way. Our aim is to build a multi-modal auto encoder that can intertwine visual and audio data in a way that replicates the human brain.</p>
                                 	<p>Learn more <a href="https://docs.google.com/presentation/d/1fEVjJtoGHaCvNTuuUnO7DX8hhg3enL6pNRFJOxZ79Is/edit#slide=id.p" target="_blank"><b>here</b></a></p>
                                 </div>
@@ -314,7 +314,7 @@
                                     <span id="kawasakiSpan" class="close">&times;</span>
                                     <h4>Kawasaki Disease: Rare Disease Diagnosis Using Machine Learning
                                     </h4>
-                                    
+
                                     <p>Kawasaki Disease is a rare heart disease that affects children all over the world; however, there is currently no successful diagnostic test for the disease. This means that Kawasaki Disease can often be left undiagnosed, sometimes with fatal consequences. We aim to use machine learning techniques such as SVMs, Boosted Decision Trees, and Deep Neural Networks to create a robust diagnosis algorithm that learns from its mistakes and helps save lives.</p>
                                 	<p>Learn more <a href="https://docs.google.com/presentation/d/14DV-QGb1mmTCCjDNfsnhX3hDM17WIrcbMogCsdMsKzE/edit#slide=id.p" target="_blank"><b>here</b></a></p>
                                 </div>
@@ -325,7 +325,7 @@
                                     <span id="languageSpan" class="close">&times;</span>
                                     <h4>The Ladin Language: preserving endangered languages through phoneme recognition
                                     </h4>
-                                    
+
                                     <p>With hundreds of languages on the verge of extinction across the world, language documentation is becoming increasingly crucial to the survival of the world’s cultural diversity. Being one of the earliest and most important stages in documenting languages, producing phonetic transcriptions of audio samples often proves to be the bottleneck due to its time-consuming nature and limited data. By training a recurrent neural network on spoken samples of the Ladin language to segment and label individual phonemes, we aim to automate this process and produce a model that is applicable to most human languages.</p>
                                 	<p>Learn more <a href="https://docs.google.com/presentation/d/1u1cw3yDcPHvGOO-U0KDxe1YFUIgDAO8pxXXtpxlF1ys/edit#slide=id.g488eebbc8a_1_0" target="_blank"><b>here</b></a></p>
                                 </div>
@@ -336,7 +336,7 @@
                                     <span id="sportSpan" class="close">&times;</span>
                                     <h4>Sports Analytics
                                     </h4>
-                                    
+
                                     <p>There seems to be a huge discrepancy between the richness of data that the traditional gold standard for sports betting, Vegas, uses and the data that most machine learning papers written on the topic of NBA games use. For the most part, machine learning/algorithmic predictions of NBA games have used exclusively coarse overview statistics such as team win/loss records and offensive rating (essentially points scored per game). Even though the papers have managed to match or slightly exceed the performance of Vegas, they have done so without even the basic knowledge of which players partake in the game. Therefore, it seems possible that using much finer statistics to try making these predictions could potentially lead to much more accurate results. This project aims to find out whether the prior performance of players appearing in the game could be a better metric to predict the outcome of a game than the team's high level statistics. Using these, we can integrate a much richer understanding of things like which players are having hot streaks and injuries into our model. The project also brings up some interesting questions about machine learning, such as how to handle variable input amounts in non-recurrent models. There may be a reason that current papers have not used fine statistics, but the exercise of trying a different approach to this problem will be enlightening whether it leads to success or not.</p>
                                     <p>Learn more <a href="https://docs.google.com/presentation/d/1nFZjrliW_3Dm1nMsFYnV_hwksxM9nmbv-VBnsyMy8lw/edit#slide=id.p" target="_blank"><b>here</b></a></p>
                                 </div>
@@ -347,7 +347,7 @@
                                     <span id="droughtSpan" class="close">&times;</span>
                                     <h4>Drought from the sky: Time series analysis of climate data
                                     </h4>
-                                    
+
                                     <p>Forecasting rainfall, especially in drought-ridden Southern California, is a necessity for professionals and consumers in all industries. This group is collaborating with Lowell Stott, a climate researcher at USC, to track atmospheric oxygen isotope composition as a means of predicting rainfall across the Western Seaboard. Given a range of climate indicators, we will be combining a time series analysis with deep learning techniques to improve upon current predictive models plagued by noise.</p>
                                     <p>Learn more <a href="https://docs.google.com/presentation/d/1E98cvc1MIhyJU0beWDhelhiiaHJrKZBEXGQlQZigI40/edit#slide=id.g35f391192_00" target="_blank"><b>here</b></a></p>
                                 </div>
@@ -359,60 +359,60 @@
                             <h4>FALL 2018</h4>
 
                             <div class="row uniform 50%">
-                                
+
                                 <div data-modal="pneumoniaModal" data-span="pneumoniaSpan" id="pneumonia" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/pneumonia.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Pneumonia: diagnosis through deep learning</h4> 
+                                            <h4>Pneumonia: diagnosis through deep learning</h4>
                                         </div>
                                     </span>
                                 </div>
 
 
-                                <div data-modal="brainModal" 
+                                <div data-modal="brainModal"
                                 data-span="brainSpan" id="brain" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/brain.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>The Brain Project</h4> 
+                                            <h4>The Brain Project</h4>
                                         </div>
                                     </span>
                                 </div>
-                                
+
                                 <div data-modal="kawasakiModal" data-span="kawasakiSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/kawasaki.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Kawasaki Disease: Rare Disease Diagnosis using AI</h4> 
+                                            <h4>Kawasaki Disease: Rare Disease Diagnosis using AI</h4>
                                         </div>
                                     </span>
                                 </div>
                                 <div data-modal="languageModal" data-span="languageSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/book.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Preserving Language</h4> 
+                                            <h4>Preserving Language</h4>
                                         </div>
                                     </span>
                                 </div>
                                 <div data-modal="sportModal" data-span="sportSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/sports.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Sports Analytics</h4> 
+                                            <h4>Sports Analytics</h4>
                                         </div>
                                     </span>
                                 </div>
                                 <div data-modal="droughtModal" data-span="droughtSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/rain.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Predicting Drought</h4> 
+                                            <h4>Predicting Drought</h4>
                                         </div>
                                     </span>
                                 </div>
-                                
-                                
+
+
                             </div>
                         </div>
 
 
-                            
+
                             <!-- Modal content -->
                             <div id="melanomaModal" class="modal">
                                 <div id="melanomaSpan" class="modal-content">
@@ -429,7 +429,7 @@
                                     <span id="nucleusSpan" class="close">&times;</span>
                                     <h4>2018 National Data Science Bowl: Cell Nucleus Segmentation
                                     </h4>
-                                    
+
                                     <p>Identifying cell nuclei, which hold the cell’s DNA, is the starting point for most disease analysis. Identifying nuclei allows researchers to identify each individual cell in a sample, and by measuring how cells react to various treatments, researchers can understand the underlying biological processes at work. By using deep learning-based image segmentation techniques, we hope to automate the process of identifying nuclei, which will allow for more efficient drug testing, shortening the 10 years it takes for each new drug to come to market.</p>
 
                                     <p>Learn more <a href="https://docs.google.com/presentation/d/1Q0tYz8E3xM9s_hrGc_lPDQhOXHdXiC0ZpksFXEoUtRM/edit#slide=id.p" target="_blank"><b>here</b></a></p>
@@ -441,7 +441,7 @@
                                     <span id="kawasakiSp2018Span" class="close">&times;</span>
                                     <h4>Kawasaki Disease: Rare Disease Diagnosis Using Machine Learning
                                     </h4>
-                                    
+
                                     <p>Kawasaki Disease is a rare heart disease that affects children all over the world; however, there is currently no successful diagnostic test for the disease. This means that Kawasaki Disease can often be left undiagnosed, sometimes with fatal consequences. We aim to use machine learning techniques such as SVMs, Boosted Decision Trees, and Deep Neural Networks to create a robust diagnosis algorithm that learns from its mistakes and helps save lives.</p>
 
                                     <p>Learn more <a href="https://docs.google.com/presentation/d/14DV-QGb1mmTCCjDNfsnhX3hDM17WIrcbMogCsdMsKzE/edit" target="_blank"><b>here</b></a></p>
@@ -453,19 +453,19 @@
                                     <span id="LASpan" class="close">&times;</span>
                                     <h4>LA City Budget: Understanding Civic Spending
                                     </h4>
-                                    
+
                                     <p>Every year, the LA budget team manually goes through the year’s budget appropriations and manually categorizes each budget entry; this categorization makes it easier to aggregate the city’s spending by category later on. However, since new entries may not perfectly corresponding to existing, pre-categorized budget entries, it takes not only large amounts of work, but also subjective institutional knowledge to correctly categorize each entry. For this reason, many entries simply go uncategorized year-to-year. We are currently working with the LA Mayor’s Office to apply natural language processing techniques to automatically categorize new budget entries, making it understand LA’s annual spending, and to hopefully enable additional insights on how this spending could be improved.</p>
 
                                     <p>Learn more <a href="https://github.com/ghodouss/la_data/blob/master/Data%20Digging%20Notebook.ipynb" target="_blank"><b>here</b></a></p>
                                 </div>
-                            </div> 
+                            </div>
 
                             <div id="sportSp2018Modal" class="modal">
                                 <div class="modal-content">
                                     <span id="sportSp2018Span" class="close">&times;</span>
                                     <h4>Sports Analytics
                                     </h4>
-                                    
+
                                     <p>Sporting events are often an emotional rollercoaster, with fans often voicing opinions and reactions on Social Media. Using Machine Learning and Natural Language Processing techniques such as Sentiment Analysis, our aim is to study sentiment surrounding teams and players, and to see whether any correlation can be found between sentiment, game predictions by fans, and actual game outcomes.</p>
 
                                     <p>Learn more <a href="https://docs.google.com/presentation/d/1Bz7FBi3tN67YeA78Ns2FavCPYhaGnh7-cPyjQz2eTZ4/edit#slide=id.p" target="_blank"><b>here</b></a></p>
@@ -477,7 +477,7 @@
                                     <span id="musicSpan" class="close">&times;</span>
                                     <h4>Music
                                     </h4>
-                                    
+
                                     <p>Applying artificial intelligence to create music has been a popular research task for many years. However, recent deep learning approaches have allowed for significant improvement in this domain and have opened many potential avenues for this task. We are working to further explore music creation through the deep learning lense as well as developing methods that use artificial intelligence to assist with the creative process. Current projects include developing algorithms to assist in the creation of jazz heads (sheet music that includes a melody and the corresponding chords) and using Generative Adversarial Networks to develop different styles of drum beats.</p>
                                 </div>
                             </div>
@@ -489,50 +489,50 @@
                             <br />
                             <h4>SPRING 2018</p>
                             <div class="row uniform 50%">
-                                
+
                                 <div data-modal="melanomaModal" data-span="melanomaSpan" id="melanoma" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/melanoma.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Melanoma Detection: Computer Vision for Skin Cancer</h4> 
+                                            <h4>Melanoma Detection: Computer Vision for Skin Cancer</h4>
                                         </div>
                                     </span>
                                 </div>
 
 
-                                <div data-modal="nucleusModal" 
+                                <div data-modal="nucleusModal"
                                 data-span="nucleusSpan" id="nucleus" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/nucleus.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>2018 Data Science Bowl: Cell Nucleus Segmentation</h4> 
+                                            <h4>2018 Data Science Bowl: Cell Nucleus Segmentation</h4>
                                         </div>
                                     </span>
                                 </div>
-                                
+
                                 <div data-modal="kawasakiSp2018Modal" data-span="kawasakiSp2018Span" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/kawasaki.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Kawasaki Disease: Rare Disease Diagnosis using AI</h4> 
+                                            <h4>Kawasaki Disease: Rare Disease Diagnosis using AI</h4>
                                         </div>
                                     </span>
                                 </div>
                                 <div data-modal="LAModal" data-span="LASpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/LA.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>LA City Budget: Understanding Civic Spending</h4> 
+                                            <h4>LA City Budget: Understanding Civic Spending</h4>
                                         </div>
                                     </span>
                                 </div>
                                 <div data-modal="sportSp2018Modal" data-span="sportSp2018Span" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/sports.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Sports Analytics</h4> 
+                                            <h4>Sports Analytics</h4>
                                         </div>
                                     </span>
                                 </div>
                                 <div data-modal="musicModal" data-span="musicSpan" class="4u project_image_wrap">
                                     <span class="image fit"><img class="project_image" src="images/projects/music.png" alt="" />
                                         <div class="text_over_image">
-                                            <h4>Music</h4> 
+                                            <h4>Music</h4>
                                         </div>
                                     </span>
                                 </div>
