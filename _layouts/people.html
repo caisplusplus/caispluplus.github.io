@@ -11,11 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/people.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<link rel="icon" href="/images/circle.png">
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript" src="assets/js/periphMenuOpacity.js"></script>
+		<script type="text/javascript" src="assets/js/people.js"></script>
 	</head>
 	<body>
 
@@ -78,249 +80,300 @@
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
-								<h2>2021-2022 E-Board</h2>
+								<div class="tab">
+									<div class="tab-item">
+										<h2 id="tab-board" onclick="tabswitch('board');" onfocus>BOARD</h2>
+									</div>
+									<div class="tab-item">
+										<h2 id="tab-members" onclick="tabswitch('members');">MEMBERS</h2>
+									</div>
+								</div>
 
-								<div class="row uniform 200%">
-									<div class="3u 12u$(small)"><span class="image fit">
+								<div class="tab-content-container">
+									<div id="tab-content-board" class="tab-content" onfocus>
+										<h2>2021-2022 E-Board</h2>
+
+										<div class="row uniform 200%">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/21_22_eboard/shannon_resized.png" alt="" />
 										<p><b>SHANNON BROWNLEE</b><br />
 											Co-President
 										</p>
-										</p>
+												</p>
 									</span></div>
 
-									<div class="3u 12u$(small)"><span class="image fit">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/21_22_eboard/nico_resized.png" alt="" />
 										<p><b>NICOLAS PEREZ</b><br />
 											Co-President
 										</p>
-										</p>
+												</p>
 									 </span></div>
 
-									<div class="3u 12u$(small)"><span class="image fit">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/21_22_eboard/shantanu_resized.png" alt="" />
 										<p><b>SHANTANU JHAVERI</b><br />
 											VP of Fellowship
 										</p>
 									</span></div>
 
-								</div>
+										</div>
 
-								<div class="row uniform 200%">
-									<div class="3u 12u$(small)"><span class="image fit">
+										<div class="row uniform 200%">
+											<div class="3u 12u$(small)"><span class="image fit">
 										 <img src="images/people/21_22_eboard/natalie_resized.png" alt="" />
 										 <p><b>NATALIE ABREU</b><br />
 										 	VP of Curriculum
 										 </p>
-										</p>
+												</p>
 										</span></div>
 
-									<div class="3u 12u$(small)"><span class="image fit">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/21_22_eboard/sam.png" alt="" />
 										<p><b>SAM SOMMERER</b><br />
 											VP of Projects
 										</p>
-										</p>
+												</p>
 									 </span></div>
 
-									<div class="3u 12u$(small)"><span class="image fit">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/21_22_eboard/allen_resized.png" alt="" />
 										<p><b>ALLEN CHANG</b><br />
 											VP of Operations
 										</p>
-										</p>
+												</p>
 									 </span></div>
 
-								</div>
+										</div>
 
-								<hr />
-								<h2>2020-2021 E-Board</h2>
+										<hr />
+										<h2>2020-2021 E-Board</h2>
 
-								<div class="row uniform 200%">
-									<div class="3u 12u$(small)"><span class="image fit">
+										<div class="row uniform 200%">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/20_21_eboard/leena_diff.png" alt="" />
 										<p><b>LEENA MATHUR</b><br />
 											President
 										</p>
-									 </p>
+												</p>
 									</span></div>
 
-									<div class="3u 12u$(small)"><span class="image fit">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/20_21_eboard/shannon_diff.png" alt="" />
 										<p><b>SHANNON BROWNLEE</b><br />
 											VP of Fellowship
 										</p>
-									 </p>
+												</p>
 									 </span></div>
 
-									 <div class="3u 12u$(small)"><span class="image fit">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/20_21_eboard/roddur_resized2.png" alt="" />
 										<p><b>RODDUR DASGUPTA</b><br />
 											VP of Curriculum
 										</p>
 									</span></div>
 
-								</div>
+										</div>
 
-								<div class="row uniform 200%">
-									<div class="3u 12u$(small)"><span class="image fit">
+										<div class="row uniform 200%">
+											<div class="3u 12u$(small)"><span class="image fit">
 										 <img src="images/people/20_21_eboard/ted_resized2.png" alt="" />
 										 <p><b>TED LEWITT</b><br />
 										 	VP of Projects
 										 </p>
-									</p>
+												</p>
 										</span></div>
 
-									<div class="3u 12u$(small)"><span class="image fit">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/20_21_eboard/armaan_resized2.png" alt="" />
 										<p><b>ARMAAN PISHORI</a></b><br />
 											VP of Projects
 										</p>
-									 </p>
+												</p>
 									 </span></div>
 
-									<div class="3u 12u$(small)"><span class="image fit">
+											<div class="3u 12u$(small)"><span class="image fit">
 										<img src="images/people/20_21_eboard/eric_resized2.png" alt="" />
 										<p><b>ERIC YE</a></b><br />
 											VP of Operations
 										</p>
-									 </p>
+												</p>
 									 </span></div>
 
-								</div>
+										</div>
 
-								<hr />
-								<h2>2019-2020 E-Board</h2>
+										<hr />
+										<h2>2019-2020 E-Board</h2>
 
-								<span class="image fit"><img src="images/people/eboard19-20/19_20_all.png" height="80%" width="80%" alt="" />
-								</span>
+										<span class="image fit"><img src="images/people/eboard19-20/19_20_all.png" height="80%" width="80%" alt="" />
+									</span>
 
-								<hr />
-								<h2>2018-2019 E-Board</h2>
+										<hr />
+										<h2>2018-2019 E-Board</h2>
 
-								<span class="image fit"><img src="images/people/2018_19_board.jpg" alt="" />
-									<p>Pictured (left to right): Grant Stenger, Shomik Jain, Ben Brooks, Peter Lillian, Ben Hahn, Sean Syed, Lucas Hu, Leena Mathur</p>
-								</span>
-
-
-								<hr />
-								<h2>2017-2018 Founding E-Board</h2>
-
-								<span id="eboard" class="image fit"><img alt="" />
-									<p>Pictured (left to right): Michael Tawata, Lucas Hu, Andrew Szot, Raghav Maheshwari, Jacob Dormouth, Apurva Gandhi, Lauren Potterat, Felipe Manson</p>
-								</span>
-
-								<hr />
+										<span class="image fit"><img src="images/people/2018_19_board.jpg" alt="" />
+										<p>Pictured (left to right): Grant Stenger, Shomik Jain, Ben Brooks, Peter Lillian, Ben Hahn, Sean Syed, Lucas Hu, Leena Mathur</p>
+									</span>
 
 
-								<h2>Advisory Board</h2>
-								<div class="row uniform 200%">
-									<div class="4u 12u$(small)"><span class="image fit">
-										<img src="images/people/bistra.png" alt="" />
-										<p><b>BISTRA DILKINA</b><br />
-										<a href="https://www.cais.usc.edu/">CAIS</a> Associate Director; Associate Professor, USC Viterbi School of Engineering</p>
-									</span></div>
-									<div class="4u 12u$(small)"><span class="image fit">
-										<img src="images/people/tambe_photo_cropped.jpg" alt="" />
-										<p><b>MILIND TAMBE</b><br />
-										<a href="https://www.cais.usc.edu/">CAIS</a> Co-Founder; Helen N. and Emmett H. Jones Professor, USC Viterbi School of Engineering</p>
-									</span></div>
-									<div class="4u 12u$(small)"><span class="image fit">
-										<img src="images/people/rice_photo_cropped.jpg" alt="" />
-										<p><b>ERIC RICE</b><br />
-										<a href="https://www.cais.usc.edu/">CAIS</a> Co-Founder; Associate Professor, USC Suzanne Dworak-Peck School of Social Work</p>
-									</span></div>
-									<div class="4u 12u$(small)"><span class="image fit">
-										<img src="images/people/Hailey-Winetrobe.jpg" alt=""/>
-										<p><b>Hailey Winetrobe</b><br />
-										<a href="https://www.cais.usc.edu/">CAIS</a> Center Operations Coordinator</p>
-									</span></div>
-									<div class="4u 12u$(small)"><span class="image fit">
-										<img src="images/people/david_jeng.jpg" alt=""/>
-										<p><b>David Jeng</b><br />
-										<a href="https://www.linkedin.com/in/davidjeng/">Advisor</a> to CAIS++</p>
-									</span></div>
-								</div>
+										<hr />
+										<h2>2017-2018 Founding E-Board</h2>
 
-								<div class="row uniform 200%">
-									<div class="3u 12u$(small)"><span class="image fit">
-										<img src="images/people/Bharath.jpeg" alt="" />
-										<p><b><a href="http://rbharath.github.io/about/">BHARATH RAMSUNDAR</a></b><br />
-										 Deep Learning for Drug Discovery Researcher, Stanford University; Creator, <a href="https://github.com/deepchem/deepchem">DeepChem</a><br />
-									 </p>
-									 </span></div>
-									 <div class="3u 12u$(small)"><span class="image fit">
-										<img src="images/people/bodapati_photo.jpg" alt="" />
-										<p><b>DEEPIKA BODAPATI</b><br />
-										 Founder, <a href="http://athelas.com/">Athelas</a> (A clinically-validated, rapid blood diagnostic system)<br /></a>
-									 </p>
-									</span></div>
-									<div class="3u 12u$(small)"><span class="image fit">
-									   <img src="images/people/david_slater.jpg" alt="" />
-									   <p><b>DAVID SLATER</b><br />
-										Associate Research Director of Machine Learning at <a href="https://www.twosixlabs.com/"> Two-Six Labs<br /></a>
-									</p>
-								    </span></div>
-								    <div class="3u 12u$(small)"><span class="image fit">
-										<img src="images/people/osinski_photo_cropped.jpg" alt="" />
-										<p><b>VERONICA OSINSKI</b><br />
-										Founding Managing Partner, <a href="http://www.trifectafund.com/">Trifecta Capital</a></p>
-									</span></div>
+										<span id="eboard" class="image fit"><img alt="" />
+										<p>Pictured (left to right): Michael Tawata, Lucas Hu, Andrew Szot, Raghav Maheshwari, Jacob Dormouth, Apurva Gandhi, Lauren Potterat, Felipe Manson</p>
+									</span>
 
-								</div>
-
-								<div class="row uniform 200%">
-
-								<div>
-									<div class="3u 12u$(small)"><span class="image fit">
-									<img src="images/people/beissinger.jpg" alt="" />
-									<p><b>Markus Beissinger</b><br />
-									Founder, <a href="http://lobe.ai/">Lobe</a> - visual programming for deep learning. Research in unsupervised learning</p>
-								</div>
-								</span></div>
-
-								</div>
-								
-								<hr />
+										<hr />
 
 
-								<h2>Alumni Advisory Team</h2>
-								<div class="row uniform 200%">
-									<div class="4u 12u$(small)"><span class="image fit">
-										<img src="images/people/lucas.jpg" alt="" />
-										<p><a href="https://www.linkedin.com/in/lucashu/"><b>Lucas Hu</b></a><br />
-										CAIS++ President, 2017-2019</p>
-									</span></div>
-									<div class="4u 12u$(small)"><span class="image fit">
-										<img src="images/people/ben_square.jpg" alt="" />
-										<p><a href="https://www.linkedin.com/in/benjbrooks/"><b>Benjamin Brooks</b></a><br />
-										CAIS++ President, 2019-2020</p>
-									</span></div>
-									<div class="4u 12u$(small)"><span class="image fit">
-										<img src="images/people/leena.jpg" alt="" />
-										<p><a href="https://www.linkedin.com/in/leena-mathur/"><b>Leena Mathur</b></a><br />
-										CAIS++ President, 2020-2021</p>
-									</span></div>
-								</div>
-						
-								<hr />
-								
-								<h2>Corporate Support</h2>
+										<h2>Advisory Board</h2>
+										<div class="row uniform 200%">
+											<div class="4u 12u$(small)"><span class="image fit">
+											<img src="images/people/bistra.png" alt="" />
+											<p><b>BISTRA DILKINA</b><br />
+											<a href="https://www.cais.usc.edu/">CAIS</a> Associate Director; Associate Professor, USC Viterbi School of Engineering</p>
+										</span></div>
+											<div class="4u 12u$(small)"><span class="image fit">
+											<img src="images/people/tambe_photo_cropped.jpg" alt="" />
+											<p><b>MILIND TAMBE</b><br />
+											<a href="https://www.cais.usc.edu/">CAIS</a> Co-Founder; Helen N. and Emmett H. Jones Professor, USC Viterbi School of Engineering</p>
+										</span></div>
+											<div class="4u 12u$(small)"><span class="image fit">
+											<img src="images/people/rice_photo_cropped.jpg" alt="" />
+											<p><b>ERIC RICE</b><br />
+											<a href="https://www.cais.usc.edu/">CAIS</a> Co-Founder; Associate Professor, USC Suzanne Dworak-Peck School of Social Work</p>
+										</span></div>
+											<div class="4u 12u$(small)"><span class="image fit">
+											<img src="images/people/Hailey-Winetrobe.jpg" alt=""/>
+											<p><b>Hailey Winetrobe</b><br />
+											<a href="https://www.cais.usc.edu/">CAIS</a> Center Operations Coordinator</p>
+										</span></div>
+											<div class="4u 12u$(small)"><span class="image fit">
+											<img src="images/people/david_jeng.jpg" alt=""/>
+											<p><b>David Jeng</b><br />
+											<a href="https://www.linkedin.com/in/davidjeng/">Advisor</a> to CAIS++</p>
+										</span></div>
+										</div>
 
-								<div class="row uniform 200%">
-									<div class="4u 12u$(small)"><span class="image fit" id="corporate">
-									   <a href="https://www.twosixlabs.com/" target="_blank"><img src="images/people/two_six_labs.png" alt="" /></a>
+										<div class="row uniform 200%">
+											<div class="3u 12u$(small)"><span class="image fit">
+											<img src="images/people/Bharath.jpeg" alt="" />
+											<p><b><a href="http://rbharath.github.io/about/">BHARATH RAMSUNDAR</a></b><br />
+											 Deep Learning for Drug Discovery Researcher, Stanford University; Creator, <a href="https://github.com/deepchem/deepchem">DeepChem</a><br />
+										 </p>
+										 </span></div>
+											<div class="3u 12u$(small)"><span class="image fit">
+											<img src="images/people/bodapati_photo.jpg" alt="" />
+											<p><b>DEEPIKA BODAPATI</b><br />
+											 Founder, <a href="http://athelas.com/">Athelas</a> (A clinically-validated, rapid blood diagnostic system)<br /></a>
+										 </p>
+										</span></div>
+											<div class="3u 12u$(small)"><span class="image fit">
+										   <img src="images/people/david_slater.jpg" alt="" />
+										   <p><b>DAVID SLATER</b><br />
+											Associate Research Director of Machine Learning at <a href="https://www.twosixlabs.com/"> Two-Six Labs<br /></a>
+										</p>
+										</span></div>
+											<div class="3u 12u$(small)"><span class="image fit">
+											<img src="images/people/osinski_photo_cropped.jpg" alt="" />
+											<p><b>VERONICA OSINSKI</b><br />
+											Founding Managing Partner, <a href="http://www.trifectafund.com/">Trifecta Capital</a></p>
+										</span></div>
 
-								   </span></div>
-								   <div class="4u 12u$(small)"><span class="image fit" id="corporate">
-									  <a href="http://www.nvidia.com/page/home.html" target="_blank"><img src="images/people/Nvidia.png" alt="" /></a>
+										</div>
 
-								  </span></div>
+										<div class="row uniform 200%">
 
-								   <div class="4u 12u$(small)"><span class="image fit" id="corporate">
-									  <a href="https://www.wintecind.com/" target="_blank"><img src="images/people/wintec.png" alt="images/people/Nvidia.png" /></a>
+											<div>
+												<div class="3u 12u$(small)"><span class="image fit">
+										<img src="images/people/beissinger.jpg" alt="" />
+										<p><b>Markus Beissinger</b><br />
+										Founder, <a href="http://lobe.ai/">Lobe</a> - visual programming for deep learning. Research in unsupervised learning</p>
+												</div>
+												</span></div>
 
-								  </span></div>
+										</div>
+
+										<hr />
+
+
+										<h2>Alumni Advisory Team</h2>
+										<div class="row uniform 200%">
+											<div class="4u 12u$(small)"><span class="image fit">
+											<img src="images/people/lucas.jpg" alt="" />
+											<p><a href="https://www.linkedin.com/in/lucashu/"><b>Lucas Hu</b></a><br />
+											CAIS++ President, 2017-2019</p>
+										</span></div>
+											<div class="4u 12u$(small)"><span class="image fit">
+											<img src="images/people/ben_square.jpg" alt="" />
+											<p><a href="https://www.linkedin.com/in/benjbrooks/"><b>Benjamin Brooks</b></a><br />
+											CAIS++ President, 2019-2020</p>
+										</span></div>
+											<div class="4u 12u$(small)"><span class="image fit">
+											<img src="images/people/leena.jpg" alt="" />
+											<p><a href="https://www.linkedin.com/in/leena-mathur/"><b>Leena Mathur</b></a><br />
+											CAIS++ President, 2020-2021</p>
+										</span></div>
+										</div>
+
+										<hr />
+
+										<h2>Corporate Support</h2>
+
+										<div class="row uniform 200%">
+											<div class="4u 12u$(small)"><span class="image fit" id="corporate">
+										   <a href="https://www.twosixlabs.com/" target="_blank"><img src="images/people/two_six_labs.png" alt="" /></a>
+
+									   </span></div>
+											<div class="4u 12u$(small)"><span class="image fit" id="corporate">
+										  <a href="http://www.nvidia.com/page/home.html" target="_blank"><img src="images/people/Nvidia.png" alt="" /></a>
+
+									  </span></div>
+
+											<div class="4u 12u$(small)"><span class="image fit" id="corporate">
+										  <a href="https://www.wintecind.com/" target="_blank"><img src="images/people/wintec.png" alt="images/people/Nvidia.png" /></a>
+
+									  </span></div>
+										</div>
+									</div>
+									<div id="tab-content-members" class="tab-content">
+										<h2>Fall 2021 Cohort</h2>
+										<p>Abhinav Gupta</p>
+										<p>Aryan Chowdhury</p>
+										<p>Aryan Gulati</p>
+										<p>Benran Zhang</p>
+										<p>Colin Ho</p>
+										<p>David Haolong Lee</p>
+										<p>Eric Cheng</p>
+										<p>Evan Hashemi</p>
+										<p>Felix Chen</p>
+										<p>Frederick Liu</p>
+										<p>Gordon Su</p>
+										<p>Grace Shan</p>
+										<p>Hilari Fan </p>
+										<p>Irika Katiyar</p>
+										<p>Isaac Wahout</p>
+										<p>Jaiv Doshi</p>
+										<p>John Heo</p>
+										<p>Josheta Srinivasan</p>
+										<p>Karina Yang</p>
+										<p>Leo Zhuang</p>
+										<p>Leslie Moreno</p>
+										<p>Lucas Huang</p>
+										<p>Maciej Killian</p>
+										<p>Madelyn Peng</p>
+										<p>Madhumita Suraj</p>
+										<p>Matthew Li</p>
+										<p>Mekhla Kapoor</p>
+										<p>Natalie Humber</p>
+										<p>Nicole Russak</p>
+										<p>Rohan Sanjay</p>
+										<p>Ryan Shaw</p>
+										<p>Sana Jayaswal</p>
+										<p>Tianyi Yan</p>
+										<p>Yuxing Zhou</p>
+										<p>Zaid Abdulrehman</p>
+									</div>
 								</div>
 							</div>
 						</section>
