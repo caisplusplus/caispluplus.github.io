@@ -45,3 +45,8 @@
 .tab-content p {
     margin: 0;
 }
+#tab-content-members {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
