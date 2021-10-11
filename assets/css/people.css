@@ -3,13 +3,13 @@
 
     display: flex;
     justify-content: flex-start;
-    column-gap: 2em;
 
     font-size: 1.5em;
 }
 .tab .tab-item {
     position: relative;
     width: max-content;
+    margin-right: 2em;
 }
 .tab h2:hover {
     cursor: pointer;
@@ -42,11 +42,14 @@
 
     transition: opacity 0.3s, visibility 3s;
 }
+.tab-content-col {
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
 .tab-content p {
     margin: 0;
 }
 #tab-content-members {
     display: flex;
-    gap: 3rem;
     flex-wrap: wrap;
 }
