@@ -28,6 +28,7 @@
     position: relative;
 }
 .tab-content {
+    display: none;
     transform: scaleY(0);
     opacity: 0;
     visibility: hidden;
@@ -35,6 +36,7 @@
     top: 0;
 }
 .tab-content[onfocus] {
+    display: block;
     transform: none;
     opacity: 1;
     visibility: visible;
