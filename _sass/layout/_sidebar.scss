@@ -48,8 +48,51 @@
 		position: relative;
 		width: _size(sidebar-width);
 
-		h2 {
-			font-size: (1.25em / 0.9);
+		header a {
+			height: 2em;
+			line-height: 2em;
+			font-size: 2em;
+			padding: 0;
+
+			> * {
+				display: inline-block;
+				font-size: inherit;
+				line-height: inherit;
+				margin-bottom: 0;
+				margin-right: 0.2em;
+				&:last-child {
+					margin-right: 1em;
+				}
+			}
+		}
+		section h3:not(.nomargin) {
+			margin-top: 2em;
+		}
+		ul.contact {
+			li:last-child {
+				padding: 2em 0 0;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+			}
+			a.fab {
+				font-size: 1.5em;
+				color: _palette(accent);
+				border: none;
+			}
+		}
+		#sponsors {
+			.content {
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				gap: 1em;
+
+				img {
+					height: 2em;
+					max-width: 100%;
+				}
+			}
 		}
 
 		> .inner {

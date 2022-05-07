@@ -1,0 +1,47 @@
+{
+  "projects":[
+    {
+      "term":"Spring 2022",
+      "projects": [
+        {
+          "title": "Example Project 1",
+          "image": "/images/pic01.jpg",
+          "authors": [
+            "First Author",
+            "Second Author",
+            "Last Author"
+          ],
+          "description": "project description here",
+          "link": "#",
+          "slides": "#",
+          "github": "#"
+        }, {
+          "title": "Example Project 2",
+          "image": "/images/pic02.jpg",
+          "authors": [
+            "First Author",
+            "Second Author"
+          ],
+          "description": "project description here",
+          "link": "#",
+          "slides": "#"
+        }
+      ]
+    }, {
+      "term":"Fall 2021",
+      "projects": [
+        {
+          "title": "Example Project 3",
+          "image": "/images/pic03.jpg",
+          "authors": [
+            "First Author",
+            "Second Author",
+            "Last Author"
+          ],
+          "description": "project description here",
+          "github": "#"
+        }
+      ]
+    }
+  ]
+}

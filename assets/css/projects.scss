@@ -1,0 +1,57 @@
+---
+---
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+@import 'fontawesome-all';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700');
+
+/*
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+// Breakpoints.
+
+@include breakpoints((
+        xlarge:   ( 1281px,  1680px ),
+        large:    ( 981px,   1280px ),
+        medium:   ( 737px,   980px  ),
+        small:    ( 481px,   736px  ),
+        xsmall:   ( 361px,   480px  ),
+        xxsmall:  ( null,    360px  ),
+        xlarge-to-max:    '(min-width: 1681px)',
+        small-to-xlarge:  '(min-width: 481px) and (max-width: 1680px)'
+));
+
+article {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3em;
+  margin-bottom: 2em;
+
+  a.image {
+    width: 30%;
+    height: 200px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  @include breakpoint('<=small') {
+    & {
+      flex-direction: column;
+
+      a.image {
+        width: 70%;
+        height: auto;
+      }
+    }
+  }
+}

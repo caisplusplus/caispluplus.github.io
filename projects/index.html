@@ -1,0 +1,54 @@
+---
+layout: default
+title: Projects | CAIS++
+stylesheets:
+- /assets/css/projects.css
+scripts:
+---
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1>{{ "projects" | upcase }}</h1>
+    </header>
+    <h4>{{"what we've been up to" | upcase}}</h4>
+  </div>
+</section>
+
+<!-- Project List Builder -->
+{% for project_term in site.data.projects.projects %}
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>{{ project_term.term | upcase }}</h2>
+  </header>
+  {% for project in project_term.projects %}
+  <article>
+    <a class="image"><img src={{ project.image }} alt="" /></a>
+    <div class="content">
+      <h3>{{ project.title }}</h3>
+      <h5>
+        {% for author in project.authors %}
+        {{ author }}
+        {% unless forloop.last %}
+        {{",&nbsp;"}}
+        {% endunless %}
+        {% endfor %}
+      </h5>
+      <p>{{ project.description }}</p>
+      <ul class="actions">
+        {% if project.link %}
+        <li><a href="" class="button">Website</a></li>
+        {% endif %}
+        {% if project.slides %}
+        <li><a href="" class="button">Slides</a></li>
+        {% endif %}
+        {% if project.github %}
+        <li><a href="" class="button">Github</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </article>
+  {% endfor %}
+</section>
+{% endfor %}

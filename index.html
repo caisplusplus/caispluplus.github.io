@@ -1,224 +1,179 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>CAIS++</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+---
+layout: default
+title: CAIS++
+stylesheets:
+- /assets/css/index.css
+- /assets/css/sphere/sphere.css
+scripts:
+- /assets/js/sphere/three.js
+- /assets/js/sphere/sphere.js
+---
+<!-- Banner -->
+<section id="banner">
+	<div id="blob">
+		<canvas>
+		</canvas>
+	</div>
+	<div class="content">
+		<span class="image object">
+			<img src="/images/banner.png" alt="" />
+		</span>
+		<header>
+			<p>{{ "artificial intelligence for social good" | upcase }}</p>
+		</header>
+		<p>CAIS++ (pronounced "case plus plus") is a USC Viterbi-affiliated undergraduate student organization that serves as the student branch of the USC Center for Artificial Intelligence in Society (CAIS). In brief, our students work to promote the development of AI applications for social good.</p>
+		<ul class="actions">
+			<li><a href="/contact/clients" class="button big">For Clients/Professors</a></li>
+			<li><a id="sponsors" href="/contact/sponsors" class="button big">For Sponsors</a></li>
+		</ul>
+	</div>
+</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2>{{"using artificial intelligence to benefit society at large" | upcase }}</h2>
+	</header>
+	<div class="posts">
+		<article>
+			<a class="image"><img src="images/ai-society.png" alt="" /></a>
+			<h3>{{"promoting research that matters" | upcase}}</h3>
+			<p>We believe that artificial Intelligence can and should be used to help solve society's grand challenges, especially where traditional techniques have come short.</p>
+		</article>
+		<article>
+			<a class="image"><img src="images/ai-lecture.png" alt="" /></a>
+			<h3>{{"supporting productive discourse" | upcase}}</h3>
+			<p>Often left out of the discussion surrounding AI is the idea that AI can be used as a force for good. We think that this positive potential deserves a place in the AI discussion.</p>
+		</article>
+		<article>
+			<a class="image"><img src="images/ml-workshop.jpg" alt="" /></a>
+			<h3>{{"making ai accessible" | upcase}}</h3>
+			<p>We feel that it is essential to educate people about the principles behind AI now, so that we can make educated technological decisions in the future.</p>
+		</article>
+		<article>
+			<a class="image"><img src="images/karaoke.jpg" alt="" /></a>
+			<h3>{{"creating a community" | upcase}}</h3>
+			<p>Our researchers and developers form life-long relationships that enable them to collaborate well beyond their undergraduate years.</p>
+		</article>
+	</div>
+</section>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<span class="image object">
-											<img src="images/banner.png" alt="" />
-										</span>
-										<header>
-											<p>USING ARTIFICIAL INTELLIGENCE TO BENEFIT SOCIETY AT LARGE</p>
-										</header>
-										<p>CAIS++ (pronounced "case plus plus") is a USC Viterbi-affiliated undergraduate student organization that serves as the student branch of the USC Center for Artificial Intelligence in Society (CAIS). In brief, our students work to promote the development of AI applications for social good.</p>
-										<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
-										</ul>
-									</div>
-									<div id="blob">
-										<canvas>
-										</canvas>
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Erat lacinia</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Ipsum sed dolor</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-									</div>
-								</section>
-
-						</div>
-					</div>
-
-				<!-- Sidebar -->
-					<div id="sidebar" class="inactive">
-						<div class="inner">
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">About</a></li>
-										<li><a href="generic.html">People</a></li>
-										<li><a href="elements.html">Projects</a></li>
-										<li>
-											<span class="opener">Curriculum</span>
-											<ul>
-												<li><a href="#">Lesson 1</a></li>
-												<li><a href="#">Lesson 2</a></li>
-												<li><a href="#">Lesson 3</a></li>
-												<li><a href="#">Lesson 4</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Contact Us</a></li>
-									</ul>
-								</nav>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-										<li class="icon solid fa-phone">(000) 000-0000</li>
-										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
-
-						</div>
-					</div>
-
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2> {{"what we do" | upcase }}</h2>
+	</header>
+	<div class="features">
+		<article>
+			<span class="icon solid fa-pencil-alt"></span>
+			<div class="content">
+				<h3>{{"educate" | upcase}}</h3>
+				<p>Each semester, a new cohort of members are walked through an introductory AI curriculum, complete with online lessons and in-person coding workshops.</p>
 			</div>
+		</article>
+		<article>
+			<span class="icon solid fa-code"></span>
+			<div class="content">
+				<h3>{{"develop" | upcase}}</h3>
+				<p>Members who are familiar with AI basics or have gone through our curriculum are placed into teams to apply their skills to help solve real world problems.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon solid fa-comment"></span>
+			<div class="content">
+				<h3>{{"reach out" | upcase}}</h3>
+				<p>In addition to member activities, CAIS++ hosts a variety of public events designed to demystify AI and to empower and inspire students to use AI for social good.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon solid fa-lightbulb"></span>
+			<div class="content">
+				<h3>{{"inform" | upcase}}</h3>
+				<p>By inviting speakers from both academia and industry, we hope to shed light on ways in which AI can be (and already has been) used to benefit society.</p>
+			</div>
+		</article>
+	</div>
+</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<!-- CodePen Blob -->
-			<script src="assets/js/blob/three.js"></script>
-			<script src="assets/js/blob/range.js"></script>
-			<script src="assets/js/blob/simplex-noise.min.js"></script>
-			<script src="assets/js/blob/blob.js"></script>
-	</body>
-</html>
+<!-- Section -->
+<section id="applications">
+	<header class="major">
+		<h2> {{"interested in ai?" | upcase }}</h2>
+	</header>
+	<div>
+		<h3>Applications for Fall 2021 have closed.</h3>
+		<p>We will be accepting applications for our Fall 2022 cohort in August 2022. Check back for more info around that time!</p>
+		<ul id="apply" class="actions">
+			<li><a class="button big" disabled>Apply for the Fall 2022 Cohort</a></li>
+		</ul>
+		<h3>What can I do to prepare in the meantime?</h3>
+		<p>While we only accept new members in Fall semesters, we value members who are self-motivated and able to discover and develop own their own to build their potential to lead impactful projects.</p>
+
+		<table>
+			<tr>
+				<td><h3>For Beginners</h3></td>
+				<td><h3>For Intermediates</h3></td>
+				<td><h3>For Experts</h3></td>
+			</tr>
+			<tr>
+				<td>
+					<h4>CAIS++ Resources</h4>
+					Check out the <a href="/curriculum">CAIS++ Curriculum</a>
+				</td>
+				<td>
+					<h4>CAIS++ Resources</h4>
+					Check out the <a href="/curriculum/specialtopics">CAIS++ Special Topics</a>
+				</td>
+				<td>
+					<h4>CAIS++ Resources</h4>
+					Check out the <a href="/curriculum/readinglist">CAIS++ Reading List</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Online Courses</h4>
+					<a href="https://www.coursera.org/learn/machine-learning" target="_blank">Andrew Ng - Machine Learning</a><br>
+					<a href="https://www.youtube.com/playlist?list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv" target="_blank">DeepLizard - Reinforcement Learning</a>
+				</td>
+				<td>
+					<h4>Online Courses</h4>
+					<a href="https://rail.eecs.berkeley.edu/deeprlcourse/" target="_blank">Cal CS 285 - Deep RL</a>
+				</td>
+				<td>
+					<h4>Online Courses</h4>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>USC MATH Courses</h4>
+					<code>MATH 225</code> Linear Algebra<br>
+					<code>MATH 226</code> Calculus III<br>
+				</td>
+				<td>
+					<h4>USC MATH Courses</h4>
+					<code>MATH 407</code> Probability Theory<br>
+				</td>
+				<td>
+					<h4>USC MATH Courses</h4>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>USC CSCI Courses</h4>
+					<code>CSCI 104</code> Data Structures<br>
+				</td>
+				<td>
+					<h4>USC CSCI Courses</h4>
+					<code>CSCI 360</code> Intro to AI<br>
+					<code>CSCI 467</code> Intro to ML<br>
+				</td>
+				<td>
+					<h4>USC CSCI Courses</h4>
+
+				</td>
+			</tr>
+		</table>
+	</div>
+</section>

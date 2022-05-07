@@ -42,7 +42,7 @@
 		}
 
 		@include orientation(portrait) {
-			@include vendor('flex-direction', 'column-reverse');
+			//@include vendor('flex-direction', 'column-reverse');
 
 			h1 {
 				br {
@@ -60,9 +60,7 @@
 				@include vendor('flex-grow', '0');
 				@include vendor('flex-shrink', '0');
 				margin: 0 0 (_size(element-margin) * 2) 0;
-				height: 25em;
 				max-height: 50vh;
-				min-height: 18em;
 				width: 100%;
 			}
 

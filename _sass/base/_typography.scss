@@ -31,7 +31,7 @@
 			'color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
-		border-bottom: dotted 1px;
+		border-bottom: solid 1px;
 		color: _palette(accent);
 		text-decoration: none;
 
@@ -141,13 +141,16 @@
 	}
 
 	code {
-		background: _palette(border-bg);
+		background: transparentize(#ff0505, 0.5);
 		border-radius: _size(border-radius);
-		border: solid 1px _palette(border);
-		font-family: _font(family-fixed);
+		border: solid 1px #ff0505;
+		color: #ffe4f4;
+		font-family: _font(family);
 		font-size: 0.9em;
+		font-weight: 400;
 		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
+		padding: 0.05em 0.35em;
+		white-space: pre;
 	}
 
 	pre {
