@@ -1,0 +1,85 @@
+---
+layout: default
+title: Projects | CAIS++
+stylesheets:
+- /assets/css/projects.css
+scripts:
+---
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1>{{ "projects" | upcase }}</h1>
+    </header>
+    <h4>{{"what we've been up to" | upcase}}</h4>
+    <div class="tabContainer">
+      <a href="/projects/f21-s22" {% if page.pageID == "f21-s22" %}class="active button"{% else %}class="button"{% endif %}>F21 - S22</a>
+      <a href="/projects/f20-s21" {% if page.pageID == "f20-s21" %}class="active button"{% else %}class="button"{% endif %}>F20 - S21</a>
+      <a href="/projects/f19-s20" {% if page.pageID == "f19-s20" %}class="active button"{% else %}class="button"{% endif %}>F19 - S20</a>
+      <a href="/projects/f18-s19" {% if page.pageID == "f18-s19" %}class="active button"{% else %}class="button"{% endif %}>F18 - S19</a>
+      <a href="/projects/s18" {% if page.pageID == "s18" %}class="active button"{% else %}class="button"{% endif %}>S18</a>
+    </div>
+  </div>
+</section>
+
+<!-- Project List Builder -->
+{% for project_term in site.data.projects.projects %}
+{% if project_term.pageID == page.pageID %}
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>{{ project_term.term | upcase }}</h2>
+  </header>
+  {% for project in project_term.projects %}
+  {% if project.id %}
+  <article id={{ project.id }}>
+  {% else %}
+  <article>
+  {% endif %}
+    <a class="image"><img src={{ project.image }} alt="" /></a>
+    <div class="content">
+      <h3>{{ project.title }}</h3>
+      <h5>
+        {% for leadAuthor in project.leadAuthors %}
+        {{ leadAuthor }}&nbsp;<span class='accent'>*</span>{% if project.authors.size > 0 %},{% endif %}&nbsp;
+        {% endfor %}
+        {% for author in project.authors %}
+        <span>{{ author }}{% unless forloop.last %}{{",&nbsp;"}}{% endunless %}</span>
+        {% endfor %}
+      </h5>
+      {% if project.leadAuthors %}
+      <h6>{{"<span class='accent'>*</span>&nbsp;Project Lead"}}</h6>
+      {% endif %}
+      <p>{{ project.description }}</p>
+      <ul class="actions">
+        {% if project.paper %}
+        <li><a href={{project.paper}} target="_blank" class="button">Paper</a></li>
+        {% endif %}
+        {% if project.slides %}
+        <li><a href={{project.slides}} target="_blank" class="button">Slides</a></li>
+        {% endif %}
+        {% if project.github %}
+        <li><a href={{project.github}} target="_blank" class="button">Github</a></li>
+        {% endif %}
+        {% if project.media %}
+        <li><a href={{project.media}} target="_blank" class="button">Media</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </article>
+  {% endfor %}
+</section>
+{% endif %}
+{% endfor %}
+<section class="pageNav">
+  <a href={{ page.previous }} class="button"
+     {% unless page.previous %}
+     style="visibility: hidden;"
+     {% endunless %}
+  ><i class="fas fa-angle-left"></i> Previous</a>
+  <a href={{ page.next }} class="button"
+     {% unless page.next %}
+     style="visibility: hidden;"
+     {% endunless %}
+  >Next <i class="fas fa-angle-right"></i></a>
+</section>

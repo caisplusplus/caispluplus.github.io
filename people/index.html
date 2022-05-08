@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Members | CAIS++
+title: People | CAIS++
 stylesheets:
 - /assets/css/people.css
 scripts:
@@ -22,52 +22,34 @@ scripts:
   </header>
   <div class="posts">
     <article>
+      <a class="image"><img src="/images/people/executive/allen.jpg" alt="" /></a>
+      <h3>{{"allen chang" | upcase}}</h3>
+      <h4>Co-President</h4>
+    </article>
+    <article>
+      <a class="image"><img src="/images/people/executive/jordan.jpg" alt="" /></a>
+      <h3>{{"jordan cahoon" | upcase}}</h3>
+      <h4>Co-President</h4>
+    </article>
+    <article>
       <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
-      <h3>Interdum aenean</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <h3>{{"maciej kilian" | upcase}}</h3>
+      <h4>VP of Projects</h4>
     </article>
     <article>
-      <a class="image"><img src="/images/pic02.jpg" alt="" /></a>
-      <h3>Nulla amet dolore</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
+      <h3>{{"karina yang" | upcase}}</h3>
+      <h4>VP of Curriculum</h4>
     </article>
     <article>
-      <a class="image"><img src="/images/pic03.jpg" alt="" /></a>
-      <h3>Tempus ullamcorper</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
+      <h3>{{"leslie moreno" | upcase}}</h3>
+      <h4>VP of Fellowship</h4>
     </article>
     <article>
-      <a class="image"><img src="/images/pic04.jpg" alt="" /></a>
-      <h3>Sed etiam facilis</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
-    </article>
-    <article>
-      <a class="image"><img src="/images/pic05.jpg" alt="" /></a>
-      <h3>Feugiat lorem aenean</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
-    </article>
-    <article>
-      <a class="image"><img src="/images/pic06.jpg" alt="" /></a>
-      <h3>Amet varius aliquam</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
+      <h3>{{"leo zhuang" | upcase}}</h3>
+      <h4>VP of Operations</h4>
     </article>
   </div>
 </section>
@@ -77,21 +59,20 @@ scripts:
   <header class="major">
     <h2>{{"current members" | upcase }}</h2>
   </header>
-  <table>
+  <table id="members">
     <tr>
       <td><h3>Name</h3></td>
       <td><h3>Cohort</h3></td>
       <td><h3>CAIS++ Leadership</h3></td>
       <td><h3>CAIS++ Projects</h3></td>
-      <td><h3>Github</h3></td>
+      <td><h3>Links</h3></td>
     </tr>
-    <tr>
-      <td>Tommy Trojan</td>
-      <td>F22</td>
-      <td><code>Curriculum F22</code><code>Project S22</code></td>
-      <td><a href="/projects/example">Proj 1</a> | <a href="/projects/example">Proj 2</a></td>
-      <td><a href="http://github.com" target="_blank">http://github.com</a></td>
-    </tr>
+    {% for row in site.data.roster %}
+    {% assign valid_status = "E-Board,Active,Inactive" | split: "," %}
+    {% if valid_status contains row["Membership Status"] %}
+    {% include member-row.html %}
+    {% endif %}
+    {% endfor %}
   </table>
 </section>
 
@@ -102,52 +83,59 @@ scripts:
   </header>
   <div class="posts-advisory">
     <article>
-      <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
-      <h3>Interdum aenean</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/people/advisory/bistra.jpg" alt="" /></a>
+      <h3>{{"bistra dilkina" | upcase}}</h3>
+      <h5><a href="https://www.cais.usc.edu/" target="_blank">CAIS</a> Associate Director</h5>
+      <h5>Associate Professor</h5>
     </article>
     <article>
-      <a class="image"><img src="/images/pic02.jpg" alt="" /></a>
-      <h3>Nulla amet dolore</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/people/advisory/tambe.jpg" alt="" /></a>
+      <h3>{{"milind tambe" | upcase}}</h3>
+      <h5><a href="https://www.cais.usc.edu/" target="_blank">CAIS</a> Co-Founder</h5>
+      <h5>Helen N. and Emmett H. Jones Professor</h5>
     </article>
     <article>
-      <a class="image"><img src="/images/pic03.jpg" alt="" /></a>
-      <h3>Tempus ullamcorper</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/people/advisory/eric.jpg" alt="" /></a>
+      <h3>{{"eric rice" | upcase}}</h3>
+      <h5><a href="https://www.cais.usc.edu/" target="_blank">CAIS</a> Co-Founder</h5>
+      <h5>Associate Professor</h5>
     </article>
     <article>
-      <a class="image"><img src="/images/pic04.jpg" alt="" /></a>
-      <h3>Sed etiam facilis</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/people/advisory/hailey.jpg" alt="" /></a>
+      <h3>{{"hailey wintrobe" | upcase}}</h3>
+      <h5><a href="https://www.cais.usc.edu/" target="_blank">CAIS</a> Center Operations Coordinator</h5>
     </article>
     <article>
-      <a class="image"><img src="/images/pic05.jpg" alt="" /></a>
-      <h3>Feugiat lorem aenean</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/people/advisory/david.jpg" alt="" /></a>
+      <h3>{{"david jeng" | upcase}}</h3>
+      <h5>Advisor to CAIS++</h5>
+      <h5><a href="https://www.wintecind.com/" target="_blank">Wintec Industries</a> CEO</h5>
     </article>
     <article>
-      <a class="image"><img src="/images/pic06.jpg" alt="" /></a>
-      <h3>Amet varius aliquam</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/people/advisory/bharath.jpg" alt="" /></a>
+      <h3>{{"BHARATH RAMSUNDAR" | upcase}}</h3>
+      <h5>Deep Learning for Drug Discovery Researcher</h5>
+      <h5><a href="https://github.com/deepchem/deepchem" target="_blank">DeepChem</a> Creator</h5>
+    </article>
+    <article>
+      <a class="image"><img src="/images/people/advisory/bodapati.jpg" alt="" /></a>
+      <h3>{{"DEEPIKA BODAPATI" | upcase}}</h3>
+      <h5><a href="https://www.athelas.com/" target="_blank">Athletas</a> Founder</h5>
+    </article>
+    <article>
+      <a class="image"><img src="/images/people/advisory/slater.jpg" alt="" /></a>
+      <h3>{{"david slater" | upcase}}</h3>
+      <h5><a href="https://twosixtech.com/" target="_blank">Two-Six Technologies</a> Associate Research Director of Machine Learning</h5>
+    </article>
+    <article>
+      <a class="image"><img src="/images/people/advisory/osinski.jpg" alt="" /></a>
+      <h3>{{"VERONICA OSINSKI" | upcase}}</h3>
+      <h5><a href="https://trifectacapital.in/" target="_blank">Trifecta Capital</a> Founding Managing Partner</h5>
+    </article>
+    <article>
+      <a class="image"><img src="/images/people/advisory/beissinger.jpg" alt="" /></a>
+      <h3>{{"Markus Beissinger" | upcase}}</h3>
+      <h5><a href="https://www.lobe.ai/" target="_blank">Lobe</a> Founder</h5>
     </article>
   </div>
 </section>
@@ -159,52 +147,22 @@ scripts:
   </header>
   <div class="posts-advisory">
     <article>
-      <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
-      <h3>Interdum aenean</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/people/advisory/lucas.jpg" alt="" /></a>
+      <h3>{{"lucas hu" | upcase}}</h3>
+      <h5>CAIS++ President, 2017-2019</h5>
+      <h5><a href="https://www.linkedin.com/in/lucashu/" target="_blank">LinkedIn</a></h5>
     </article>
     <article>
-      <a class="image"><img src="/images/pic02.jpg" alt="" /></a>
-      <h3>Nulla amet dolore</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/people/advisory/ben.jpg" alt="" /></a>
+      <h3>{{"benjamin brooks" | upcase}}</h3>
+      <h5>CAIS++ President, 2019-2020</h5>
+      <h5><a href="https://www.linkedin.com/in/benjbrooks/" target="_blank">LinkedIn</a></h5>
     </article>
     <article>
-      <a class="image"><img src="/images/pic03.jpg" alt="" /></a>
-      <h3>Tempus ullamcorper</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
-    </article>
-    <article>
-      <a class="image"><img src="/images/pic04.jpg" alt="" /></a>
-      <h3>Sed etiam facilis</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
-    </article>
-    <article>
-      <a class="image"><img src="/images/pic05.jpg" alt="" /></a>
-      <h3>Feugiat lorem aenean</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
-    </article>
-    <article>
-      <a class="image"><img src="/images/pic06.jpg" alt="" /></a>
-      <h3>Amet varius aliquam</h3>
-      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-      <ul class="actions">
-        <li><a href="#" class="button">More</a></li>
-      </ul>
+      <a class="image"><img src="/images/people/advisory/leena.jpg" alt="" /></a>
+      <h3>{{"leena mathur" | upcase}}</h3>
+      <h5>CAIS++ President, 2020-2021</h5>
+      <h5><a href="https://www.linkedin.com/in/leena-mathur/" target="_blank">LinkedIn</a></h5>
     </article>
   </div>
 </section>

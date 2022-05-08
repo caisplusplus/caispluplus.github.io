@@ -34,6 +34,17 @@ article {
   gap: 3em;
   margin-bottom: 2em;
 
+  .content {
+    width: 50%;
+
+    span {
+      white-space: pre;
+
+      &.accent {
+        color: _palette(accent);
+      }
+    }
+  }
   a.image {
     width: 30%;
     height: 200px;
@@ -52,6 +63,27 @@ article {
         width: 70%;
         height: auto;
       }
+
+      .content {
+        width: 100%;
+      }
     }
   }
+}
+
+.tabContainer {
+  display: flex;
+  justify-content: start;
+  gap: 1em;
+  flex-wrap: wrap;
+
+  .active {
+    background-color: _palette(accent);
+    color: _palette(fg-bold) !important;
+  }
+}
+
+.pageNav {
+  display: flex;
+  justify-content: space-between;
 }

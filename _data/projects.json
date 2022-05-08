@@ -2,44 +2,543 @@
   "projects":[
     {
       "term":"Spring 2022",
+      "pageID": "f21-s22",
       "projects": [
         {
-          "title": "Example Project 1",
+          "title": "Reinforcement Learning on Agroecology",
+          "id": "s22_agroecology",
           "image": "/images/pic01.jpg",
-          "authors": [
-            "First Author",
-            "Second Author",
-            "Last Author"
+          "leadAuthors": [
+            "Shannon Brownlee",
+            "Jordan Cahoon"
           ],
-          "description": "project description here",
-          "link": "#",
-          "slides": "#",
-          "github": "#"
+          "authors": [
+            "Aryan Gulati",
+            "Leslie Moreno",
+            "Megan Friedenberg",
+            "Colin Ho",
+            "Felix Chen"
+          ],
+          "description": "Industrial agriculture is unsustainable and destroys local ecosystems. An alternative approach is to instead plant crops within existing microclimates instead of destroying them entirely. This approach has seen success on small scales, such as a Wisconsin farmer successfully growing his crops in a local forest. However, microclimates are very different from one another, and that Wisconsin farmer would have no idea how to succeed in growing crops in a Californian forest, for example. There is no universal method for doing things. CAIS++ students collaborated with Professor Raghavan’s lab to construct a reinforcement learning system using a blackbox environment that can simulate any arbitrary microclimate. Our mission is to model any given microclimate and find the optimal policies for growing crops in that microclimate.",
+          "slides": "/assets/files/projects/s22_agroecology.pdf"
         }, {
-          "title": "Example Project 2",
+          "title": "Sepsis Detection",
+          "id": "s22_sepsis",
           "image": "/images/pic02.jpg",
-          "authors": [
-            "First Author",
-            "Second Author"
+          "leadAuthors": [
+            "Surya Nehra"
           ],
-          "description": "project description here",
-          "link": "#",
-          "slides": "#"
+          "authors": [
+            "Lorena Yan",
+            "Leo Zhuang",
+            "Irika Katiyar",
+            "Sana Jayaswal",
+            "Jaiv Doshi",
+            "Hilari Fan"
+          ],
+          "description": "The bacteria <code>Staphylococcus aureus</code> is a leading cause of sepsis, a condition which kills 11 million people each year, and contributes to the highest sepsis-related mortality. Most S. aureus strains produce varying amounts of something called alpha toxins (Hla) that bind to and lyse (i.e. rupture) host cells. Studies have shown that the more alpha toxins a S. aureus strain produces, the more deadly it is. Traditional methods to measure an arbitrary strain’s ability to produce toxins by examining lysis of host cells take too long to be useful in a diagnostic setting. In order to speed things up, we will create a machine learning algorithm trained on images of bacteria on blood agar plates. These plates will have varying amounts of cell lysis corresponding to varying measurements of Hla, which is linked to outcomes of infected patients. Such a tool would be much faster than existing methods and could be used in clinical settings.",
+          "slides": "/assets/files/projects/s22_sepsis.pdf"
+        }, {
+          "title": "Targeting Ocean Pollution with Reinforcement Learning (2.0)",
+          "id": "s22_oceanpollution",
+          "image": "/images/pic03.jpg",
+          "leadAuthors": [
+            "Sam Sommerer"
+          ],
+          "authors": [
+            "Allen Chang",
+            "Anthony Martino",
+            "Priscilla Lee",
+            "Ishu Agrawal"
+          ],
+          "description":  "The Ocean Pollution Project is a collaboration between CAIS++ and Professor Orhun Aydin from the Spatial Science Institute. Using deep reinforcement learning, as well as Lagrangian simulation and optimization, we are analyzing and making decisions about pollution in the ocean. This project was funded by a Microsoft grant."
         }
       ]
     }, {
       "term":"Fall 2021",
+      "pageID": "f21-s22",
       "projects": [
         {
-          "title": "Example Project 3",
-          "image": "/images/pic03.jpg",
-          "authors": [
-            "First Author",
-            "Second Author",
-            "Last Author"
+          "title": "ProjectX: How Weather Patterns Influence Disease Outbreaks",
+          "id": "f21_projectx",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Shannon Brownlee"
           ],
-          "description": "project description here",
-          "github": "#"
+          "authors": [
+            "Jordan Cahoon",
+            "Surya Nehra",
+            "Shantanu Jhaveri"
+          ],
+          "description":  "A CAIS++ team represented USC at ProjectX, a machine learning research competition hosted by the University of Toronto. This competition was focused on tackling climate change problems with ML, and our group developed seasonal forecast models that will inform public health systems how future weather patterns will influence disease outbreaks."
+        }, {
+          "title": "Targeting Ocean Pollution with Reinforcement Learning (1.0)",
+          "id": "f21_oceanpollution",
+          "image": "/images/pic03.jpg",
+          "leadAuthors": [
+            "Sam Sommerer"
+          ],
+          "authors": [
+            "Anthony Martino",
+            "Priscilla Lee",
+            "Ishu Agrawal"
+          ],
+          "description":  "The Ocean Pollution Project is a collaboration between CAIS++ and Professor Orhun Aydin from the Spatial Science Institute. Using deep reinforcement learning, as well as Lagrangian simulation and optimization, we are analyzing and making decisions about pollution in the ocean. This project was funded by a Microsoft grant."
+        }
+      ]
+    }, {
+      "term":"Spring 2021",
+      "pageID": "f20-s21",
+      "projects": [
+        {
+          "title": "Brazilian EdTech Startup Collaboration",
+          "id": "s21_edtech",
+          "image": "/images/pic05.jpg",
+          "leadAuthors": [
+            "Nicolas Perez"
+          ],
+          "authors": [
+            "Wesley Tong",
+            "Neil McWhorter",
+            "Isaac Gerstmann",
+            "Morgan Lu",
+            "Mengfei Zhang",
+            "Matthew Cho"
+          ],
+          "description":  "A CAIS++ team worked with <a href='https://www.aio.com.br' target='_blank'>AIO</a>, a Brazilian education technology startup. AIO develops low-cost, personalized, AI-powered test preparation to help students study for the Exame Nacional do Ensino Médio (ENEM), a national standardized Brazilian exam that determines university admission and scholarship opportunities for high school students in Brazil. Our CAIS++ team worked on deep, transformer-based knowledge tracing models that contributed to AIO's platform."
+        }, {
+          "title": "Viral Genomics for Predicting Pandemics (2.0)",
+          "id": "s21_genomics",
+          "image": "/images/pic06.jpg",
+          "leadAuthors": [
+            "Shannon Brownlee",
+            "Sam Sommerer"
+          ],
+          "authors": [
+            "Robb Tran",
+            "Elaine Yang",
+            "Anthony Martino",
+            "Jordan Cahoon"
+          ],
+          "description":  "This research project at the intersection of ML and genomics focuses on analyzing virus genome sequences, mutations, and behaviors to predict the pandemic risk potential of a virus. This project was the second phase of the Fall 2020 CAIS++ viral genomics project."
+        }, {
+          "title": "Clinical Alzheimer's Dementia Diagnosis",
+          "id": "s21_dementia",
+          "image": "/images/pic07.jpg",
+          "leadAuthors": [
+            "Leena Mathur",
+            "Nisha Chatwani"
+          ],
+          "authors": [
+            "Surya Nehra",
+            "Maxwell Kofman",
+            "Jessie Zhang",
+            "Nicolas van Houten"
+          ],
+          "description":  "This research developed machine learning models that leveraged psycholinguistic and acoustic speech representations for low-cost, scalable Alzheimer's dementia diagnosis. This group led the first cross-USC research collaboration between CAIS++ and another student organization (MEDesign biomedical engineers). This CAIS++ group also presented at USC's Spring 2021 undergraduate research symposium and won the Interdisciplinary Prize, sponsored by the Office of the Provost/USC Fellowships Office.",
+          "media": "https://www.medicaldevice-network.com/news/usc-viterbi-tool-detect-alzheimers-disease/"
+        }, {
+          "title": "Detecting Wildfires",
+          "id": "s21_wildfires",
+          "image": "/images/pic07.jpg",
+          "leadAuthors": [
+            "Ishu Agrawal"
+          ],
+          "authors": [
+            "Lauren Tsai",
+            "Pau Sang",
+            "Lauren Okhovat"
+          ],
+          "description":  "This project developed automated and scalable computer vision models for wildfire detection that can be used with data streams from aerial photography or forest monitoring stations."
+        }, {
+          "title": "Embedded Computer Vision",
+          "id": "s21_oak",
+          "image": "/images/pic07.jpg",
+          "leadAuthors": [
+            "Shantanu Jhaveri",
+            "John Bush"
+          ],
+          "authors": [
+            "Allen Chang",
+            "Arman Roshannai",
+            "Avi Gala",
+            "Megan Friedenberg",
+            "Pilar Luiz",
+            "Samuel Mesfin",
+            "Wesley Tong"
+          ],
+          "description":  "This CAIS++ team experimented with the <code>Oak-D</code>, an smart stereo camera capable of running complex neural network models for computer vision tasks. This CAIS++ group learned about state-of-the-art object recognition and detection models, and they developed a system for real-time perception of whether or not people were wearing masks in social spaces."
+        }
+      ]
+    }, {
+      "term":"Fall 2020",
+      "pageID": "f20-s21",
+      "projects": [
+        {
+          "title": "ProjectX: Inefficiencies in Renewable Energy",
+          "id": "f20_projectx",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Patrick Darrow",
+            "Nicolas Perez"
+          ],
+          "authors": [
+            "Tomas Angelini",
+            "Christopher Fucci",
+            "Priscilla Lee",
+            "Gireesh Mahajan"
+          ],
+          "description":  "A CAIS++ team represented USC at ProjectX, a machine learning research competition hosted by the University of Toronto. This competition was focused on tackling climate change problems with ML, and our group addressed inefficiencies associated with variable renewable energy sources."
+        }, {
+          "title": "Viral Genomics for Predicting Pandemics (1.0)",
+          "id": "f20_genomics",
+          "image": "/images/pic06.jpg",
+          "leadAuthors": [
+            "Shannon Brownlee",
+            "Laura Cao"
+          ],
+          "authors": [
+            "Gloria Chang",
+            "Shantanu Jhaveri",
+            "Karan Menon"
+          ],
+          "description":  "This research project at the intersection of ML and genomics focuses on analyzing virus genome sequences, mutations, and behaviors to predict the pandemic risk potential of a virus."
+        }, {
+          "title": "Debiasing ML Recruiting Models",
+          "id": "f20_debias",
+          "image": "/images/pic06.jpg",
+          "leadAuthors": [
+            "Ritika Dendi",
+            "Nico van Houten"
+          ],
+          "authors": [
+            "Brittany Rollins",
+            "Mingtao Dong",
+            "Natalie Abreu",
+            "Samuel Sommerer"
+          ],
+          "description":  "Existing ML-based recruiting tools have been biased against people from historically-underrepresented backgrounds. This research tackles the problem of biased ML recruiting models in the context of resume evaluations by exploring and implementing solutions such as hard debiasing and adversarial debiasing."
+        }, {
+          "title": "Addressing K-12 School Performance Inequalities",
+          "id": "f20_k12",
+          "image": "/images/pic06.jpg",
+          "leadAuthors": [
+            "Leena Mathur"
+          ],
+          "authors": [
+            "Andrew Hariri",
+            "Nicole Ng",
+            "Jae Shim"
+          ],
+          "description":  "Achievement gaps persist among K-12 students and schools across the United States, often correlated with population-level socioeconomic, demographic, and geographic characteristics of a school district, as well as school-level factors such as school funding amounts and student to teacher ratios. This research leverages ML to identify key features predictive of school performance, in order to develop data-driven community interventions at the school district level and school level to boost school academic performance. This research was advised by Professor <a href='https://viterbi.usc.edu/directory/faculty/Dilkina/Bistra' target='_blank'>Bistra Dilkina</a>, and findings are currently under preparation for publication."
+        }, {
+          "title": "Preserving Endangered Languages (2.0)",
+          "id": "f20_language",
+          "image": "/images/pic06.jpg",
+          "leadAuthors": [
+            "Zane Durante",
+            "Leena Mathur"
+          ],
+          "authors": [
+            "Eric Ye",
+            "Jack Zhao",
+            "Tejas Ramdas"
+          ],
+          "description":  "Approximately ~60% of the world’s current 7,000 languages is predicted to go extinct by the end of the century; the death of any language represents an irreversible loss of information across multiple fields, including linguistics, psychology, sociology, and anthropology. A CAIS++ team continued their work on developing unsupervised representation learning techniques for automatically extracting and preserving the phonemes of endangered languages, through a collaboration with USC's Department of Linguistics. This team also wrote a paper from their research findings!",
+          "paper": "https://arxiv.org/pdf/2108.12531.pdf"
+        }
+      ]
+    }, {
+      "term":"Spring 2020",
+      "pageID": "f19-s20",
+      "projects": [
+        {
+          "title": "Density: Automatic Measurement of Room Capacity",
+          "id": "s20_density",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Roddur Dasgupta"
+          ],
+          "authors": [
+            "Henry Gu",
+            "Ritika Dendi",
+            "Stephanie Lampotang",
+            "Shantanu Jhaveri"
+          ],
+          "description":  "Technologies that accurately and anonymously track the number of people in buildings are critical for improving the security and productivity of spaces, without violating the privacy of the individuals. Density (an SF-based startup) develops hardware and software that counts people entering and leaving doorways without capturing identifying information about people. Our ML collaboration with Density developing deep models that accurately and robustly detect people in doorways."
+        }, {
+          "title": "Kawasaki Disease Diagnosis (3.0)",
+          "id": "s20_kawasaki",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Hayden Shively"
+          ],
+          "authors": [
+            "Komal Patri",
+            "Matt Evenson",
+            "Ritika Dendi",
+            "Jessie Zhang",
+            "Washington Zhao"
+          ],
+          "description":  "Kawasaki Disease (KD) is a rare heart condition that causes inflammation and swelling in blood vessels throughout the body. Diagnosing and treating KD at an early stage is critical, because KD results in life-threatening heart problems for 1 in 5 victims, typically children under the age of 5. Our collaboration with UCSD’s Kawasaki Disease Research Center involves developing an image-based classifier for KD."
+        }, {
+          "title": "Gene Sequence Analysis",
+          "id": "s20_gene",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Isaac Gelman"
+          ],
+          "authors": [
+            "Tomas Angelini",
+            "Natalie Abreu",
+            "Nicolas Perez",
+            "Shannon Brownlee",
+            "Shreya Havaldar"
+          ],
+          "description":  "Increasing amounts of genetic data are becoming available due to the rise of Next Generation Sequencing (NGS) technologies, which are revolutionizing the study of evolution, pharmaceuticals, and clinical medicine. NGS data is unique because of its size -- millions of reads in each experiment make it slow to analyze as whole dataset. The Sequence Read Archive (SRA), an international open-source biological sequence dataset from the NCBI, has uploads which are under-labeled, which poses a problem for researchers mining the genetic data. Our collaboration with USC’s Smith Computational Genomics Lab group involves applying machine learning, probabilistic models, statistics, optimal stopping theory to analyze sequences, label data, and help researchers advance biomedical science."
+        }, {
+          "title": "Deepfake Detection",
+          "id": "s20_deepfake",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Armaan Pishori"
+          ],
+          "authors": [
+            "Brittany Rollins",
+            "Nicolas van Houten",
+            "Nisha Chatwani",
+            "Omar Uraimov",
+            "Shantanu Jhaveri"
+          ],
+          "description":  "Deepfakes are a rising threat to various social and political aspects of our society, given their potential to spread misinformation in the media. A CAIS++ team is participating in the Deepfake Detection Challenge, along with research groups around the country, to develop deep models that can help detect deepfake videos and manipulated media."
+        }, {
+          "title": "Games Reinforcement Learning",
+          "id": "s20_games",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Zane Durante"
+          ],
+          "authors": [
+            "Gireesh Mahajan",
+            "Oscar Bashaw",
+            "Gloria Chang",
+            "Nathan Huh",
+            "Lily Perry"
+          ],
+          "description":  "A CAIS++ team is exploring and implementing different reinforcement learning (RL) algorithms in the context of games, from basic RL approaches such as Q-learning to more complex deep reinforcement learning approaches."
+        }, {
+          "title": "Music Generation",
+          "id": "s20_music",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Ada Toydemir"
+          ],
+          "authors": [
+            "Brian Plotnik",
+            "Karan Menon",
+            "Priscilla Lee",
+            "Tierra Buissereth"
+          ],
+          "description":  "A CAIS++ team is using ML to create a sample music generation program. When musicians produce music, they often use samples for sounds such as kicks, snares, hi-hats, or even sound effects. The character of a song can be drastically changed by the quality and uniqueness of the sample. Unfortunately, samples are expensive to buy, difficult to record or create, and take up hundreds of gigabytes of space on hard-drives to maintain. We will create a program that takes multiple samples as input and uses them as reference to generate new samples."
+        }, {
+          "title": "Preserving Endangered Languages (1.0)",
+          "id": "s20_language",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Zane Durante",
+            "Leena Mathur"
+          ],
+          "authors": [
+            "Eric Ye",
+            "Jack Zhao",
+            "Tejas Ramdas"
+          ],
+          "description":  "Approximately ~60% of the world’s current 7,000 languages is predicted to go extinct by the end of the century; the death of any language represents an irreversible loss of information across multiple fields, including linguistics, psychology, sociology, and anthropology. A CAIS++ team is continuing their work on developing unsupervised representation learning techniques for automatically extracting and preserving the phonemes of endangered languages. Their focus is on Ladin, a language spoken by about 20,000 people in the Italian Alps, in a research collaboration with USC’s Department of Linguistics.",
+          "paper": "https://arxiv.org/pdf/2108.12531.pdf"
+        }
+      ]
+    }, {
+      "term":"Fall 2019",
+      "pageID": "f19-s20",
+      "projects": [
+        {
+          "title": "Homelessness Resource Allocation",
+          "image": "/images/pic04.jpg",
+          "description":  "Homelessness is at a crisis level in Los Angeles, with ~53,000 persons sleeping on the streets or living in emergency shelters every night. The Los Angeles Homeless Services Authority (LAHSA) can only house ~15,000 persons each year. To address this problem, they developed a “paper and pencil” approach to housing prioritization and matching, based on people’s vulnerability scores, past housing, and history of return to homelessness. Can an ML-based approach out-perform the city’s current scoring system? In Fall 2019, a CAIS++ team worked with a de-identified dataset of homeless adults to develop ML approaches that identify predictors of housing success."
+        }, {
+          "title": "Computer Vision for Self-Driving Cars",
+          "image": "/images/pic04.jpg",
+          "description":  "Self-driving technologies have the potential to revolutionize human transportation by improving efficiency and safety. In Fall 2019, a CAIS++ team worked with one of the largest open-source datasets provided by Waymo to develop deep networks for object detection (vehicles, pedestrians, cyclists, signs) and weather condition classification, based on camera and LIDAR information sensed by self-driving cars."
+        }, {
+          "title": "Evolved FPGAs for Machine Learning",
+          "image": "/images/pic04.jpg",
+          "description":  "Can FPGAs function as universal function approximators, like neural networks? A CAIS++ group is researching and implementing evolutionary algorithms on the programmable architecture of FPGAs -- the goal is to exploit the hardware to develop networks that solve ML problems faster than neural networks."
+        }
+      ]
+    }, {
+      "term":"Spring 2019",
+      "pageID": "f18-s19",
+      "projects": [
+        {
+          "title": "Machine Learning Fairness",
+          "image": "/images/pic04.jpg",
+          "description": "In 2017, Google came under fire for YouTube’s machine learning algorithms incorrectly flagging LGBTQ content as “inappropriate”. This led to an explosion of research in machine learning fairness in pursuit of their goal of “AI for Everyone”. In this project, we will first dissect the concept of fairness in a mathematical sense via reading and discussing several recent papers on the topic. Then, we will use Google Colab resources to explore applications of ML fairness and discuss results. Finally, we will read Zhang et al.’s “Mitigating Unwanted Biases with Adversarial Learning” and build our own adversarial GAN to explore the implications of such “debiasing” techniques."
+        }, {
+          "title": "Music and the Brain",
+          "image": "/images/pic04.jpg",
+          "description": "This project comes from the Brain and Creativity Institute and is lead by PhD student Matthew Sachs. His goal is to predict brain activations based on the emotions of a song. Matt collects data by placing each subject in an fMRI scanner and playing them a song, where he records voxel activations in the brain. He also has each subject manually rate how they are feeling on a numerical scale. Matt's focus is on mapping from these behavioral ratings to brain data. However, the scope of this research project is a little broader; anything that helps us better understand the relationship between brain activity and emotional response is fair game. To that end, we have some freedom regarding what we decide to do with the data. We can try mapping from ratings to brain data just like Matt, we can map from acoustic song data to brain data, we can use both as input, or take a different approach entirely. The significance of being able to predict brain data based on some stimuli has wide implications for social good; Matt gave one example of a related project that maps between brain data and reading rates in children. Understanding this connection may allow us to engineer solutions that improve the lives of others, say, by improving how children are taught to read."
+        }, {
+          "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (2.0)",
+          "image": "/images/pic04.jpg",
+          "description": "In this project, we are trying to speed up the process of language documentation by building a model that produces phonetic transcriptions from audio samples of human languages. The ultimate goal of our project is to develop a model that could be applied to any human language with minimal changes. We will be using around 3-4 hours of partially labeled audio data in an endangered language called Ladin, which we are using as our main training/test data. As of now we have produced some decent results in vowel identifications and are currently working on phoneme segmentation and identification of larger consonant categories.",
+          "slides": "/assets/files/projects/f18_ladin.pdf"
+        }, {
+          "title": "Natural Language Processing: AirBnB",
+          "image": "/images/pic04.jpg",
+          "description": "This project will utilize NLP to analyze the correlation between Airbnb reviews and gentrification in neighborhoods. In particular, we will attempt to predict crime rates, race/income diversity, house prices, and other similar statistics from Airbnb reviews in a particular geographical region. This is advantageous because it provides a detailed local picture and real time statistics about a neighborhood compared to years old government data. This project builds on a recent Harvard study that used Yelp data to predict economic opportunity in neighborhoods, and can expand to include other consumer based data as well."
+        }, {
+          "title": "Building a Chess Engine",
+          "image": "/images/pic04.jpg",
+          "description": "Chess is a game of forethought. When making a move, the average grandmaster has the skillset to take into account progressions of up to 20 steps beyond the current board, and many computers can comfortably explore sequences well beyond the 20-move mark. This team will explore a history of chess computing ranging from IBM’s Deep Blue, to Stockfish, which currently has an ELO of 3438 (for reference, Magnus Carlsen—the current world champion—has a rating of 2954). Our scope will then broaden to look at other game engines to help identify successful ML techniques that have been developed throughout the last few decades. In particular, we will study AlphaGo’s RL implementation in an attempt to help us complete our culminating project: our own chess engine."
+        }, {
+          "title": "Word Detector",
+          "image": "/images/pic04.jpg",
+          "description": "Given a particular word (for example, “Botánica”) can we generate a synthetic training dataset, train a detector, then apply the detector to find all instances of signage that says “Botánica”? This has the potential to be more robust to obstructions (for example, trees that cover part of the signage) than lexicon-free detection. This connection may allow us to engineer solutions that improve the lives of others, say, by improving how children are taught to read."
+        }, {
+          "title": "The Brain Sees, the Brain Hears (2.0)",
+          "id": "s19_brain",
+          "image": "/images/pic04.jpg",
+          "authors": [
+            "Michelle Huntley",
+            "Armin Bazarjani",
+            "Dan Garvey"
+          ],
+          "description": "We’re trying to build a neural network that uses CNNs and auto encoders to process audio and visual input together, much like the human brain does. As humans, we process sensory input in a continuous way, instead of discretely, and we want to replicate that with machine learning."
+        }, {
+          "title": "Reinforcement Learning in Finance",
+          "image": "/images/pic04.jpg",
+          "description": "The stock market is one of the most competitive arenas in the world. In this project we're testing some cutting-edge reinforcement learning algorithms by building an automated trading bot."
+        }, {
+          "title": "Your Tongue is a Worm",
+          "image": "/images/pic04.jpg",
+          "description": "This research focuses on the similarities between the human tongue and a humble invertebrate: the worm. Tongues are in fact invertebrate systems in vertebrate organisms, so the comparison is an apt one. By analyzing the movement of the worm, we can classify for the presence of a mutated dopamine gene because dopamine plays an important role in movement signaling. This may one day allow us to detect Parkinson’s early: by looking at the tongue in the same way."
+        }, {
+          "title": "Code to English",
+          "image": "/images/pic04.jpg",
+          "description": "An integral step to learning how to code is being able to decipher the meaning of a code block. In this project we aim to use pairs of python questions from StackOverflow and code from their accepted answers to try and build a model that will generate an English description given a block of code. This project will begin by building the data set by writing a crawler to grab the code/description pairs from StackOverflow. We will then utilize NLP and GANs/VAEs to decompose code into a latent space, transfer between the code and description latent spaces, and then recompose the description from the latent space. The intended outcome of this project is to roll out a tool to allow beginners to understand what their code is doing, potentially as a website. As with any non-vetted data set, this project is an experiment and may fail. However, it will teach valuable skills across the ML project life cycle, from data gathering to writing testing suites to building the actual models."
+        }, {
+          "title": "AI Assisted Music Technology",
+          "image": "/images/pic04.jpg",
+          "description": "The goal of this project is to develop algorithms that can assist with various tasks in music production and musical analysis. Specifically, we are currently talking with researchers at Carnegie Mellon University about obtaining a labeled soundscapes dataset that includes descriptive tags. We will then develop an algorithm that can automatically tag and group soundscapes. We are also currently talking to Mom & Pop Records about a potential collaboration; more info will come soon on this front, but it will involve developing ways to assist A & R tasks. Other projects will include finding ways to analyse and organize sample libraries to help producers search and find samples more efficiently, recognizing when specific sounds occur in a music file in order to assist with music visualizations, and developing a method to “upsample” sounds to bring high fidelity to low fidelity sounds. Lastly, any ideas and projects will be welcomed as well. Music makes everyone happy, so the social good implications of this project are exorbitant."
+        }
+      ]
+    }, {
+      "term":"Fall 2018",
+      "pageID": "f18-s19",
+      "projects": [
+        {
+          "title": "Pneumonia: Improving Efficiency and Scale of Diagnosis",
+          "image": "/images/pic04.jpg",
+          "description": "Pneumonia accounts for over 15% of all deaths of children under 5 years old internationally. In 2015, 920,000 children under the age of 5 died from the disease. While common, accurately diagnosing pneumonia is a tall order. It requires review of a chest radiograph (CXR) by highly trained specialists and confirmation through clinical history, vital signs and laboratory exams. Through deep learning techniques, we hope that we are able to improve both the efficiency and scale of diagnostic services.",
+          "slides": "/assets/files/projects/f18_pneumonia.pdf"
+        }, {
+          "title": "The Brain Sees, the Brain Hears (1.0)",
+          "id": "f18_brain",
+          "image": "/images/pic04.jpg",
+          "authors": [
+            "Michelle Huntley",
+            "Armin Bazarjani",
+            "Dan Garvey"
+          ],
+          "description": "Humans experience sensory input in a continuous way, while machines tend to take in images and sound in a discrete way. Our aim is to build a multi-modal auto encoder that can intertwine visual and audio data in a way that replicates the human brain.",
+          "slides": "/assets/files/projects/f18_brain.pdf"
+        }, {
+          "title": "Kawasaki Disease: Rare Disease Diagnosis using Machine Learning (2.0)",
+          "image": "/images/pic04.jpg",
+          "description": "Kawasaki Disease is a rare heart disease that affects children all over the world; however, there is currently no successful diagnostic test for the disease. This means that Kawasaki Disease can often be left undiagnosed, sometimes with fatal consequences. We aim to use machine learning techniques such as SVMs, Boosted Decision Trees, and Deep Neural Networks to create a robust diagnosis algorithm that learns from its mistakes and helps save lives.",
+          "slides": "/assets/files/projects/f18_kawasaki.pdf"
+        }, {
+          "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (1.0)",
+          "image": "/images/pic04.jpg",
+          "description": "With hundreds of languages on the verge of extinction across the world, language documentation is becoming increasingly crucial to the survival of the world’s cultural diversity. Being one of the earliest and most important stages in documenting languages, producing phonetic transcriptions of audio samples often proves to be the bottleneck due to its time-consuming nature and limited data. By training a recurrent neural network on spoken samples of the Ladin language to segment and label individual phonemes, we aim to automate this process and produce a model that is applicable to most human languages.",
+          "slides": "/assets/files/projects/f18_ladin.pdf"
+        }, {
+          "title": "DeepNBA: Sports Analytics",
+          "id": "f18_deepnba",
+          "image": "/images/pic04.jpg",
+          "authors": [
+            "Nikhil Sinha",
+            "Jason Witherspoon"
+          ],
+          "description": "There seems to be a huge discrepancy between the richness of data that the traditional gold standard for sports betting, Vegas, uses and the data that most machine learning papers written on the topic of NBA games use. For the most part, machine learning/algorithmic predictions of NBA games have used exclusively coarse overview statistics such as team win/loss records and offensive rating (essentially points scored per game). Even though the papers have managed to match or slightly exceed the performance of Vegas, they have done so without even the basic knowledge of which players partake in the game. Therefore, it seems possible that using much finer statistics to try making these predictions could potentially lead to much more accurate results. This project aims to find out whether the prior performance of players appearing in the game could be a better metric to predict the outcome of a game than the team's high level statistics. Using these, we can integrate a much richer understanding of things like which players are having hot streaks and injuries into our model. The project also brings up some interesting questions about machine learning, such as how to handle variable input amounts in non-recurrent models. There may be a reason that current papers have not used fine statistics, but the exercise of trying a different approach to this problem will be enlightening whether it leads to success or not.",
+          "slides": "/assets/files/projects/f18_deepnba.pdf"
+        }, {
+          "title": "Drought From the Sky: Time Series Analysis of Climate Data",
+          "id": "f18_drought",
+          "image": "/images/pic04.jpg",
+          "authors": [
+            "Ben Brooks",
+            "Max Newman",
+            "Dale Yu"
+          ],
+          "description": "Forecasting rainfall, especially in drought-ridden Southern California, is a necessity for professionals and consumers in all industries. This group is collaborating with Lowell Stott, a climate researcher at USC, to track atmospheric oxygen isotope composition as a means of predicting rainfall across the Western Seaboard. Given a range of climate indicators, we will be combining a time series analysis with deep learning techniques to improve upon current predictive models plagued by noise.",
+          "slides": "/assets/files/projects/f18_drought.pdf"
+        }
+      ]
+    }, {
+      "term":"Spring 2018",
+      "pageID": "s18",
+      "projects": [
+        {
+          "title": "Melanoma Detection: Computer Vision for Skin Cancer",
+          "id": "s18_melanoma",
+          "image": "/images/pic04.jpg",
+          "authors": [
+            "Kian Ghodoussi",
+            "Leena Mathur",
+            "Priyank Aranke",
+            "Zane Durante"
+          ],
+          "description": "Early detection, diagnosis, and prevention of melanoma skin cancer is crucial for patient survival. Far too often, melanoma progresses to advanced stages because patients lack the ability to self-diagnose malignant moles and do not feel the need to consult a dermatologist until it becomes too late. We are using a style transfer algorithm to create a unique dataset of cell-phone quality, labelled, melanoma mole images. Using this data, we will be training a convolutional neural network to predict the likelihood of moles being cancerous, in order to inspire patients to pursue further treatment and medical consultation to reduce the likelihood of fatal melanoma.",
+          "slides": "/assets/files/projects/s18_melanoma.pdf"
+        }, {
+          "title": "2018 National Data Science Bowl: Cell Nucleus Segmentation",
+          "id": "s18_ndsb",
+          "image": "/images/pic04.jpg",
+          "authors": [
+            "Rachit Kataria",
+            "Lucas Hu",
+            "Sean Syed"
+          ],
+          "description": "Identifying cell nuclei, which hold the cell’s DNA, is the starting point for most disease analysis. Identifying nuclei allows researchers to identify each individual cell in a sample, and by measuring how cells react to various treatments, researchers can understand the underlying biological processes at work. By using deep learning-based image segmentation techniques, we hope to automate the process of identifying nuclei, which will allow for more efficient drug testing, shortening the 10 years it takes for each new drug to come to market.",
+          "slides": "/assets/files/projects/s18_dsb.pdf"
+        }, {
+          "title": "Kawasaki Disease: Rare Disease Diagnosis using Machine Learning (1.0)",
+          "image": "/images/pic04.jpg",
+          "description": "Kawasaki Disease is a rare heart disease that affects children all over the world; however, there is currently no successful diagnostic test for the disease. This means that Kawasaki Disease can often be left undiagnosed, sometimes with fatal consequences. We aim to use machine learning techniques such as SVMs, Boosted Decision Trees, and Deep Neural Networks to create a robust diagnosis algorithm that learns from its mistakes and helps save lives.",
+          "slides": "/assets/files/projects/f18_kawasaki.pdf"
+        }, {
+          "title": "LA City Budget: Understanding Civic Spending",
+          "id": "s18_lacity",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Kian Ghodoussi"
+          ],
+          "description": "Every year, the LA budget team manually goes through the year’s budget appropriations and manually categorizes each budget entry; this categorization makes it easier to aggregate the city’s spending by category later on. However, since new entries may not perfectly corresponding to existing, pre-categorized budget entries, it takes not only large amounts of work, but also subjective institutional knowledge to correctly categorize each entry. For this reason, many entries simply go uncategorized year-to-year. We are currently working with the LA Mayor’s Office to apply natural language processing techniques to automatically categorize new budget entries, making it understand LA’s annual spending, and to hopefully enable additional insights on how this spending could be improved.",
+          "github": "https://github.com/ghodouss/la_data/blob/master/Data%20Digging%20Notebook.ipynb"
+        }, {
+          "title": "Sports Sentiment Analytics",
+          "id": "s18_sports",
+          "image": "/images/pic04.jpg",
+          "leadAuthors": [
+            "Shomik Jain"
+          ],
+          "description": "Sporting events are often an emotional rollercoaster, with fans often voicing opinions and reactions on Social Media. Using Machine Learning and Natural Language Processing techniques such as Sentiment Analysis, our aim is to study sentiment surrounding teams and players, and to see whether any correlation can be found between sentiment, game predictions by fans, and actual game outcomes.",
+          "slides": "/assets/files/projects/s18_sports.pdf"
+        }, {
+          "title": "Music Generation",
+          "image": "/images/pic04.jpg",
+          "description": "Applying artificial intelligence to create music has been a popular research task for many years. However, recent deep learning approaches have allowed for significant improvement in this domain and have opened many potential avenues for this task. We are working to further explore music creation through the deep learning lense as well as developing methods that use artificial intelligence to assist with the creative process. Current projects include developing algorithms to assist in the creation of jazz heads (sheet music that includes a melody and the corresponding chords) and using Generative Adversarial Networks to develop different styles of drum beats."
         }
       ]
     }

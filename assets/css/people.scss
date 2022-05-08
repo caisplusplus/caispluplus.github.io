@@ -62,3 +62,44 @@
 @import 'layout/banner';
 @import 'layout/footer';
 @import 'layout/menu';
+
+.posts, .posts-advisory {
+  h3, h4, h5 {
+    margin: 0;
+    text-align: center;
+
+    a {
+      border-bottom: 1px solid;
+      color: _palette(accent);
+    }
+  }
+  h4, h5 {
+    color: _palette(fg);
+  }
+}
+
+#members {
+  a {
+    white-space: pre;
+
+    &.no-border {
+      border-bottom: 0;
+      font-size: 1.5em;
+    }
+  }
+  tr:not(:first-child) {
+    background: transparent;
+  }
+  td:nth-child(2), td:nth-child(3) {
+    width: min-content;
+  }
+  td:nth-child(4) {
+    width: 99%;
+  }
+
+  @include breakpoint('<=medium') {
+    td:nth-child(2), td:nth-child(3), td:nth-child(5) {
+      display: none;
+    }
+  }
+}

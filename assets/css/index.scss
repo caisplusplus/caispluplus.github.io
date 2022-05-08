@@ -1,11 +1,18 @@
 ---
 ---
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+@import 'fontawesome-all';
 body {
-    background: black;
+    background: _palette(bg);
 
     #banner {
         .content {
-            background-image: linear-gradient(0, black, transparent);
+            background-image: linear-gradient(0, _palette(bg), transparent);
             text-align: center;
         }
         .image {
