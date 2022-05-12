@@ -249,7 +249,11 @@
 						event.preventDefault();
 
 					// Toggle.
-						$menu_openers.not($this).removeClass('active');
+						if ($this.hasClass('curriculum-opener')) {
+							$('.curriculum-opener').not($this).removeClass('active');
+						} else {
+							$menu_openers.not($this).removeClass('active');
+						}
 						$this.toggleClass('active');
 
 					// Trigger resize (sidebar lock).

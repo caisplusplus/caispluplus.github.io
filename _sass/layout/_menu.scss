@@ -27,7 +27,7 @@
 				padding: 0.625em 0;
 
 				&:hover {
-					color: _palette(accent);
+					color: _palette(accent-light);
 				}
 
 				&.opener {
@@ -72,7 +72,7 @@
 				margin: 0.5em 0 0 0;
 				padding: 0.5em 0 0 0;
 
-				> ul {
+				ul {
 					color: _palette(fg-light);
 					display: none;
 					margin: 0.5em 0 1.5em 0;

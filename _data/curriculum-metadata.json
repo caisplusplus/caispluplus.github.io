@@ -1,0 +1,225 @@
+{
+  "ordering": [
+    {
+      "fullLessonID": "index",
+      "title": "Overview"
+    },
+    {
+      "fullLessonID": "intro",
+      "title": "Intro to AI"
+    },
+    {
+      "fullLessonID": "classical/knn",
+      "title": "k-Nearest Neighbors"
+    },
+    {
+      "fullLessonID": "classical/linear-regression",
+      "title": "Linear Regression"
+    },
+    {
+      "fullLessonID": "classical/logistic-regression",
+      "title": "Logistic Regression"
+    },
+    {
+      "fullLessonID": "classical/support-vector-machines",
+      "title": "Support Vector Machine"
+    },
+    {
+      "fullLessonID": "classical/decision-trees",
+      "title": "Decision Tree"
+    },
+    {
+      "fullLessonID": "classical/naive-bayes",
+      "title": "Naive Bayes"
+    },
+    {
+      "fullLessonID": "neural-networks/architecture",
+      "title": "Neural Network Architecture"
+    },
+    {
+      "fullLessonID": "neural-networks/training",
+      "title": "Neural Network Training"
+    },
+    {
+      "fullLessonID": "neural-networks/optimization",
+      "title": "Neural Network Optimization"
+    },
+    {
+      "fullLessonID": "neural-network-flavors/convolutional-neural-networks",
+      "title": "Convolutional Neural Networks"
+    },
+    {
+      "fullLessonID": "neural-network-flavors/recurrent-neural-networks",
+      "title": "Recurrent Neural Networks"
+    },
+    {
+      "fullLessonID": "neural-network-flavors/generative-adversarial-networks",
+      "title": "Generative Adversarial Networks"
+    },
+    {
+      "fullLessonID": "reinforcement-learning",
+      "title": "Reinforcement Learning"
+    },
+    {
+      "fullLessonID": "special-topics",
+      "title": "Special Topics"
+    },
+    {
+      "fullLessonID": "reading-list",
+      "title": "Reading List"
+    }
+  ],
+  "categories": {
+    "classical": {
+      "knn": "Part 1: k-Nearest Neighbors",
+      "linear-regression": "Part 2: Linear Regression",
+      "logistic-regression": "Part 3: Logistic Regression",
+      "support-vector-machines": "Part 4: Support Vector Machines",
+      "decision-trees": "Part 5: Decision Trees",
+      "naive-bayes": "Part 6: Naive Bayes"
+    },
+    "neural-networks": {
+      "architecture": "Part 1: Architecture",
+      "training": "Part 2: Training",
+      "optimization": "Part 3: Optimization"
+    },
+    "neural-network-flavors": {
+      "convolutional-neural-networks": "Part 1: Convolutional Neural Networks",
+      "recurrent-neural-networks": "Part 2: Recurrent Neural Networks",
+      "generative-adversarial-networks": "Part 3: Generative Adversarial Networks"
+    }
+  },
+  "sources": {
+    "intro": [
+      "http://www.wired.co.uk/article/machine-learning-ai-explained",
+      "https://code.facebook.com/posts/384869298519962/artificial-intelligence-revealed/",
+      "https://hbr.org/2016/11/what-artificial-intelligence-can-and-cant-do-right-now",
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/",
+      "http://www.cs.fsu.edu/~cop4601p/final/",
+      "https://www.youtube.com/watch?v=X_3Ke5zVqo4"
+    ],
+    "classical/knn": [
+      "https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm",
+      "https://medium.com/@adi.bronshtein/a-quick-introduction-to-k-nearest-neighbors-algorithm-62214cea29c7",
+      "https://en.wikipedia.org/wiki/Hamming_distance",
+      "https://en.wikipedia.org/wiki/Euclidean_distance",
+      "https://www.desmos.com/"
+    ],
+    "classical/linear-regression": [
+      "https://www.coursera.org/learn/machine-learning",
+      "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
+    ],
+    "classical/naive-bayes": [
+      "https://en.wikipedia.org/wiki/Bayes%27_theorem'>wikipedia.org/BayesTheorem",
+      "http://www.ee.columbia.edu/~vittorio/Lecture5.pdf",
+      "https://en.wikipedia.org/wiki/Additive_smoothing",
+      "https://web.stanford.edu/class/cs124/lec/naivebayes.pdf",
+      "https://monkeylearn.com/blog/practical-explanation-naive-bayes-classifier/"
+    ],
+    "neural-networks/architecture": [
+      "http://neuralnetworksanddeeplearning.com",
+      "https://hagan.okstate.edu/NNDesign.pdf",
+      "https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618",
+      "https://cs231n.github.io/",
+      "https://jamesmccaffrey.wordpress.com/2013/11/05/why-you-should-use-cross-entropy-error-instead-of-classification-error-or-mean-squared-error-for-neural-network-classifier-training/"
+    ],
+    "neural-networks/training": [
+      "http://neuralnetworksanddeeplearning.com",
+      "http://hagan.okstate.edu/NNDesign.pdf",
+      "https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618",
+      "http://cs231n.github.io/",
+      "https://jamesmccaffrey.wordpress.com/2013/11/05/why-you-should-use-cross-entropy-error-instead-of-classification-error-or-mean-squared-error-for-neural-network-classifier-training/"
+    ],
+    "neural-networks/optimization": [
+      "http://neuralnetworksanddeeplearning.com",
+      "http://hagan.okstate.edu/NNDesign.pdf",
+      "https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618",
+      "http://cs231n.github.io/",
+      "https://jamesmccaffrey.wordpress.com/2013/11/05/why-you-should-use-cross-entropy-error-instead-of-classification-error-or-mean-squared-error-for-neural-network-classifier-training/"
+    ],
+    "neural-network-flavors/convolutional-neural-networks": [
+      "https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618",
+      "http://cs231n.stanford.edu/",
+      "https://paperswithcode.com/sota/image-classification-on-imagenet"
+    ],
+    "neural-network-flavors/recurrent-neural-networks": [
+      "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+      "https://www.youtube.com/watch?v=iX5V1WpxxkY",
+      "http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/"
+    ],
+    "neural-network-flavors/generative-adversarial-networks": [
+      "https://hackernoon.com/generative-adversarial-networks-a-deep-learning-architecture-4253b6d12347",
+      "https://danieltakeshi.github.io/2017/03/05/understanding-generative-adversarial-networks/",
+      "https://www.youtube.com/watch?v=Sw9r8CL98N0",
+      "http://caisplusplus.usc.edu/curriculum",
+      "http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf",
+      "https://skymind.ai/wiki/generative-adversarial-network-gan",
+      "https://arxiv.org/abs/1511.06434",
+      "https://hardikbansal.github.io/CycleGANBlog/",
+      "https://arxiv.org/abs/1703.10593",
+      "https://arxiv.org/abs/1611.07004",
+      "https://arxiv.org/pdf/1605.05396.pdf",
+      "https://www.youtube.com/watch?v=5WoItGTWV54"
+    ]
+  },
+  "qna": {
+    "intro": [
+      {
+        "question": "Which statement is true regarding machine learning and deep learning?",
+        "answers": {
+          "A": "Machine learning is newer than deep learning",
+          "B": "Machine learning is one example of deep learning",
+          "C": "Deep learning is based on artificial neural networks, but machine learning is not necessarily",
+          "D": "Deep learning models do not require training, but machine learning models do"
+        },
+        "correct": "C",
+        "reasoning": "Deep learning is one technique for implementing machine learning. It uses <code>artificial neural networks</code>, no need to worry about how these work right now. We will cover it in future lessons."
+      }, {
+        "question": "Which is most likely <strong>NOT</strong> an example of artificial intelligence?",
+        "answers": {
+          "A": "Your weather app says there is an 80% chance of rain",
+          "B": "A tea kettle turns off when the water reaches 100 degrees Celsius",
+          "C": "Netflix recommends a movie you’ve never seen before",
+          "D": "You scroll through Facebook and see an interesting ad"
+        },
+        "correct": "B",
+        "reasoning": "The tea kettle turns off because it is explicitly programmed to once the thermometer reads 100 degrees Celsius. In all other choices a prediction is made based on data."
+      }, {
+        "question": "All of the following are common misconceptions about artificial intelligence, <strong>except</strong>…",
+        "answers": {
+          "A": "Artificial intelligence systems are a major threat to civilization because they cannot be contained",
+          "B": "Artificial intelligence is the study of giving computers consciousness",
+          "C": "Artificial intelligence systems analyze old data to make predictions about new data",
+          "D": "Artificial intelligence is always more effective than traditional programming"
+        },
+        "correct": "C",
+        "reasoning": "At a high level, artificial intelligence is about getting computers to make very educated guesses based on example data."
+      }
+    ],
+    "classical/knn": [
+      {
+        "question": "k-NN uses...",
+        "answers": {
+          "A": "Supervised Learning",
+          "B": "Unsupervised Learning",
+          "C": "Reinforcement Learning",
+          "D": "Deep Learning"
+        },
+        "correct": "A",
+        "reasoning": "Training a k-NN model requires labeled training data. During testing, the model’s prediction is compared to the actual (labeled) answer."
+      },
+      {
+        "question": "You have just trained a k-NN model on a dataset. Rather than using separate data for the testing phase, you decide to just re-use some of the training data. What will be the optimal value of k?",
+        "answers": {
+          "A": "All values of k yield the same model accuracy",
+          "B": "K = the number of classifications used",
+          "C": "K = N",
+          "D": "K = 1"
+        },
+        "correct": "D",
+        "reasoning": "Choosing k = 1 guarantees 100% accuracy. Every data point you test will fall directly on top of another point from the training set, namely the point itself. Picking a larger k no longer guarantees the testing point will receive the same classification as its copy from the training set, since nearby points will be considered as well."
+      }
+    ]
+  }
+}

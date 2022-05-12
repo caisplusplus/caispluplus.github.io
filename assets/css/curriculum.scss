@@ -1,0 +1,185 @@
+---
+---
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+@import 'fontawesome-all';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700');
+
+@include breakpoints((
+        xlarge:   ( 1281px,  1680px ),
+        large:    ( 981px,   1280px ),
+        medium:   ( 737px,   980px  ),
+        small:    ( 481px,   736px  ),
+        xsmall:   ( 361px,   480px  ),
+        xxsmall:  ( null,    360px  ),
+        xlarge-to-max:    '(min-width: 1681px)',
+        small-to-xlarge:  '(min-width: 481px) and (max-width: 1680px)'
+));
+
+.tabContainer {
+  display: flex;
+  justify-content: start;
+  gap: 1em;
+  flex-wrap: wrap;
+
+  .active {
+    background-color: _palette(accent);
+    color: _palette(fg-bold) !important;
+  }
+}
+
+hr {
+  border-top: solid 2px rgba(210,215,217,0.75);
+  height: 0;
+}
+#main .inner {
+  h2 {
+    border-bottom: solid 3px #b00606;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+    text-transform: uppercase;
+  }
+}
+
+#topics, #topics-next {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+
+  article {
+    border: 1px solid _palette(border);
+    border-radius: 0.2em;
+    padding: 2em;
+    flex: 2 0;
+
+    &:first-child {
+      flex: 1 0 100%;
+    }
+
+    a {
+      display: block;
+      border: 0;
+      padding-left: 0.1em;
+      color: #e08938;
+      white-space: pre;
+
+      i {
+        font-size: 0.8em;
+      }
+      span {
+        margin-left: 0.5em;
+
+        font-size: 1.2em;
+        font-weight: bold;
+        line-height: 1.4em;
+      }
+
+      &:first-child {
+        margin-bottom: 1em;
+        color: lighten(_palette(accent-light), 15);
+        &:hover {
+          color: lighten(_palette(accent-light), 5) !important;
+        }
+      }
+      &:hover {
+        color: #e3730b !important;
+      }
+    }
+  }
+
+  @include breakpoint('<=small') {
+    article {
+      width: 100%;
+
+      p {
+        max-width: 70%;
+      }
+    }
+  }
+}
+
+strong {
+  font-weight: bold;
+  color: _palette(accent-light);
+}
+
+mjx-container.MathJax {
+  pointer-events: none;
+  color: _palette(fg-bold);
+}
+
+img, iframe {
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+  border-radius: 0.5em;
+
+  @include breakpoint('<=small') {
+    & {
+      max-width: 100%;
+    }
+  }
+}
+label {
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+  width: max-content;
+  max-width: 100%;
+
+  font-style: italic;
+  white-space: pre-wrap;
+}
+
+ol li {
+  margin-bottom: 2em;
+
+  &::marker {
+    font-weight: bold;
+    color: _palette(fg-bold);
+  }
+}
+
+#sources {
+  ol li {
+    margin: 0;
+  }
+  ol {
+    counter-reset: list;
+
+    li {
+      margin: 0;
+      list-style: none;
+
+      position: relative;
+      right: 0.5em;
+
+      &::before {
+        content: "[" counter(list, number) "] ";
+        counter-increment: list;
+        color: _palette(fg-bold);
+
+        position: relative;
+        right: 0.5em;
+      }
+    }
+  }
+}
+
+.pageNav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
+
+  @include breakpoint('<=small') {
+    a {
+      width: 100%;
+    }
+  }
+}

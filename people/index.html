@@ -32,22 +32,22 @@ scripts:
       <h4>Co-President</h4>
     </article>
     <article>
-      <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
+      <a class="image"><img src="/images/people/executive/maciej.jpg" alt="" /></a>
       <h3>{{"maciej kilian" | upcase}}</h3>
       <h4>VP of Projects</h4>
     </article>
     <article>
-      <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
+      <a class="image"><img src="/images/people/executive/karina.jpg" alt="" /></a>
       <h3>{{"karina yang" | upcase}}</h3>
       <h4>VP of Curriculum</h4>
     </article>
     <article>
-      <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
+      <a class="image"><img src="/images/people/executive/leslie.jpg" alt="" /></a>
       <h3>{{"leslie moreno" | upcase}}</h3>
       <h4>VP of Fellowship</h4>
     </article>
     <article>
-      <a class="image"><img src="/images/pic01.jpg" alt="" /></a>
+      <a class="image"><img src="/images/people/executive/leo.jpg" alt="" /></a>
       <h3>{{"leo zhuang" | upcase}}</h3>
       <h4>VP of Operations</h4>
     </article>
@@ -59,21 +59,8 @@ scripts:
   <header class="major">
     <h2>{{"current members" | upcase }}</h2>
   </header>
-  <table id="members">
-    <tr>
-      <td><h3>Name</h3></td>
-      <td><h3>Cohort</h3></td>
-      <td><h3>CAIS++ Leadership</h3></td>
-      <td><h3>CAIS++ Projects</h3></td>
-      <td><h3>Links</h3></td>
-    </tr>
-    {% for row in site.data.roster %}
-    {% assign valid_status = "E-Board,Active,Inactive" | split: "," %}
-    {% if valid_status contains row["Membership Status"] %}
-    {% include member-row.html %}
-    {% endif %}
-    {% endfor %}
-  </table>
+  {% assign valid_status = "E-Board,Active,Inactive" | split: "," %}
+  {% include people-table.html %}
 </section>
 
 <!-- Section -->

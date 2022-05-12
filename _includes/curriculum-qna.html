@@ -1,0 +1,39 @@
+{% if page.categories[0] %}
+{% capture fullLessonID %}{{ page.categories[0] | downcase }}/{{ page.lessonID }}{% endcapture %}
+{% else %}
+{% assign fullLessonID = page.lessonID %}
+{% endif %}
+
+{% if site.data.curriculum-metadata.qna contains fullLessonID %}
+<hr>
+<h2>Review Questions</h2>
+<ol>
+  {% for question in site.data.curriculum-metadata.qna[fullLessonID] %}
+  <li>
+    <h3>{{ question.question }}</h3>
+    {% for answer in question.answers %}
+    {{ answer[0] }}) {{ answer[1] }}<br>
+    {% endfor %}
+  </li>
+  {% endfor %}
+</ol>
+
+<hr>
+<h2>Answers</h2>
+<ol>
+  {% for question in site.data.curriculum-metadata.qna[fullLessonID] %}
+  <li>
+    <h3>{{ question.question }}</h3>
+    {% for answer in question.answers %}
+    {% if answer[0] == question.correct %}
+    <strong>{{ answer[0] }}) {{ answer[1] }}</strong><br>
+    {% else %}
+    {{ answer[0] }}) {{ answer[1] }}<br>
+    {% endif %}
+    {% endfor %}
+    <br>
+    <strong>{{ question.reasoning }}</strong>
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}

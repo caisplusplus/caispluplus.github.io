@@ -1,73 +1,64 @@
 ---
-layout: default
-title: CAIS++
+layout: curriculum-page
+title: Curriculum | CAIS++
 stylesheets:
 - /assets/css/curriculum.css
-scripts:
+lessonTitle: Deep Learning Demystified
+lessonID: index
 ---
-<!-- Banner -->
-<section id="banner">
-    <div class="content">
-        <header>
-            <h1>{{ "curriculum" | upcase }}</h1>
-        </header>
-        <h4>{{"ai topics" | upcase}}</h4>
-    </div>
+<!-- Section -->
+<section>
+    <header class="major">
+        <h2>{{"motivation" | upcase }}</h2>
+    </header>
+
+    Recent developments in <code>deep learning</code> have made once again made AI the "next big thing" in the tech community. Unfortunately, deep learning is also one area of AI that is perhaps among the most misunderstood by the media and general public alike. We feel that it is important to demystify deep learning as much as possible so that more people are educated about what it can and can't do, and how it can be used for good.
+    <br><br>
+    Each fall, we guide a cohort of members through our deep learning curriculum, complete with in-person workshops. Members will then have a chance to implement this content by working on a variety of team projects in the spring.
+    <br><br>
+    All of our curriculum resources (slide presentations, IPython notebooks, etc.) are publicly available for viewing in our <a href="https://github.com/usc-caisplusplus/curriculum" target="_blank">Github</a>. We recommend downloading and working through the incomplete notebooks from each lesson locally. You can then compare your work to the completed notebooks. We have also uploaded our full lectures onto our <a href="https://www.youtube.com/channel/UCZdRTEPOw33eZ1elmTsF_wg" target="_blank">YouTube channel</a>. We hope that these materials will serve as helpful resources for anyone wanting to learn more about deep learning and artificial intelligence.
+    <br><br>
+    (Note that deep learning/machine learning is only one part of the much larger field of artificial intelligence. If you are interested, we recommend you look into other topics in AI as well!)
+
 </section>
 
 <!-- Section -->
 <section>
     <header class="major">
-        <h2>{{"using artificial intelligence to benefit society at large" | upcase }}</h2>
+        <h2>{{"overview of topics" | upcase }}</h2>
     </header>
-    <div class="posts">
+    <div id="topics">
         <article>
-            <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-            <h3>Interdum aenean</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
+            <a href="/curriculum/intro"><i class="fas fa-external-link-alt"></i> <span>Lesson 1: Introduction to AI</span></a>
+            <p>AI is going to bring major shifts in society through developments in self-driving cars, medical image analysis, better medical diagnosis, and personalized medicine. But for many, it still remains a mystery.</p>
         </article>
         <article>
-            <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-            <h3>Nulla amet dolore</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
+            <a href="/curriculum/classical"><i class="fas fa-external-link-alt"></i> <span>Lesson 2: Classical Machine Learning</span></a>
+            <p>A brief overview of the most influential approaches to machine learning.</p>
+            <h3>Sections</h3>
+            {% for part in site.data.curriculum-metadata.categories.classical %}
+            <a href={{ "/curriculum/classical/lessonID" | replace: "lessonID", part[0] }} target="_blank">{{ part[1]}}</a>
+            {% endfor %}
         </article>
         <article>
-            <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-            <h3>Tempus ullamcorper</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
+            <a href="/curriculum/neural-networks"><i class="fas fa-external-link-alt"></i> <span>Lesson 3: Neural Networks</span></a>
+            <p>This lesson discusses much of the surface level theory that goes into a neural network. From this theory, you should gain a good understanding of how basic neural networks work, which will then allow you to work on actual implementations.</p>
+            <h3>Sections</h3>
+            {% for part in site.data.curriculum-metadata.categories.neural-networks %}
+            <a href={{ "/curriculum/neural-networks/lessonID" | replace: "lessonID", part[0] }} target="_blank">{{ part[1]}}</a>
+            {% endfor %}
         </article>
         <article>
-            <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-            <h3>Sed etiam facilis</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
+            <a href="/curriculum/neural-network-flavors"><i class="fas fa-external-link-alt"></i> <span>Lesson 4: Neural Network Flavors</span></a>
+            <p>There are many advantages to varying the design of neural network architecture to suit a task's nature. In this lesson, we discuss common approaches to working with image and time-series data.</p>
+            <h3>Sections</h3>
+            {% for part in site.data.curriculum-metadata.categories.neural-network-flavors %}
+            <a href={{ "/curriculum/neural-network-flavors/lessonID" | replace: "lessonID", part[0] }} target="_blank">{{ part[1]}}</a>
+            {% endfor %}
         </article>
         <article>
-            <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-            <h3>Feugiat lorem aenean</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article>
-        <article>
-            <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-            <h3>Amet varius aliquam</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
+            <a href="/curriculum/reinforcement-learning"><i class="fas fa-external-link-alt"></i> <span>Lesson 5: Reinforcement Learning</span></a>
+            <p>How would you design a system that is able to automatically make decisions on its own and maximize expected reward? This lesson discusses reinforcement learning, another branch of machine learning commonly used to learn optimal robotic policies.</p>
         </article>
     </div>
 </section>
@@ -75,36 +66,16 @@ scripts:
 <!-- Section -->
 <section>
     <header class="major">
-        <h2> {{"what we do" | upcase }}</h2>
+        <h2>{{"next steps" | upcase }}</h2>
     </header>
-    <div class="features">
+    <div id="topics-next">
         <article>
-            <span class="icon fa-gem"></span>
-            <div class="content">
-                <h3>Promoting Research that Matters</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            </div>
+            <a href="/curriculum/special-topics"><i class="fas fa-external-link-alt"></i> <span>Special Topics</span></a>
+            <p>We’re compiling a list of some exciting topics within machine learning (and AI in general) that you may want to check out. Note that this is not by any means a comprehensive list of advanced topics in AI/machine learning — this is simply a list of active research areas that we think you should know about, and may hopefully serve as a valuable starting point for branching out into more specific fields.</p>
         </article>
         <article>
-            <span class="icon solid fa-paper-plane"></span>
-            <div class="content">
-                <h3>Sapien veroeros</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            </div>
-        </article>
-        <article>
-            <span class="icon solid fa-rocket"></span>
-            <div class="content">
-                <h3>Quam lorem ipsum</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            </div>
-        </article>
-        <article>
-            <span class="icon solid fa-signal"></span>
-            <div class="content">
-                <h3>Sed magna finibus</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            </div>
+            <a href="/curriculum/reading-list"><i class="fas fa-external-link-alt"></i> <span>Reading List</span></a>
+            <p>We're compiling a list of interesting and influential papers that we recommend you check out, if you're interested.</p>
         </article>
     </div>
 </section>

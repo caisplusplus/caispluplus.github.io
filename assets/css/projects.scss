@@ -32,10 +32,10 @@ article {
   display: flex;
   justify-content: flex-start;
   gap: 3em;
-  margin-bottom: 2em;
+  padding-top: 2em;
 
   .content {
-    width: 50%;
+    width: 55%;
 
     span {
       white-space: pre;
@@ -45,13 +45,14 @@ article {
       }
     }
   }
-  a.image {
-    width: 30%;
+  .image {
+    width: 25%;
     height: 200px;
 
     img {
       width: 100%;
       height: 100%;
+      object-fit: contain;
     }
   }
 
@@ -59,9 +60,9 @@ article {
     & {
       flex-direction: column;
 
-      a.image {
-        width: 70%;
-        height: auto;
+      .image {
+        width: 200px;
+        height: 200px;
       }
 
       .content {

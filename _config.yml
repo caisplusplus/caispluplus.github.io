@@ -2,3 +2,4 @@ sass:
   style: compressed
 plugins:
   - jekyll-redirect-from
+permalink: /curriculum/:categories/:title

@@ -1,0 +1,17 @@
+{% if page.categories[0] %}
+{% capture fullLessonID %}{{ page.categories[0] | downcase }}/{{ page.lessonID }}{% endcapture %}
+{% else %}
+{% assign fullLessonID = page.lessonID %}
+{% endif %}
+
+{% if site.data.curriculum-metadata.sources contains fullLessonID %}
+<hr>
+<h2>References</h2>
+<div id="sources">
+    <ol>
+        {% for source in site.data.curriculum-metadata.sources[fullLessonID] %}
+        <li><a href={{ source}} target="_blank">{{ source }}</a></li>
+        {% endfor %}
+    </ol>
+</div>
+{% endif %}

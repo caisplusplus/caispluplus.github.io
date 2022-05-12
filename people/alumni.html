@@ -1,0 +1,36 @@
+---
+layout: default
+title: Alumni | CAIS++
+stylesheets:
+- /assets/css/people.css
+scripts:
+---
+<!-- Banner -->
+<section id="banner">
+  <div class="content">
+    <header>
+      <h1>{{ "alumni of cais++" | upcase }}</h1>
+    </header>
+    <h4>{{"graduates of the organization" | upcase}}</h4>
+  </div>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>{{"founding board" | upcase }}</h2>
+  </header>
+  <article>
+    <a id="founders" class="image"><img src="/images/people/founding/founders_serious.jpg"/></a>
+    <h5>Pictured (left to right): Michael Tawata, Lucas Hu, Andrew Szot, Raghav Maheshwari, Jacob Dormuth, Apurva Gandhi, Lauren Potterat, Felipe Mansilla</h5>
+  </article>
+</section>
+
+<!-- Section -->
+<section>
+  <header class="major">
+    <h2>{{"alumni" | upcase }}</h2>
+  </header>
+  {% assign valid_status = "Advisor-Active,Advisor-Newsletter,Advisor-Inactive,Alumni-Active,Alumni-Newsletter,Alumni-Inactive" | split: "," %}
+  {% include people-table.html %}
+</section>

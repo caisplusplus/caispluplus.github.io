@@ -1,0 +1,55 @@
+---
+layout: default
+title: Curriculum | CAIS++
+stylesheets:
+- /assets/css/curriculum.css
+scripts:
+- /assets/js/mathjax.js
+lessonTitle: Deep Learning Demystified
+---
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+        <header>
+            <h3><a href="/curriculum">{{ "Curriculum" | upcase }}</a></h3>
+            <h1>{{ page.lessonTitle | upcase }}</h1>
+        </header>
+        <div class="tabContainer">
+            {% assign category = page.categories[0] | replace: downcase %}
+            {% for lesson in site.data.curriculum-metadata.categories[category] %}
+            {% assign permalink = "/curriculum/category/lessonID" | replace: "category", category | replace: "lessonID", lesson[0] %}
+            <a href={{ permalink }} {% if page.lessonID == lesson[0] %} class="button active" {% else %} class="button" {% endif %}>{{ lesson[1] }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{{ content }}
+{% include curriculum-qna.html %}
+{% include curriculum-sources.html %}
+
+{% if page.categories[0] %}
+{% capture fullLessonID %}{{ page.categories[0] | downcase }}/{{ page.lessonID }}{% endcapture %}
+{% else %}
+{% assign fullLessonID = page.lessonID %}
+{% endif %}
+
+{% for pageMeta in site.data.curriculum-metadata.ordering %}
+{% if pageMeta.fullLessonID == fullLessonID %}
+<section class="pageNav">
+    {% capture previousLink %}/curriculum/{{ site.data.curriculum-metadata.ordering[previous].fullLessonID }}{% endcapture %}
+    <a href={{ previousLink }} class="button"
+       {% if forloop.first %}
+       style="visibility: hidden;"
+       {% endif %}
+    ><i class="fas fa-angle-left"></i> {{ site.data.curriculum-metadata.ordering[previous].title }}</a>
+    {% capture nextLink %}/curriculum/{{ site.data.curriculum-metadata.ordering[forloop.index].fullLessonID }}{% endcapture %}
+    <a href={{ nextLink }} class="button"
+       {% if forloop.last %}
+       style="visibility: hidden;"
+       {% endif %}
+    >{{ site.data.curriculum-metadata.ordering[forloop.index].title }} <i class="fas fa-angle-right"></i></a>
+</section>
+{% endif %}
+{% assign previous = forloop.index0 %}
+{% endfor %}

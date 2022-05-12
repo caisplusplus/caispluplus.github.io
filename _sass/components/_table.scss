@@ -13,16 +13,19 @@
 
 	table {
 		margin: 0 0 _size(element-margin) 0;
+		border-radius: 0.5em;
+
 		width: 100%;
+		overflow: hidden;
 
 		tbody {
 			tr {
-				border: solid 1px _palette(border);
+				background-color: transparentize(lighten(_palette(bg-alt), 5), 0.5);
 				border-left: 0;
 				border-right: 0;
 
 				&:nth-child(2n + 1) {
-					background-color: _palette(border-bg);
+					background-color: transparentize(lighten(_palette(bg-alt), 10), 0.5);
 				}
 			}
 		}
@@ -40,7 +43,12 @@
 		}
 
 		thead {
-			border-bottom: solid 2px _palette(border);
+			background-color: transparentize(lighten(_palette(bg-alt), 5), 0.5);
+			border-bottom: 2px solid _palette(border-bg);
+
+			th {
+				padding-top: 1em;
+			}
 		}
 
 		tfoot {

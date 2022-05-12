@@ -40,9 +40,8 @@ body {
         }
     }
     table {
-        tr:not(:first-child) {
-            background: transparent;
-            border: none;
+        thead, tr {
+            background: transparent !important;
         }
         td {
             width: 33%;

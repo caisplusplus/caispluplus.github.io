@@ -14,6 +14,10 @@
     {% for stylesheet in page.stylesheets %}
     <link rel="stylesheet" href={{ stylesheet }}/>
     {% endfor %}
+    {% for script in page.headScripts %}
+    <script src={{ script }}></script>
+    {% endfor %}
+    </script>
   </head>
   <body class="is-preload">
     <!-- Wrapper -->

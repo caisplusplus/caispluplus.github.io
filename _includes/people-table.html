@@ -1,0 +1,65 @@
+<table id="members">
+  <thead>
+    <tr>
+      <th><h5>{{ "name" | upcase }}</h5></th>
+      <th><h5>{{ "cohort" | upcase}}</h5></th>
+      <th><h5>{{ "contact" | upcase}}</h5></th>
+      <th><h5>{{ "leadership" | upcase }}</h5></th>
+      <th><h5>{{ "cais++ projects" | upcase }}</h5></th>
+    </tr>
+  </thead>
+  {% assign roster = site.data.roster | sort: "Name" %}
+  {% for row in roster %}
+  {% if valid_status contains row["Membership Status"] %}
+  <tr>
+    {% assign name = row["Name"] | split: " " %}
+    <td>
+      <h5><span style="white-space: pre;">{{ name.first }} {{ name.last }}</span></h5>
+    </td>
+    <td><h5>{{ row["Cohort"] }}</h5></td>
+    <td>
+      {% if row["LinkedIn"] %}
+      <h5><a href={{ row["LinkedIn"] }} target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></h5>
+      {% endif %}
+      {% if row["Github"] %}
+      <h5><a href={{ row["Github"] }} target="_blank"><i class="fab fa-github"></i> Github</a></h5>
+      {% endif %}
+    </td>
+    <td>
+      {% assign statusAdvisor = "E-Board,Advisor-Active,Advisor-Newsletter,Advisor-Inactive" | split: "," %}
+      {% if statusAdvisor contains row["Membership Status"] %}
+      <code style="background-color: rgba(255,154,3,0.7); border-color: rgba(255,154,3,0.8);">E-Board</code>
+      {% endif %}
+      {% assign terms = row["Project Lead Terms"] | split: "," %}
+      {% for term in terms %}
+      <code style="background-color: rgba(238,23,92,0.5); border-color: rgba(238,23,92,0.7);">{{ term | strip }} Project Lead</code>
+      {% endfor %}
+      {% assign terms = row["Curriculum Lead Terms"] | split: "," %}
+      {% for term in terms %}
+      <code style="background-color: rgba(171,30,168,0.5); border-color: rgba(171,30,168,0.7);">{{ term | strip }} Curriculum Lead</code>
+      {% endfor %}
+    </td>
+    <td>
+      <!-- Replace Updated Projects-->
+      {% assign projects = row["Projects"] | replace: " ", "" %}
+      {% assign projects = projects | split: "," %}
+      {% assign projectsUnique = '' | split: '' %}
+      {% for project in projects %}
+      {% unless projects contains site.data.project-metadata[project].updated %}
+      {% assign projectsUnique = projectsUnique | push: project %}
+      {% endunless %}
+      {% endfor %}
+
+      <!-- Create Projects -->
+      <h5 class="project-link">
+      {% for project in projectsUnique %}
+      {% if site.data.project-metadata contains project %}
+        <a href={{ site.data.project-metadata[project].link }}><i class="fas fa-link"></i>  {{ site.data.project-metadata[project].displayName | upcase }}</a>{% unless forloop.last %}<span class="comma">{{",&nbsp;"}}</span><br>{% endunless %}
+      {% endif %}
+      {% endfor %}
+      </h5>
+    </td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+</table>

@@ -78,23 +78,60 @@
   }
 }
 
-#members {
-  a {
-    white-space: pre;
+#founders {
+  width: 100%;
 
-    &.no-border {
-      border-bottom: 0;
-      font-size: 1.5em;
+  img {
+    width: 100%;
+  }
+
+  &:hover {
+    img {
+      transform: none;
+    }
+
+    &::after {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+
+      content: '';
+      background-image: url(/images/people/founding/founders_funny.jpg);
+      background-size: cover;
     }
   }
-  tr:not(:first-child) {
-    background: transparent;
+}
+
+#members {
+  tr {
+    font-size: small;
+
+    h5 {
+      margin: 0;
+
+      color: _palette(fg) !important;
+    }
   }
-  td:nth-child(2), td:nth-child(3) {
+  td, th {
     width: min-content;
+
+    &:first-child {
+      padding-left: 2em;
+    }
+    &:last-child {
+      width: 99%;
+    }
   }
-  td:nth-child(4) {
-    width: 99%;
+
+  a {
+    white-space: pre;
+  }
+  .project-link {
+    color: _palette(accent-light);
+    .comma {
+      color: _palette(fg);
+    }
   }
 
   @include breakpoint('<=medium') {

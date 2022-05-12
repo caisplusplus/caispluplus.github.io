@@ -64,7 +64,7 @@
 
 			article {
 				margin: 0 0 $gutter $gutter;
-				width: calc(50% - #{$gutter});
+				width: calc(33% - #{$gutter});
 
 				&:nth-last-child(3) {
 					margin-bottom: $gutter;
@@ -73,14 +73,14 @@
 		}
 
 		@include breakpoint('<=xsmall') {
-			$gutter: _size(gutter) * 1.5;
+			$gutter: _size(gutter) * 1.2;
 
-			margin: 0 0 _size(element-margin) 0;
-			width: 100%;
+			margin: 0 0 _size(element-margin) ($gutter * -1);
+			width: calc(100% + #{$gutter});
 
 			article {
-				margin: 0 0 $gutter 0;
-				width: 100%;
+				margin: 0 0 $gutter $gutter;
+				width: calc(50% - #{$gutter});
 
 				&:last-child {
 					margin-bottom: 0;
@@ -121,7 +121,7 @@
 		@include breakpoint('<=xsmall') {
 			$gutter: _size(gutter) * 1.5;
 			article {
-				width: 100%;
+				width: calc(50% - #{$gutter});
 			}
 		}
 	}
