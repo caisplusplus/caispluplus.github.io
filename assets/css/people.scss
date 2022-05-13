@@ -135,7 +135,8 @@
   }
 
   @include breakpoint('<=medium') {
-    td:nth-child(2), td:nth-child(3), td:nth-child(5) {
+    th:nth-child(2), th:nth-child(3), th:nth-child(4), th:nth-child(5):not(:last-child),
+    td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5):not(:last-child) {
       display: none;
     }
   }
