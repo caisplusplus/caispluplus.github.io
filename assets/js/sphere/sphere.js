@@ -212,6 +212,9 @@ function initSphere() {
 
 $(document).ready(function() {
     initSphere();
+    setTimeout(function () {
+        document.querySelector('#blob canvas').style.visibility = 'visible';
+    }, 100);
 });
 
 $( window ).resize(function() {

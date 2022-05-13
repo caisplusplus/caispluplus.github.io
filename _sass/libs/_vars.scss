@@ -30,7 +30,20 @@
 		weight-heading-alt:	400,
 		kerning-heading:	0.075em
 	);
+// Palette.
+//$palette: (
+//				bg: #f5f5f5,
+//				bg-alt: #191919,
+//				fg: rgb(57, 57, 57),
+//				fg-bold: rgb(25, 25, 25),
+//				fg-light: #9fa3a6,
+//				border:	rgba(210,215,217,0.75),
+//				border-bg: transparentize(#e6ebed, 0.75),
+//				accent: #b02430,
+//				accent-light: #c62c3a
+//);
 
+// Previous Dark Mode
 // Palette.
 	$palette: (
 		bg: #090909,
@@ -40,6 +53,6 @@
 		fg-light:			#9fa3a6,
 		border:				rgba(210,215,217,0.75),
 		border-bg:			transparentize(#e6ebed, 0.75),
-		accent: #b00606,
-		accent-light: #f60e0e
+		accent: #d21b2a,
+		accent-light: #cf2333
 	);

@@ -7,16 +7,23 @@
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
 @import 'fontawesome-all';
+
 body {
     background: _palette(bg);
 
     #banner {
         .content {
-            background-image: linear-gradient(0, _palette(bg), transparent);
+            background-image: linear-gradient(0, transparentize(_palette(bg), 0.2), transparent);
             text-align: center;
+
+            position: relative;
+            z-index: 10;
         }
         .image {
             margin: auto;
+        }
+        p {
+            font-weight: bold;
         }
     }
     ul {

@@ -6,6 +6,9 @@
       <th><h5>{{ "contact" | upcase}}</h5></th>
       <th><h5>{{ "leadership" | upcase }}</h5></th>
       <th><h5>{{ "cais++ projects" | upcase }}</h5></th>
+      {% if page.show-outcomes %}
+      <th><h5>{{ "outcome after graduation" | upcase }}</h5></th>
+      {% endif %}
     </tr>
   </thead>
   {% assign roster = site.data.roster | sort: "Name" %}
@@ -45,7 +48,7 @@
       {% assign projects = projects | split: "," %}
       {% assign projectsUnique = '' | split: '' %}
       {% for project in projects %}
-      {% unless projects contains site.data.project-metadata[project].updated %}
+      {% unless projects contains site.data.people-project-metadata[project].updated %}
       {% assign projectsUnique = projectsUnique | push: project %}
       {% endunless %}
       {% endfor %}
@@ -53,12 +56,15 @@
       <!-- Create Projects -->
       <h5 class="project-link">
       {% for project in projectsUnique %}
-      {% if site.data.project-metadata contains project %}
-        <a href={{ site.data.project-metadata[project].link }}><i class="fas fa-link"></i>  {{ site.data.project-metadata[project].displayName | upcase }}</a>{% unless forloop.last %}<span class="comma">{{",&nbsp;"}}</span><br>{% endunless %}
+      {% if site.data.people-project-metadata contains project %}
+        <a href={{ site.data.people-project-metadata[project].link }}><i class="fas fa-link"></i>  {{ site.data.people-project-metadata[project].displayName | upcase }}</a>{% unless forloop.last %}<span class="comma">{{",&nbsp;"}}</span><br>{% endunless %}
       {% endif %}
       {% endfor %}
       </h5>
     </td>
+    {% if page.show-outcomes %}
+    <td><h5>{{ row["Outcome after Graduation"] }}</h5></td>
+    {% endif %}
   </tr>
   {% endif %}
   {% endfor %}

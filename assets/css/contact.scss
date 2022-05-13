@@ -1,0 +1,134 @@
+---
+---
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+@import 'fontawesome-all';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700');
+
+@include breakpoints((
+        xlarge:   ( 1281px,  1680px ),
+        large:    ( 981px,   1280px ),
+        medium:   ( 737px,   980px  ),
+        small:    ( 481px,   736px  ),
+        xsmall:   ( 361px,   480px  ),
+        xxsmall:  ( null,    360px  ),
+        xlarge-to-max:    '(min-width: 1681px)',
+        small-to-xlarge:  '(min-width: 481px) and (max-width: 1680px)'
+));
+
+#audience {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+
+  article {
+    border: 1px solid _palette(border);
+    border-radius: 0.2em;
+    padding: 2em;
+    flex: 2 0;
+
+    &:first-child {
+      flex: 1 0 100%;
+    }
+
+    > a:first-child {
+      display: block;
+      border: 0;
+      padding-left: 0.1em;
+      white-space: pre;
+      margin-bottom: 1em;
+      color: lighten(_palette(accent-light), 15);
+
+      i {
+        font-size: 0.8em;
+      }
+      span {
+        margin-left: 0.5em;
+
+        font-size: 1.2em;
+        font-weight: bold;
+        line-height: 1.4em;
+      }
+
+      &:hover {
+        color: lighten(_palette(accent-light), 5) !important;
+      }
+    }
+  }
+
+  @include breakpoint('<=small') {
+    article {
+      width: 100%;
+
+      p {
+        max-width: 80%;
+      }
+    }
+  }
+}
+
+#faq {
+  p {
+    padding-left: 2em;
+  }
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  justify-content: space-between;
+
+  article {
+    width: 30%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  @include breakpoint('<=small') {
+    & {
+      flex-direction: column;
+      align-items: center;
+
+      article {
+        width: 80%;
+      }
+    }
+  }
+}
+
+#sponsor-button {
+  display: block;
+  margin: auto;
+  width: max-content;
+  font-size: large;
+}
+
+#sponsor-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2em;
+
+  img {
+    max-width: 20%;
+    object-fit: contain;
+  }
+
+  @include breakpoint('<=small') {
+    img {
+      max-width: 30%;
+    }
+  }
+}
+
+strong {
+  font-weight: bold;
+  color: _palette(accent-light);
+}

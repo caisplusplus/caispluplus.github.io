@@ -11,4 +11,44 @@ This website was built using `Jekyll` and `Liquid` and is hosted by `Github Page
 
 ---
 ## Contributing
-Please mind the current layout conventions and styles when adding to the website. 
+Please mind the current layout conventions and styles when adding to the website.
+Please see the information on updating pages below. If you have any questions
+about contribution, please message [Allen Chang](https://www.linkedin.com/in/cylumn/).
+
+### 1. Projects
+Each projects page will be under [projects/](/projects). The most recent page
+should have the following redirect in their front matter:
+```angular2html
+redirect_from:
+- /projects
+```
+Be sure to replace this from the current "most recent" project to ensure 
+the correct redirects.
+
+Project pages are generated from data are stored in [_data/projects.json](/_data/projects.json) and use the layout
+[_layouts/project-page](/_layouts/project-page.html). You can view this layout to make any
+updates necessary. 
+
+[_data/people-project-metadata.json](/_data/people-project-metadata.json) contains metadata
+to link projects from the "People" page to the "Project" page and should not be used
+to generate project information.
+
+### 2. People
+The generated table in the people pages comes from uses 
+[_includes/people-table.html](/_includes/people-table.html) and the data from 
+[_data/roster.csv](/_data/roster.csv). **Do not** edit `roster.csv` directly.
+This roster is generated from our `Official Roster` in our Google Drive. To generate
+an updated `roster.csv`, please update the `Official Roster` and then follow the following
+steps:
+* Download the first sheet as a .csv file.
+* Remove the first row (this row just contains additional information about each column)
+* Replace `roster.csv` with the new .csv file.
+
+The headers in the CSV file should be correct now. If any errors come from generating
+the table, double check that the expected headers in [_includes/people-table.html](/_includes/people-table.html)
+match the ones in the CSV.
+
+### 3. Curriculum
+The curriculum posts are located in [_blogs/](/_blogs) under a Liquid Blog post format.
+Ordering, subsections, sources, and q&a of the curriculum lessons is 
+contained within [_data/curriculum-metadata.json](/_data/curriculum-metadata.json).

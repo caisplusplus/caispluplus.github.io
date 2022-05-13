@@ -4,6 +4,7 @@ title: Alumni | CAIS++
 stylesheets:
 - /assets/css/people.css
 scripts:
+show-outcomes: true
 ---
 <!-- Banner -->
 <section id="banner">
@@ -33,4 +34,10 @@ scripts:
   </header>
   {% assign valid_status = "Advisor-Active,Advisor-Newsletter,Advisor-Inactive,Alumni-Active,Alumni-Newsletter,Alumni-Inactive" | split: "," %}
   {% include people-table.html %}
+  <br>
+  <i>
+    Don't see yourself? You may have forgotten to <a href="https://forms.gle/6NX5BKiM31CX2G8Z8" target="_blank">re-affiliate with us</a>.
+    <br>
+    If you have any concerns with the content of your information, please check out our <a href="/contact/#faq">frequently asked questions</a>.
+  </i>
 </section>
