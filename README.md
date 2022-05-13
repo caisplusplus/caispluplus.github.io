@@ -49,6 +49,6 @@ the table, double check that the expected headers in [_includes/people-table.htm
 match the ones in the CSV.
 
 ### 3. Curriculum
-The curriculum posts are located in [_blogs/](/_blogs) under a Liquid Blog post format.
+The curriculum posts are located in [_posts/](/_posts) under a Liquid Blog post format.
 Ordering, subsections, sources, and q&a of the curriculum lessons is 
 contained within [_data/curriculum-metadata.json](/_data/curriculum-metadata.json).
