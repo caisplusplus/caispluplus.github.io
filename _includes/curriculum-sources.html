@@ -10,7 +10,7 @@
 <div id="sources">
     <ol>
         {% for source in site.data.curriculum-metadata.sources[fullLessonID] %}
-        <li><a href={{ source}} target="_blank">{{ source }}</a></li>
+        <li><a href="{{ source}}" target="_blank">{{ source }}</a></li>
         {% endfor %}
     </ol>
 </div>

@@ -53,16 +53,16 @@ scripts:
       <p>{{ project.description }}</p>
       <ul class="actions">
         {% if project.paper %}
-        <li><a href={{project.paper}} target="_blank" class="button">Paper</a></li>
+        <li><a href="{{project.paper}}" target="_blank" class="button">Paper</a></li>
         {% endif %}
         {% if project.slides %}
-        <li><a href={{project.slides}} target="_blank" class="button">Slides</a></li>
+        <li><a href="{{project.slides}}" target="_blank" class="button">Slides</a></li>
         {% endif %}
         {% if project.github %}
-        <li><a href={{project.github}} target="_blank" class="button">Github</a></li>
+        <li><a href="{{project.github}}" target="_blank" class="button">Github</a></li>
         {% endif %}
         {% if project.media %}
-        <li><a href={{project.media}} target="_blank" class="button">Media</a></li>
+        <li><a href="{{project.media}}" target="_blank" class="button">Media</a></li>
         {% endif %}
       </ul>
     </div>
@@ -72,12 +72,12 @@ scripts:
 {% endif %}
 {% endfor %}
 <section class="pageNav">
-  <a href={{ page.previous }} class="button"
+  <a href="{{ page.previous }}" class="button"
      {% unless page.previous %}
      style="visibility: hidden;"
      {% endunless %}
   ><i class="fas fa-angle-left"></i> Previous</a>
-  <a href={{ page.next }} class="button"
+  <a href="{{ page.next }}" class="button"
      {% unless page.next %}
      style="visibility: hidden;"
      {% endunless %}

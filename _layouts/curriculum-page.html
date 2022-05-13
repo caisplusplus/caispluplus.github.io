@@ -3,8 +3,7 @@ layout: default
 title: Curriculum | CAIS++
 stylesheets:
 - /assets/css/curriculum.css
-scripts:
-- /assets/js/mathjax.js
+mathjax: true
 lessonTitle: Deep Learning Demystified
 ---
 <!-- Banner -->
@@ -18,7 +17,7 @@ lessonTitle: Deep Learning Demystified
             {% assign category = page.categories[0] | replace: downcase %}
             {% for lesson in site.data.curriculum-metadata.categories[category] %}
             {% assign permalink = "/curriculum/category/lessonID" | replace: "category", category | replace: "lessonID", lesson[0] %}
-            <a href={{ permalink }} {% if page.lessonID == lesson[0] %} class="button active" {% else %} class="button" {% endif %}>{{ lesson[1] }}</a>
+            <a href="{{ permalink }}" {% if page.lessonID == lesson[0] %} class="button active" {% else %} class="button" {% endif %}>{{ lesson[1] }}</a>
             {% endfor %}
         </div>
     </div>
@@ -38,13 +37,13 @@ lessonTitle: Deep Learning Demystified
 {% if pageMeta.fullLessonID == fullLessonID %}
 <section class="pageNav">
     {% capture previousLink %}/curriculum/{{ site.data.curriculum-metadata.ordering[previous].fullLessonID }}{% endcapture %}
-    <a href={{ previousLink }} class="button"
+    <a href="{{ previousLink }}" class="button"
        {% if forloop.first %}
        style="visibility: hidden;"
        {% endif %}
     ><i class="fas fa-angle-left"></i> {{ site.data.curriculum-metadata.ordering[previous].title }}</a>
     {% capture nextLink %}/curriculum/{{ site.data.curriculum-metadata.ordering[forloop.index].fullLessonID }}{% endcapture %}
-    <a href={{ nextLink }} class="button"
+    <a href="{{ nextLink }}" class="button"
        {% if forloop.last %}
        style="visibility: hidden;"
        {% endif %}

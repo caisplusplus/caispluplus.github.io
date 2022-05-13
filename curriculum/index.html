@@ -37,7 +37,7 @@ lessonID: index
             <p>A brief overview of the most influential approaches to machine learning.</p>
             <h3>Sections</h3>
             {% for part in site.data.curriculum-metadata.categories.classical %}
-            <a href={{ "/curriculum/classical/lessonID" | replace: "lessonID", part[0] }} target="_blank">{{ part[1]}}</a>
+            <a href="{{ "/curriculum/classical/lessonID" | replace: "lessonID", part[0] }}" target="_blank">{{ part[1]}}</a>
             {% endfor %}
         </article>
         <article>
@@ -45,7 +45,7 @@ lessonID: index
             <p>This lesson discusses much of the surface level theory that goes into a neural network. From this theory, you should gain a good understanding of how basic neural networks work, which will then allow you to work on actual implementations.</p>
             <h3>Sections</h3>
             {% for part in site.data.curriculum-metadata.categories.neural-networks %}
-            <a href={{ "/curriculum/neural-networks/lessonID" | replace: "lessonID", part[0] }} target="_blank">{{ part[1]}}</a>
+            <a href="{{ "/curriculum/neural-networks/lessonID" | replace: "lessonID", part[0] }}" target="_blank">{{ part[1]}}</a>
             {% endfor %}
         </article>
         <article>
@@ -53,7 +53,7 @@ lessonID: index
             <p>There are many advantages to varying the design of neural network architecture to suit a task's nature. In this lesson, we discuss common approaches to working with image and time-series data.</p>
             <h3>Sections</h3>
             {% for part in site.data.curriculum-metadata.categories.neural-network-flavors %}
-            <a href={{ "/curriculum/neural-network-flavors/lessonID" | replace: "lessonID", part[0] }} target="_blank">{{ part[1]}}</a>
+            <a href="{{ "/curriculum/neural-network-flavors/lessonID" | replace: "lessonID", part[0] }}" target="_blank">{{ part[1]}}</a>
             {% endfor %}
         </article>
         <article>

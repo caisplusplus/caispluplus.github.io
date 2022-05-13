@@ -22,10 +22,10 @@
     <td><h5>{{ row["Cohort"] }}</h5></td>
     <td>
       {% if row["LinkedIn"] %}
-      <h5><a href={{ row["LinkedIn"] }} target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></h5>
+      <h5><a href="{{ row["LinkedIn"] }}" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></h5>
       {% endif %}
       {% if row["Github"] %}
-      <h5><a href={{ row["Github"] }} target="_blank"><i class="fab fa-github"></i> Github</a></h5>
+      <h5><a href="{{ row["Github"] }}" target="_blank"><i class="fab fa-github"></i> Github</a></h5>
       {% endif %}
     </td>
     <td>
@@ -57,7 +57,7 @@
       <h5 class="project-link">
       {% for project in projectsUnique %}
       {% if site.data.people-project-metadata contains project %}
-        <a href={{ site.data.people-project-metadata[project].link }}><i class="fas fa-link"></i>  {{ site.data.people-project-metadata[project].displayName | upcase }}</a>{% unless forloop.last %}<span class="comma">{{",&nbsp;"}}</span><br>{% endunless %}
+        <a href="{{ site.data.people-project-metadata[project].link }}"><i class="fas fa-link"></i>  {{ site.data.people-project-metadata[project].displayName | upcase }}</a>{% unless forloop.last %}<span class="comma">{{",&nbsp;"}}</span><br>{% endunless %}
       {% endif %}
       {% endfor %}
       </h5>

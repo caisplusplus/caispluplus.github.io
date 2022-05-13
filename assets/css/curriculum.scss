@@ -110,8 +110,8 @@ strong {
 }
 
 mjx-container.MathJax {
-  pointer-events: none;
   color: _palette(fg-bold);
+  overflow-x: scroll;
 }
 
 img, iframe {
@@ -147,6 +147,9 @@ ol li {
 }
 
 #sources {
+  a {
+    word-break: break-all;
+  }
   ol li {
     margin: 0;
   }
