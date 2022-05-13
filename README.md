@@ -52,3 +52,14 @@ match the ones in the CSV.
 The curriculum posts are located in [_posts/](/_posts) under a Liquid Blog post format.
 Ordering, subsections, sources, and q&a of the curriculum lessons is 
 contained within [_data/curriculum-metadata.json](/_data/curriculum-metadata.json).
+
+### 4. Links
+When adding links using `<a href="..."></a>`, please keep in mind whether we want
+the user to **stay on or return to the same page** or be **navigated away from the current page**.
+If we want the user to stay on or return to the same page, please make sure that
+the link **opens in a new tab** using `target="_blank"`. Otherwise, opening the link
+in the current tab is fine if we do not want to incentivize the user to stay on the
+current page.
+
+In general (with exceptions), external links should open on a new tab, 
+whereas internal links should open on the same tab.
