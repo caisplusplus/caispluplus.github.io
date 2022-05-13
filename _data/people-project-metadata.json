@@ -22,105 +22,105 @@
   },
   "s21_edtech": {
     "displayName": "Brazilian EdTech",
-    "link": "/projects/f20-s21/#s21_edtech"
+    "link": "/projects/f20-s21#s21_edtech"
   },
   "s21_genomics": {
     "displayName": "Viral Genomics",
-    "link": "/projects/f20-s21/#s21_genomics"
+    "link": "/projects/f20-s21#s21_genomics"
   },
   "s21_dementia": {
     "displayName": "Dementia Detection",
-    "link": "/projects/f20-s21/#s21_dementia"
+    "link": "/projects/f20-s21#s21_dementia"
   },
   "s21_wildfires": {
     "displayName": "Detecting Wildfires",
-    "link": "/projects/f20-s21/#s21_wildfires"
+    "link": "/projects/f20-s21#s21_wildfires"
   },
   "s21_oak": {
     "displayName": "Embedded Computer Vision",
-    "link": "/projects/f20-s21/#s21_oak"
+    "link": "/projects/f20-s21#s21_oak"
   },
   "f20_projectx": {
     "displayName": "ProjectX: Energy",
-    "link": "/projects/f20-s21/#f20_projectx"
+    "link": "/projects/f20-s21#f20_projectx"
   },
   "f20_genomics": {
     "displayName": "Viral Genomics",
-    "link": "/projects/f20-s21/#f20_genomics",
+    "link": "/projects/f20-s21#f20_genomics",
     "updated": "s21_genomics"
   },
   "f20_debias": {
     "displayName": "Debiasing Recruiting",
-    "link": "/projects/f20-s21/#f20_debias"
+    "link": "/projects/f20-s21#f20_debias"
   },
   "f20_k12": {
     "displayName": "K-12 Inequity",
-    "link": "/projects/f20-s21/#f20_k12"
+    "link": "/projects/f20-s21#f20_k12"
   },
   "f20_language": {
     "displayName": "Preserving Ladin",
-    "link": "/projects/f20-s21/#f20_language"
+    "link": "/projects/f20-s21#f20_language"
   },
   "s20_density": {
     "displayName": "Density",
-    "link": "/projects/f19-s20/#s20_density"
+    "link": "/projects/f19-s20#s20_density"
   },
   "s20_kawasaki": {
     "displayName": "Kawasaki Disease",
-    "link": "/projects/f19-s20/#s20_kawasaki"
+    "link": "/projects/f19-s20#s20_kawasaki"
   },
   "s20_gene": {
     "displayName": "Gene Sequence Analysis",
-    "link": "/projects/f19-s20/#s20_gene"
+    "link": "/projects/f19-s20#s20_gene"
   },
   "s20_deepfake": {
     "displayName": "Deepfake Detection",
-    "link": "/projects/f19-s20/#s20_deepfake"
+    "link": "/projects/f19-s20#s20_deepfake"
   },
   "s20_games": {
     "displayName": "Games Reinforcement Learning",
-    "link": "/projects/f19-s20/#s20_games"
+    "link": "/projects/f19-s20#s20_games"
   },
   "s20_music": {
     "displayName": "Music Generation",
-    "link": "/projects/f19-s20/#s20_music"
+    "link": "/projects/f19-s20#s20_music"
   },
   "s20_language": {
     "displayName": "Preserving Ladin",
-    "link": "/projects/f19-s20/#s20_language",
+    "link": "/projects/f19-s20#s20_language",
     "updated": "f20_language"
   },
   "s19_brain": {
     "displayName": "Brain Modeling",
-    "link": "/projects/f18-s19/#s19_brain"
+    "link": "/projects/f18-s19#s19_brain"
   },
   "f18_brain": {
     "displayName": "Brain Modeling",
-    "link": "/projects/f18-s19/#f18_brain",
+    "link": "/projects/f18-s19#f18_brain",
     "updated": "f18_brain"
   },
   "f18_deepnba": {
     "displayName": "DeepNBA",
-    "link": "/projects/f18-s19/#f18_deepnba"
+    "link": "/projects/f18-s19#f18_deepnba"
   },
   "f18_drought": {
     "displayName": "Drought Analysis",
-    "link": "/projects/f18-s19/#f18_drought"
+    "link": "/projects/f18-s19#f18_drought"
   },
   "s18_melanoma": {
     "displayName": "Melanoma",
-    "link": "/projects/s18/#s18_melanoma"
+    "link": "/projects/s18#s18_melanoma"
   },
   "s18_ndsb": {
     "displayName": "Cell Nucleus Segmentation",
-    "link": "/projects/s18/#s18_ndsb"
+    "link": "/projects/s18#s18_ndsb"
   },
   "s18_lacity": {
     "displayName": "LA Civic Spending",
-    "link": "/projects/s18/#s18_lacity"
+    "link": "/projects/s18#s18_lacity"
   },
   "s18_sports": {
     "displayName": "Sports Sentiment Analysis",
-    "link": "/projects/s18/#s18_sports"
+    "link": "/projects/s18#s18_sports"
   }
 }
