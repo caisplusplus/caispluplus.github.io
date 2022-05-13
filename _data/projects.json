@@ -232,7 +232,7 @@
           ],
           "description":  "Achievement gaps persist among K-12 students and schools across the United States, often correlated with population-level socioeconomic, demographic, and geographic characteristics of a school district, as well as school-level factors such as school funding amounts and student to teacher ratios. This research leverages ML to identify key features predictive of school performance, in order to develop data-driven community interventions at the school district level and school level to boost school academic performance. This research was advised by Professor <a href='https://viterbi.usc.edu/directory/faculty/Dilkina/Bistra' target='_blank'>Bistra Dilkina</a>, and findings are currently under preparation for publication."
         }, {
-          "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (3.0)",
+          "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (4.0)",
           "id": "f20_language",
           "image": "/images/projects/conversation.png",
           "leadAuthors": [
@@ -245,7 +245,8 @@
             "Tejas Ramdas"
           ],
           "description":  "Approximately ~60% of the world’s current 7,000 languages is predicted to go extinct by the end of the century; the death of any language represents an irreversible loss of information across multiple fields, including linguistics, psychology, sociology, and anthropology. A CAIS++ team continued their work on developing unsupervised representation learning techniques for automatically extracting and preserving the phonemes of endangered languages, through a collaboration with USC's Department of Linguistics. This team also wrote a paper from their research findings!",
-          "paper": "https://arxiv.org/pdf/2108.12531.pdf"
+          "paper": "https://arxiv.org/pdf/2108.12531.pdf",
+          "github": "https://github.com/usc-caisplusplus/proj-language-analysis"
         }
       ]
     }, {
@@ -280,7 +281,8 @@
             "Jessie Zhang",
             "Washington Zhao"
           ],
-          "description":  "Kawasaki Disease (KD) is a rare heart condition that causes inflammation and swelling in blood vessels throughout the body. Diagnosing and treating KD at an early stage is critical, because KD results in life-threatening heart problems for 1 in 5 victims, typically children under the age of 5. Our collaboration with UCSD’s Kawasaki Disease Research Center involves developing an image-based classifier for KD."
+          "description":  "Kawasaki Disease (KD) is a rare heart condition that causes inflammation and swelling in blood vessels throughout the body. Diagnosing and treating KD at an early stage is critical, because KD results in life-threatening heart problems for 1 in 5 victims, typically children under the age of 5. Our collaboration with UCSD’s Kawasaki Disease Research Center involves developing an image-based classifier for KD.",
+          "github": "https://github.com/usc-caisplusplus/proj-kawasaki-disease"
         }, {
           "title": "Gene Sequence Analysis",
           "id": "s20_gene",
@@ -341,7 +343,7 @@
           ],
           "description":  "A CAIS++ team is using ML to create a sample music generation program. When musicians produce music, they often use samples for sounds such as kicks, snares, hi-hats, or even sound effects. The character of a song can be drastically changed by the quality and uniqueness of the sample. Unfortunately, samples are expensive to buy, difficult to record or create, and take up hundreds of gigabytes of space on hard-drives to maintain. We will create a program that takes multiple samples as input and uses them as reference to generate new samples."
         }, {
-          "title": "Preserving Endangered Languages (1.0)",
+          "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (3.0)",
           "id": "s20_language",
           "image": "/images/projects/conversation.png",
           "leadAuthors": [
@@ -364,7 +366,8 @@
         {
           "title": "Homelessness Resource Allocation",
           "image": "/images/projects/builder.png",
-          "description":  "Homelessness is at a crisis level in Los Angeles, with ~53,000 persons sleeping on the streets or living in emergency shelters every night. The Los Angeles Homeless Services Authority (LAHSA) can only house ~15,000 persons each year. To address this problem, they developed a “paper and pencil” approach to housing prioritization and matching, based on people’s vulnerability scores, past housing, and history of return to homelessness. Can an ML-based approach out-perform the city’s current scoring system? In Fall 2019, a CAIS++ team worked with a de-identified dataset of homeless adults to develop ML approaches that identify predictors of housing success."
+          "description":  "Homelessness is at a crisis level in Los Angeles, with ~53,000 persons sleeping on the streets or living in emergency shelters every night. The Los Angeles Homeless Services Authority (LAHSA) can only house ~15,000 persons each year. To address this problem, they developed a “paper and pencil” approach to housing prioritization and matching, based on people’s vulnerability scores, past housing, and history of return to homelessness. Can an ML-based approach out-perform the city’s current scoring system? In Fall 2019, a CAIS++ team worked with a de-identified dataset of homeless adults to develop ML approaches that identify predictors of housing success.",
+          "github": "https://github.com/usc-caisplusplus/proj-homelessness"
         }, {
           "title": "Computer Vision for Self-Driving Cars",
           "image": "/images/projects/cars.png",
@@ -391,7 +394,8 @@
           "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (2.0)",
           "image": "/images/projects/conversation.png",
           "description": "In this project, we are trying to speed up the process of language documentation by building a model that produces phonetic transcriptions from audio samples of human languages. The ultimate goal of our project is to develop a model that could be applied to any human language with minimal changes. We will be using around 3-4 hours of partially labeled audio data in an endangered language called Ladin, which we are using as our main training/test data. As of now we have produced some decent results in vowel identifications and are currently working on phoneme segmentation and identification of larger consonant categories.",
-          "slides": "/assets/files/projects/f18_ladin.pdf"
+          "paper": "https://arxiv.org/pdf/2108.12531.pdf",
+          "github": "https://github.com/usc-caisplusplus/proj-language-analysis"
         }, {
           "title": "Natural Language Processing: AirBnB",
           "image": "/images/projects/house.png",
@@ -456,12 +460,14 @@
           "title": "Kawasaki Disease: Rare Disease Diagnosis using Machine Learning (2.0)",
           "image": "/images/projects/heartscreening.png",
           "description": "Kawasaki Disease is a rare heart disease that affects children all over the world; however, there is currently no successful diagnostic test for the disease. This means that Kawasaki Disease can often be left undiagnosed, sometimes with fatal consequences. We aim to use machine learning techniques such as SVMs, Boosted Decision Trees, and Deep Neural Networks to create a robust diagnosis algorithm that learns from its mistakes and helps save lives.",
-          "slides": "/assets/files/projects/f18_kawasaki.pdf"
+          "slides": "/assets/files/projects/f18_kawasaki.pdf",
+          "github": "https://github.com/usc-caisplusplus/proj-kawasaki-disease"
         }, {
           "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (1.0)",
           "image": "/images/projects/conversation.png",
           "description": "With hundreds of languages on the verge of extinction across the world, language documentation is becoming increasingly crucial to the survival of the world’s cultural diversity. Being one of the earliest and most important stages in documenting languages, producing phonetic transcriptions of audio samples often proves to be the bottleneck due to its time-consuming nature and limited data. By training a recurrent neural network on spoken samples of the Ladin language to segment and label individual phonemes, we aim to automate this process and produce a model that is applicable to most human languages.",
-          "slides": "/assets/files/projects/f18_ladin.pdf"
+          "slides": "/assets/files/projects/f18_ladin.pdf",
+          "github": "https://github.com/usc-caisplusplus/proj-language-analysis"
         }, {
           "title": "DeepNBA: Sports Analytics",
           "id": "f18_deepnba",
@@ -516,7 +522,8 @@
           "title": "Kawasaki Disease: Rare Disease Diagnosis using Machine Learning (1.0)",
           "image": "/images/projects/heartscreening.png",
           "description": "Kawasaki Disease is a rare heart disease that affects children all over the world; however, there is currently no successful diagnostic test for the disease. This means that Kawasaki Disease can often be left undiagnosed, sometimes with fatal consequences. We aim to use machine learning techniques such as SVMs, Boosted Decision Trees, and Deep Neural Networks to create a robust diagnosis algorithm that learns from its mistakes and helps save lives.",
-          "slides": "/assets/files/projects/f18_kawasaki.pdf"
+          "slides": "/assets/files/projects/f18_kawasaki.pdf",
+          "github": "https://github.com/usc-caisplusplus/proj-kawasaki-disease"
         }, {
           "title": "LA City Budget: Understanding Civic Spending",
           "id": "s18_lacity",

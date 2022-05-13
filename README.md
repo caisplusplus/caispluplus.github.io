@@ -33,6 +33,11 @@ updates necessary.
 to link projects from the "People" page to the "Project" page and should not be used
 to generate project information.
 
+#### Adding New Projects Checklist:
+- [ ] Add project to [_data/projects.json](/_data/projects.json)
+- [ ] Add contributors to `Official Roster`
+- [ ] Add project to [_data/people-project-metadata.json](/_data/people-project-metadata.json)
+
 ### 2. People
 The generated table in the people pages comes from uses 
 [_includes/people-table.html](/_includes/people-table.html) and the data from 
