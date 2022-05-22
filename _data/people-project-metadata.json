@@ -90,6 +90,10 @@
     "link": "/projects/f19-s20#s20_language",
     "updated": "f20_language"
   },
+  "s19_fairness": {
+    "displayName": "Machine Learning Fairness",
+    "link": "/projects/f18-s19#s19_fairness"
+  },
   "s19_brain": {
     "displayName": "Brain Modeling",
     "link": "/projects/f18-s19#s19_brain"

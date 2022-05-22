@@ -384,7 +384,15 @@
       "projects": [
         {
           "title": "Machine Learning Fairness",
+          "id": "s19_fairness",
           "image": "/images/projects/equity.png",
+          "leadAuthors": "Tyler Labonte",
+          "authors": [
+            "Samantha Tripp",
+            "Christopher Fucci",
+            "Jenny Lee",
+            "Sarah Zhang"
+          ],
           "description": "In 2017, Google came under fire for YouTube’s machine learning algorithms incorrectly flagging LGBTQ content as “inappropriate”. This led to an explosion of research in machine learning fairness in pursuit of their goal of “AI for Everyone”. In this project, we will first dissect the concept of fairness in a mathematical sense via reading and discussing several recent papers on the topic. Then, we will use Google Colab resources to explore applications of ML fairness and discuss results. Finally, we will read Zhang et al.’s “Mitigating Unwanted Biases with Adversarial Learning” and build our own adversarial GAN to explore the implications of such “debiasing” techniques."
         }, {
           "title": "Music and the Brain",
