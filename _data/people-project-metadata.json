@@ -98,6 +98,14 @@
     "displayName": "Brain Modeling",
     "link": "/projects/f18-s19#s19_brain"
   },
+  "s19_finance": {
+    "displayName": "Finance RL",
+    "link": "/projects/f18-s19#s19_finance"
+  },
+  "s19_musicgen": {
+    "displayName": "AI Music Tech",
+    "link": "/projects/f18-s19#s19_musicgen"
+  },
   "f18_brain": {
     "displayName": "Brain Modeling",
     "link": "/projects/f18-s19#f18_brain",

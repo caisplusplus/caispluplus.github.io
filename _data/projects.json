@@ -230,7 +230,7 @@
             "Nicole Ng",
             "Jae Shim"
           ],
-          "description":  "Achievement gaps persist among K-12 students and schools across the United States, often correlated with population-level socioeconomic, demographic, and geographic characteristics of a school district, as well as school-level factors such as school funding amounts and student to teacher ratios. This research leverages ML to identify key features predictive of school performance, in order to develop data-driven community interventions at the school district level and school level to boost school academic performance. This research was advised by Professor <a href='https://viterbi.usc.edu/directory/faculty/Dilkina/Bistra' target='_blank'>Bistra Dilkina</a>, and findings are currently under preparation for publication."
+          "description":  "Achievement gaps persist among K-12 students and schools across the United States, often correlated with population-level socioeconomic, demographic, and geographic characteristics of a school district, as well as school-level factors such as school funding amounts and student to teacher ratios. This research leverages ML to identify key features predictive of school performance, in order to develop data-driven community interventions at the school district level and school level to boost school academic performance. This research was advised by Professor <a href='https://viterbi.usc.edu/directory/faculty/Dilkina/Bistra' target='_blank'>Bistra Dilkina</a>."
         }, {
           "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (4.0)",
           "id": "f20_language",
@@ -245,8 +245,7 @@
             "Tejas Ramdas"
           ],
           "description":  "Approximately ~60% of the world’s current 7,000 languages is predicted to go extinct by the end of the century; the death of any language represents an irreversible loss of information across multiple fields, including linguistics, psychology, sociology, and anthropology. A CAIS++ team continued their work on developing unsupervised representation learning techniques for automatically extracting and preserving the phonemes of endangered languages, through a collaboration with USC's Department of Linguistics. This team also wrote a paper from their research findings!",
-          "paper": "https://arxiv.org/pdf/2108.12531.pdf",
-          "github": "https://github.com/usc-caisplusplus/proj-language-analysis"
+          "paper": "https://arxiv.org/pdf/2108.12531.pdf"
         }
       ]
     }, {
@@ -314,7 +313,7 @@
           ],
           "description":  "Deepfakes are a rising threat to various social and political aspects of our society, given their potential to spread misinformation in the media. A CAIS++ team is participating in the Deepfake Detection Challenge, along with research groups around the country, to develop deep models that can help detect deepfake videos and manipulated media."
         }, {
-          "title": "Games Reinforcement Learning",
+          "title": "ConnectX Reinforcement Learning",
           "id": "s20_games",
           "image": "/images/projects/games.png",
           "leadAuthors": [
@@ -327,7 +326,8 @@
             "Nathan Huh",
             "Lily Perry"
           ],
-          "description":  "A CAIS++ team is exploring and implementing different reinforcement learning (RL) algorithms in the context of games, from basic RL approaches such as Q-learning to more complex deep reinforcement learning approaches."
+          "description":  "A CAIS++ team is exploring and implementing different reinforcement learning (RL) algorithms in the context of games, from basic RL approaches such as Q-learning to more complex deep reinforcement learning approaches.",
+          "media": "https://www.kaggle.com/competitions/connectx/overview"
         }, {
           "title": "Music Generation",
           "id": "s20_music",
@@ -386,7 +386,9 @@
           "title": "Machine Learning Fairness",
           "id": "s19_fairness",
           "image": "/images/projects/equity.png",
-          "leadAuthors": "Tyler Labonte",
+          "leadAuthors": [
+            "Tyler Labonte"
+          ],
           "authors": [
             "Samantha Tripp",
             "Christopher Fucci",
@@ -400,10 +402,19 @@
           "description": "This project comes from the Brain and Creativity Institute and is lead by PhD student Matthew Sachs. His goal is to predict brain activations based on the emotions of a song. Matt collects data by placing each subject in an fMRI scanner and playing them a song, where he records voxel activations in the brain. He also has each subject manually rate how they are feeling on a numerical scale. Matt's focus is on mapping from these behavioral ratings to brain data. However, the scope of this research project is a little broader; anything that helps us better understand the relationship between brain activity and emotional response is fair game. To that end, we have some freedom regarding what we decide to do with the data. We can try mapping from ratings to brain data just like Matt, we can map from acoustic song data to brain data, we can use both as input, or take a different approach entirely. The significance of being able to predict brain data based on some stimuli has wide implications for social good; Matt gave one example of a related project that maps between brain data and reading rates in children. Understanding this connection may allow us to engineer solutions that improve the lives of others, say, by improving how children are taught to read."
         }, {
           "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (2.0)",
+          "id": "s19_language",
           "image": "/images/projects/conversation.png",
+          "leadAuthors": [
+            "Zane Durante",
+            "Leena Mathur"
+          ],
+          "authors": [
+            "Eric Ye",
+            "Jack Zhao",
+            "Tejas Ramdas"
+          ],
           "description": "In this project, we are trying to speed up the process of language documentation by building a model that produces phonetic transcriptions from audio samples of human languages. The ultimate goal of our project is to develop a model that could be applied to any human language with minimal changes. We will be using around 3-4 hours of partially labeled audio data in an endangered language called Ladin, which we are using as our main training/test data. As of now we have produced some decent results in vowel identifications and are currently working on phoneme segmentation and identification of larger consonant categories.",
-          "paper": "https://arxiv.org/pdf/2108.12531.pdf",
-          "github": "https://github.com/usc-caisplusplus/proj-language-analysis"
+          "paper": "https://arxiv.org/pdf/2108.12531.pdf"
         }, {
           "title": "Natural Language Processing: AirBnB",
           "image": "/images/projects/house.png",
@@ -415,7 +426,8 @@
         }, {
           "title": "Word Detector",
           "image": "/images/projects/magnifyingglass.png",
-          "description": "Given a particular word (for example, “Botánica”) can we generate a synthetic training dataset, train a detector, then apply the detector to find all instances of signage that says “Botánica”? This has the potential to be more robust to obstructions (for example, trees that cover part of the signage) than lexicon-free detection. This connection may allow us to engineer solutions that improve the lives of others, say, by improving how children are taught to read."
+          "description": "Given a particular word (for example, “Botánica”) can we generate a synthetic training dataset, train a detector, then apply the detector to find all instances of signage that says “Botánica”? This has the potential to be more robust to obstructions (for example, trees that cover part of the signage) than lexicon-free detection. This connection may allow us to engineer solutions that improve the lives of others, say, by improving how children are taught to read.",
+          "github": "https://github.com/usc-caisplusplus/proj-language-analysis"
         }, {
           "title": "The Brain Sees, the Brain Hears (2.0)",
           "id": "s19_brain",
@@ -428,8 +440,12 @@
           "description": "We’re trying to build a neural network that uses CNNs and auto encoders to process audio and visual input together, much like the human brain does. As humans, we process sensory input in a continuous way, instead of discretely, and we want to replicate that with machine learning."
         }, {
           "title": "Reinforcement Learning in Finance",
+          "id": "s19_finance",
           "image": "/images/projects/finance.png",
-          "description": "The stock market is one of the most competitive arenas in the world. In this project we're testing some cutting-edge reinforcement learning algorithms by building an automated trading bot."
+          "description": "The stock market is one of the most competitive arenas in the world. In this project we're testing some cutting-edge reinforcement learning algorithms by building an automated trading bot.",
+          "leadAuthors": [
+            "Grant Stenger"
+          ]
         }, {
           "title": "Your Tongue is a Worm",
           "image": "/images/projects/worm.png",
@@ -440,8 +456,12 @@
           "description": "An integral step to learning how to code is being able to decipher the meaning of a code block. In this project we aim to use pairs of python questions from StackOverflow and code from their accepted answers to try and build a model that will generate an English description given a block of code. This project will begin by building the data set by writing a crawler to grab the code/description pairs from StackOverflow. We will then utilize NLP and GANs/VAEs to decompose code into a latent space, transfer between the code and description latent spaces, and then recompose the description from the latent space. The intended outcome of this project is to roll out a tool to allow beginners to understand what their code is doing, potentially as a website. As with any non-vetted data set, this project is an experiment and may fail. However, it will teach valuable skills across the ML project life cycle, from data gathering to writing testing suites to building the actual models."
         }, {
           "title": "AI Assisted Music Technology",
+          "id": "s19_musicgen",
           "image": "/images/projects/music.png",
-          "description": "The goal of this project is to develop algorithms that can assist with various tasks in music production and musical analysis. Specifically, we are currently talking with researchers at Carnegie Mellon University about obtaining a labeled soundscapes dataset that includes descriptive tags. We will then develop an algorithm that can automatically tag and group soundscapes. We are also currently talking to Mom & Pop Records about a potential collaboration; more info will come soon on this front, but it will involve developing ways to assist A & R tasks. Other projects will include finding ways to analyse and organize sample libraries to help producers search and find samples more efficiently, recognizing when specific sounds occur in a music file in order to assist with music visualizations, and developing a method to “upsample” sounds to bring high fidelity to low fidelity sounds. Lastly, any ideas and projects will be welcomed as well. Music makes everyone happy, so the social good implications of this project are exorbitant."
+          "description": "The goal of this project is to develop algorithms that can assist with various tasks in music production and musical analysis. Specifically, we are currently talking with researchers at Carnegie Mellon University about obtaining a labeled soundscapes dataset that includes descriptive tags. We will then develop an algorithm that can automatically tag and group soundscapes. We are also currently talking to Mom & Pop Records about a potential collaboration; more info will come soon on this front, but it will involve developing ways to assist A & R tasks. Other projects will include finding ways to analyse and organize sample libraries to help producers search and find samples more efficiently, recognizing when specific sounds occur in a music file in order to assist with music visualizations, and developing a method to “upsample” sounds to bring high fidelity to low fidelity sounds. Lastly, any ideas and projects will be welcomed as well. Music makes everyone happy, so the social good implications of this project are exorbitant.",
+          "leadAuthors": [
+            "Jacob Dormuth"
+          ]
         }
       ]
     }, {
@@ -472,10 +492,19 @@
           "github": "https://github.com/usc-caisplusplus/proj-kawasaki-disease"
         }, {
           "title": "The Ladin Language: Preserving Endangered Languages through Phoneme Recognition (1.0)",
+          "id": "f18_language",
           "image": "/images/projects/conversation.png",
+          "leadAuthors": [
+            "Zane Durante",
+            "Leena Mathur"
+          ],
+          "authors": [
+            "Eric Ye",
+            "Jack Zhao",
+            "Tejas Ramdas"
+          ],
           "description": "With hundreds of languages on the verge of extinction across the world, language documentation is becoming increasingly crucial to the survival of the world’s cultural diversity. Being one of the earliest and most important stages in documenting languages, producing phonetic transcriptions of audio samples often proves to be the bottleneck due to its time-consuming nature and limited data. By training a recurrent neural network on spoken samples of the Ladin language to segment and label individual phonemes, we aim to automate this process and produce a model that is applicable to most human languages.",
-          "slides": "/assets/files/projects/f18_ladin.pdf",
-          "github": "https://github.com/usc-caisplusplus/proj-language-analysis"
+          "slides": "/assets/files/projects/f18_ladin.pdf"
         }, {
           "title": "DeepNBA: Sports Analytics",
           "id": "f18_deepnba",
