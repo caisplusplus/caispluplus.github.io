@@ -53,6 +53,10 @@
       "title": "Recurrent Neural Networks"
     },
     {
+      "fullLessonID": "neural-network-flavors/transformers",
+      "title": "Attention & Transformers"
+    },
+    {
       "fullLessonID": "neural-network-flavors/generative-adversarial-networks",
       "title": "Generative Adversarial Networks"
     },
@@ -86,7 +90,8 @@
     "neural-network-flavors": {
       "convolutional-neural-networks": "Part 1: Convolutional Neural Networks",
       "recurrent-neural-networks": "Part 2: Recurrent Neural Networks",
-      "generative-adversarial-networks": "Part 3: Generative Adversarial Networks"
+      "transformers": "Part 3: Attention & Transformers",
+      "generative-adversarial-networks": "Part 4: Generative Adversarial Networks"
     }
   },
   "sources": {
@@ -147,6 +152,12 @@
       "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
       "https://www.youtube.com/watch?v=iX5V1WpxxkY",
       "http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/"
+    ],
+    "neural-network-flavors/transformers": [
+      "https://en.wikipedia.org/wiki/Attention_(machine_learning)",
+      "https://towardsdatascience.com/attn-illustrated-attention-5ec4ad276ee3",
+      "https://towardsdatascience.com/attention-is-all-you-need-discovering-the-transformer-paper-73e5ff5e0634",
+      "https://www.youtube.com/watch?v=4Bdc55j80l8"
     ],
     "neural-network-flavors/generative-adversarial-networks": [
       "https://hackernoon.com/generative-adversarial-networks-a-deep-learning-architecture-4253b6d12347",
