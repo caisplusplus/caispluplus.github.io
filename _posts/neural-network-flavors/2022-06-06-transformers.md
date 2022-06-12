@@ -211,13 +211,13 @@ We make many passes over the decoder: each pass enables the decoder to predict o
 
 $$
 \begin{align}
-& \text{Encoder Input: Elle est jolie <eos>}\\
+& \text{Encoder Input: Elle est jolie <eos>}\rightarrow \text{\{context\}}\\
 \\
 & \text{Decoder}\\
-& \text{Step 0 Input: <bos>} \rightarrow \text{She}\\
-& \text{Step 1 Input: <bos> She}\rightarrow \text{is}\\
-& \text{Step 2 Input: <bos> She is}\rightarrow \text{pretty}\\
-& \text{Step 3 Input: <bos> She is pretty}\rightarrow \text{<eos>}\\
+& \text{Step 0 Input: <bos> + \{context\}} \rightarrow \text{She}\\
+& \text{Step 1 Input: <bos> She + \{context\}}\rightarrow \text{is}\\
+& \text{Step 2 Input: <bos> She is + \{context\}}\rightarrow \text{pretty}\\
+& \text{Step 3 Input: <bos> She is pretty + \{context\}}\rightarrow \text{<eos>}\\
 \end{align}
 $$
 
