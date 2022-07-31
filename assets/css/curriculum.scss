@@ -111,7 +111,8 @@ strong {
 
 mjx-container.MathJax {
   color: _palette(fg-bold);
-  overflow-x: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 img, iframe {
@@ -132,7 +133,7 @@ label {
   white-space: pre-wrap;
 }
 
-ol li {
+ol.qna li {
   margin-bottom: 2em;
 
   &::marker {

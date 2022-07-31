@@ -7,7 +7,7 @@
 {% if site.data.curriculum-metadata.qna contains fullLessonID %}
 <hr>
 <h2>Review Questions</h2>
-<ol>
+<ol class="qna">
   {% for question in site.data.curriculum-metadata.qna[fullLessonID] %}
   <li>
     <h3>{{ question.question }}</h3>
@@ -20,7 +20,7 @@
 
 <hr>
 <h2>Answers</h2>
-<ol>
+<ol class="qna">
   {% for question in site.data.curriculum-metadata.qna[fullLessonID] %}
   <li>
     <h3>{{ question.question }}</h3>

@@ -7,8 +7,9 @@ headScripts:
 mathjax: true
 
 title: Reinforcement Learning | CAIS++
-lessonTitle: Reinforcement Learning
+lessonTitle: Special Topics
 lessonID: reinforcement-learning
+categories: special-topics
 ---
 ***
 ## This page is still under development

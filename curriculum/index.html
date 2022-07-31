@@ -56,10 +56,6 @@ lessonID: index
             <a href="{{ "/curriculum/neural-network-flavors/lessonID" | replace: "lessonID", part[0] }}" target="_blank">{{ part[1]}}</a>
             {% endfor %}
         </article>
-        <article>
-            <a href="/curriculum/reinforcement-learning"><i class="fas fa-external-link-alt"></i> <span>Lesson 5: Reinforcement Learning</span></a>
-            <p>How would you design a system that is able to automatically make decisions on its own and maximize expected reward? This lesson discusses reinforcement learning, another branch of machine learning commonly used to learn optimal robotic policies.</p>
-        </article>
     </div>
 </section>
 
@@ -72,6 +68,10 @@ lessonID: index
         <article>
             <a href="/curriculum/special-topics"><i class="fas fa-external-link-alt"></i> <span>Special Topics</span></a>
             <p>We’re compiling a list of some exciting topics within machine learning (and AI in general) that you may want to check out. Note that this is not by any means a comprehensive list of advanced topics in AI/machine learning — this is simply a list of active research areas that we think you should know about, and may hopefully serve as a valuable starting point for branching out into more specific fields.</p>
+            <h3>Sections</h3>
+            {% for part in site.data.curriculum-metadata.categories.special-topics %}
+            <a href="{{ "/curriculum/special-topics/lessonID" | replace: "lessonID", part[0] }}" target="_blank">{{ part[1]}}</a>
+            {% endfor %}
         </article>
         <article>
             <a href="/curriculum/reading-list"><i class="fas fa-external-link-alt"></i> <span>Reading List</span></a>

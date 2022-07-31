@@ -61,12 +61,12 @@
       "title": "Generative Adversarial Networks"
     },
     {
-      "fullLessonID": "reinforcement-learning",
-      "title": "Reinforcement Learning"
+      "fullLessonID": "special-topics/transfer-learning",
+      "title": "Transfer Learning"
     },
     {
-      "fullLessonID": "special-topics",
-      "title": "Special Topics"
+      "fullLessonID": "special-topics/reinforcement-learning",
+      "title": "Reinforcement Learning"
     },
     {
       "fullLessonID": "reading-list",
@@ -92,6 +92,10 @@
       "recurrent-neural-networks": "Part 2: Recurrent Neural Networks",
       "transformers": "Part 3: Attention & Transformers",
       "generative-adversarial-networks": "Part 4: Generative Adversarial Networks"
+    },
+    "special-topics": {
+      "transfer-learning": "Part 1: Transfer Learning",
+      "reinforcement-learning": "Part 2: Reinforcement Learning"
     }
   },
   "sources": {
@@ -172,6 +176,14 @@
       "https://arxiv.org/abs/1611.07004",
       "https://arxiv.org/pdf/1605.05396.pdf",
       "https://www.youtube.com/watch?v=5WoItGTWV54"
+    ],
+    "special-topics/transfer-learning": [
+      "https://arxiv.org/abs/1911.02685",
+      "https://machinelearningmastery.com/transfer-learning-for-deep-learning",
+      "https://www.statology.org/marginal-distribution/",
+      "https://en.wikipedia.org/wiki/Transfer_learning",
+      "https://www.aaai.org/ocs/index.php/AAAI/AAAI11/paper/viewFile/3671/4073",
+      "https://arxiv.org/abs/1811.09751"
     ]
   },
   "qna": {
