@@ -1,11 +1,69 @@
 {
   "projects":[
     {
+      "term":"Fall 2022",
+      "pageID": "f22-s23",
+      "projects": [
+        {
+          "title": "Robust Automatic Speech Recognition for Vision-Language Navigation",
+          "id": "f22_asr",
+          "image": "/images/projects/music.png",
+          "leadAuthors": [
+            "Allen Chang",
+            "Jordan Cahoon"
+          ],
+          "authors": [
+            "Leo Zhuang"
+          ],
+          "description": "In Vision Language Navigation (VLN) tasks, an embodied agent must navigate a 3D environment by utilizing both natural language instruction given from an oracle and visual observation of the surroundings. Due to the difficulty of the task, VLN agents are trained under the assumption that the oracle will always offer standard instructions. For text-based instructions, this means commands contain zero content errors and are written in impeccable grammar. Adding speech into the mix introduces another layer of complexity. Since speech input widely varies between oracles, VLN agents can struggle with decoding meaning from this form of instruction. This makes training a VLN agent on speech particularly challenging. Yet in VLN, the agent has access to visual observations from the environment, which can aid in determining plausible meaning during moments of ambiguous instruction. Our solution is to expand this intuition and develop a robust Automatic Speech Recognition (ASR) model that will utilize visual context to recover semantic meaning from corrupted commands. Ultimately, our project aims to make VLN agents more robust to non-standard speech instruction."
+        },
+        {
+          "title": "Culver City Transit",
+          "id": "f22_transit",
+          "image": "/images/projects/city.png",
+          "leadAuthors": [
+            "Spencer Davis"
+          ],
+          "description": "Los Angeles is one of the least walkable cities in the country, a fact made true by its historic urban sprawl, high reliance on car-dependent infrastructure, and its infamous traffic patterns, among other things. While individual neighborhoods of Los Angeles may boast a high walkability score, such as West Hollywood, navigating the city at large can take up most of an afternoon depending on one’s method of transportation. This project focuses on improving the efficiency of certain public transportation routes, with a preliminary focus on the Culver City Bus System. This project will attempt to develop a machine learning model that maximizes ridership levels, minimizes traffic time, and makes the system in question more commutable as a whole. Specifically, this project asks a fundamental question: can we design a machine learning-centered approach to improve the efficiency of certain bus routes given ridership data and traffic patterns?"
+        },
+        {
+          "title": "ProjectX: Interaction",
+          "id": "f22_projectx",
+          "image": "/images/projects/conversation.png",
+          "description": "ProjectX is the world’s largest undergraduate machine learning research competition with competing teams from top universities across the world. The winning team from each of the three subtopic focuses will be awarded a cash prize of CAD $25,000, and all participants will be invited to attend the annual UofT AI Conference in January 2023 where the ProjectX award ceremony will take place. Last year we had ~800 participants and our keynote speaker was Geoffrey Hinton."
+        },
+        {
+          "title": "Computer Vision for Quality Assurance",
+          "id": "f22_cv4qa",
+          "image": "/images/projects/fpga.png",
+          "authors": [
+            "Jaiv Doshi",
+            "Lorena Yan"
+          ],
+          "description": "We are applying computer vision to quality assurance for computer chip manufacturing."
+        },
+        {
+          "title": "Reinforcement Learning on Agroecology (2.0)",
+          "id": "f22_agroecology",
+          "image": "/images/projects/agriculture.png",
+          "leadAuthors": [
+            "Aryan Gulati",
+            "Shannon Brownlee"
+          ],
+          "authors": [
+            "Leslie Moreno"
+          ],
+          "description": "Industrial agriculture is unsustainable and destroys local ecosystems. An alternative approach is to instead plant crops within existing microclimates instead of destroying them entirely. This approach has seen success on small scales, such as a Wisconsin farmer successfully growing his crops in a local forest. However, microclimates are very different from one another, and that Wisconsin farmer would have no idea how to succeed in growing crops in a Californian forest, for example. There is no universal method for doing things. CAIS++ students collaborated with Professor Raghavan’s lab to construct a reinforcement learning system using a blackbox environment that can simulate any arbitrary microclimate. Our mission is to model any given microclimate and find the optimal policies for growing crops in that microclimate.",
+          "slides": "/assets/files/projects/s22_agroecology.pdf"
+        }
+      ]
+    },
+    {
       "term":"Spring 2022",
       "pageID": "f21-s22",
       "projects": [
         {
-          "title": "Reinforcement Learning on Agroecology",
+          "title": "Reinforcement Learning on Agroecology (1.0)",
           "id": "s22_agroecology",
           "image": "/images/projects/agriculture.png",
           "leadAuthors": [

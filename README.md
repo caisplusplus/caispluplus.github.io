@@ -35,6 +35,7 @@ to generate project information.
 
 #### Adding New Projects Checklist:
 - [ ] Add project to [_data/projects.json](/_data/projects.json)
+- [ ] Add/Update page link at [_layouts/project-page](/_layouts/project-page.html)
 - [ ] Add contributors to `Official Roster`
 - [ ] Add project to [_data/people-project-metadata.json](/_data/people-project-metadata.json)
 

@@ -1,7 +1,28 @@
 {
+  "f22_asr": {
+    "displayName": "Automatic Speech Recognition",
+    "link": "/projects/f22-s23#f22_asr"
+  },
+  "f22_transit": {
+    "displayName": "Culver City Transit",
+    "link": "/projects/f22-s23#f22_transit"
+  },
+  "f22_projectx": {
+    "displayName": "ProjectX: Interaction",
+    "link": "/projects/f22-s23#f22_projectx"
+  },
+  "f22_cv4qa": {
+    "displayName": "CV for Quality Assurance",
+    "link": "/projects/f22-s23#f22_cv4qa"
+  },
+  "f22_agroecology": {
+    "displayName": "Agroecology",
+    "link": "/projects/f22-s23#f22_agroecology"
+  },
   "s22_agroecology": {
     "displayName": "Agroecology",
-    "link": "/projects/f21-s22#s22_agroecology"
+    "link": "/projects/f21-s22#s22_agroecology",
+    "updated": "f22_agroecology"
   },
   "s22_sepsis": {
     "displayName": "Sepsis",
