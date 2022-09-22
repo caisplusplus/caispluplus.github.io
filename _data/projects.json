@@ -521,7 +521,13 @@
           "description": "The goal of this project is to develop algorithms that can assist with various tasks in music production and musical analysis. Specifically, we are currently talking with researchers at Carnegie Mellon University about obtaining a labeled soundscapes dataset that includes descriptive tags. We will then develop an algorithm that can automatically tag and group soundscapes. We are also currently talking to Mom & Pop Records about a potential collaboration; more info will come soon on this front, but it will involve developing ways to assist A & R tasks. Other projects will include finding ways to analyse and organize sample libraries to help producers search and find samples more efficiently, recognizing when specific sounds occur in a music file in order to assist with music visualizations, and developing a method to “upsample” sounds to bring high fidelity to low fidelity sounds. Lastly, any ideas and projects will be welcomed as well. Music makes everyone happy, so the social good implications of this project are exorbitant.",
           "leadAuthors": [
             "Jacob Dormuth"
-          ]
+          ],
+          "authors": [
+            "Roddur Dasgupta",
+            "Conner Chyung",
+            "Tommy Acin"
+          ],
+          "media": "https://www.youtube.com/watch?v=9Gezpn0Cgu0&amp%3Bfeature=share"
         }
       ]
     }, {
