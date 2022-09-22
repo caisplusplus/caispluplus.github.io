@@ -18,7 +18,7 @@ Advisor-Active,Eric Ye,eye942@gmail.com,eye@usc.edu,+1 (480) 233-1648,7354787805
 [TEMP] Alumni,Adina Kruijssen,,kruijsse@usc.edu,,,F17,S21,,,,,,,,,,
 Advisor-Active,Zane Durante,durante@stanford.edu,durante@usc.edu,+1 (573) 397-3989,3128180931,F17,S21,"PhD CSCI, CSCI, AMCM",,M,https://github.com/zanedurante,https://www.linkedin.com/in/zane-durante/,Research,"Computer Science PhD @ Stanford, NSF GRFP Honorable Mention","F20, S20",,"f20_language, s20_games, s20_language, s19_language, f18_language, s18_melanoma"
 Advisor-Newsletter,Sean Syed,seanasyed@gmail.com,seansyed@usc.edu,+1 (310) 919-6278,,F17,S21,"MS EE, CECS",,M,https://github.com/seanasyed,https://www.linkedin.com/in/seansyed/,Industry,,,,s18_ndsb
-[TEMP] Advisor,Shomik Jain,shomik.jain@gmail.com,shomikja@usc.edu,+1 (408) 960-3402,,F17,S20,"MS EE, AMCM",CSCI,M,https://github.com/shomikj,https://www.linkedin.com/in/shomikjain/,"Industry, Research","Palantir -> Social & Systems Engineering, MIT PhD",S18,,s18_sports
+Advisor-Active,Shomik Jain,shomik.jain@gmail.com,shomikja@usc.edu,+1 (408) 960-3402,,F17,S20,"MS EE, AMCM",CSCI,M,https://github.com/shomikj,https://www.linkedin.com/in/shomikjain,"Industry, Research",Societal Engineering PhD @ MIT; Forward Deployed Engineer @ Palantir,S18,,s18_sports
 [TEMP] Alumni,Qianze Zhang,,qianzezh@usc.edu,,,F17,S20,,,,,,,,,,
 [TEMP] Alumni,Sahil Agarwal,,sahilaga@usc.edu,,,F17,S20,,,,,,,,,,
 [TEMP] Alumni,Suvir Copparam,,scoppara@usc.edu,,,F17,S20,,,,,,,,,,
@@ -69,7 +69,7 @@ Dropped,Jenny Lee,,haeminle@usc.edu,,,F18,S22,,,F,,,,,,,s19_fairness
 [TEMP] Alumni,Jincheng Zhou,,jinchenz@usc.edu,,,F18,S21,,,M,,,,,,,
 Dropped,Julia Wang,meiyan99@gmail.com,juliamwa@usc.edu,+1 (314) 600-5976,6554851995,F18,S22,CSBA,,F,https://github.com/JuliaMWang,https://www.linkedin.com/in/juliamwang,Industry,,,,
 Alumni-Inactive,Lena Ye,lenafye@gmail.com,lenaye@usc.edu,,,F18,S21,CSCI,,F,,https://www.linkedin.com/in/lena-ye/,Industry,PM @ Microsoft,,,
-Alumni-Newsletter,Lily Perry,perrylm888@gmail.com,lilyperr@usc.edu,+1 (808) 426-3823,6485217452,F18,S22,CSCI,Comedy (Performance),F,https://github.com/LilyPerr,https://www.linkedin.com/in/lilyperry,Industry,,,,
+Alumni-Newsletter,Lily Perry,perrylm888@gmail.com,lilyperr@usc.edu,+1 (808) 426-3823,6485217452,F18,S22,CSCI,Comedy (Performance),F,https://github.com/LilyPerr,https://www.linkedin.com/in/lilyperry,Industry,Cybersecurity Industry Full-time,,,
 Alumni-Newsletter,Nathaniel Redfern,ntredfern@gmail.com,,+1 (415) 990-9437,,F18,,CGSC,,M,,www.linkedin.com/in/natred,Commercial Real Estate,Disney+,,,
 Dropped,Noah Forman,,nhforman@usc.edu,,,F18,S20,,,M,,,,,,,
 Dropped,Peter Guangji,,guangjil@usc.edu,,,F18,S22,,,M,,,,,,,
@@ -148,7 +148,7 @@ Active,Jordan Cahoon,jlcah5@gmail.com,jcahoon@usc.edu,+1 (253) 350-3432,,F20,S24
 Dropped,Radhika Bhuckory,2bradhika@gmail.com,bhuckory@usc.edu,+1 (805) 794-4911,9137759816,F20,S22,EE,,F,https://github.com/rbhuckory,https://www.linkedin.com/in/radhikabhuckory,Research,,,,
 Dropped,Julie Shi,jyshi1107@gmail.com,julieshi@usc.edu,+1 (213) 255-8709,3675197048,F19,S22,CSCI,,F,https://github.com/yayashuxue,https://www.linkedin.com/in/julie-shi,Industry,,,,
 Dropped,Jenny Jeh,jennyseeunjeh@gmail.com,sjeh@usc.edu,+1 (213) 905-9634,5371779041,F20,S22,"MS CSCI, CSCI",,F,https://github.com/jennejeh,https://www.linkedin.com/in/jennejeh/,Industry,,,,
-[TEMP] Dropped,Ishu Agrawal,ishu.agrawal@gmail.com,ishuagra@usc.edu,+1 (669) 243-1541,9918358127,F20,S24,CSCI,,M,https://github.com/ishuagrawal,https://www.linkedin.com/in/ishuagrawal/,Industry,,S21,,"s22_oceanpollution, f21_oceanpollution, s21_wildfires"
+Inactive,Ishu Agrawal,ishu.agrawal@gmail.com,ishuagra@usc.edu,+1 (669) 243-1541,9918358127,F20,S24,CSCI,,M,https://github.com/ishuagrawal,https://www.linkedin.com/in/ishuagrawal/,Industry,,S21,,"s22_oceanpollution, f21_oceanpollution, s21_wildfires"
 Dropped,Lauren Okhovat,laurenokhovat@gmail.com,lokhovat@usc.edu,+1 (310) 770-8693,3389213042,F21,S22,"CSCI, CGSC",,F,https://github.com/laurenokhovat,https://www.linkedin.com/in/lauren-okhovat-8a8451192/,Industry,,,,s21_wildfires
 Dropped,Neil McWhorter,neil.mcw99@gmail.com,nmcwhort@usc.edu,+1 (916) 533-4771,5094758388,F20,S22,ECON,APAN,M,https://github.com/Neil-McW,https://www.linkedin.com/in/neil-mcwhorter/,Industry,,,,s21_edtech
 Dropped,Elaine Yang,,etyang@usc.edu,+1 (503) 360-7523,,F20,S23,,,F,,,,,,,s21_genomics
@@ -161,7 +161,7 @@ Active,Colin Ho,colin.ho99@gmail.com,chiuhong@usc.edu,+1 (210) 935-3970,10566589
 Dropped,David Haolong Lee,davidhlee2001@gmail.com,dhlee@usc.edu,+1 (323) 797-6471,3407023951,F21,S24,"CSCI, AMCM",,M,www.github.com/itsdawei,https://www.linkedin.com/in/lee-david-haolong,"Industry, Research",,,,
 Active,Eric Cheng,eric.bc8@gmail.com,echeng68@usc.edu,+1 (650) 942-9492,8583978732,F21,S24,"CSCI, AMCM",,M,https://github.com/Eric-Chng,https://www.linkedin.com/feed/,Industry,,F22,,f22_cv4qa
 Dropped,Evan Hashemi,,ehashemi@usc.edu,,,F21,S23,,,M,,,,,,,
-[TEMP] Dropped,Felix Chen,,fdchen@usc.edu,+1 (408) 818-0412,7217172616,F21,S24,CECS,,M,https://github.com/Savcab,https://www.linkedin.com/mwlite/in/felix-d-chen,Research,,,,s22_agroecology
+Dropped,Felix Chen,,fdchen@usc.edu,+1 (408) 818-0412,7217172616,F21,S24,CECS,,M,https://github.com/Savcab,https://www.linkedin.com/mwlite/in/felix-d-chen,Research,,,,s22_agroecology
 Dropped,Frederick Liu,fredliu02@gmail.com,liufrede@usc.edu,+1 (858) 790-2597,3785022271,F21,S24,CECS,,M,https://github.com/fredliu02,https://www.linkedin.com/in/frederickliu02/,"Whatever, whenever",,,,
 Dropped,Gordon Su,sugordon.usa@gmail.com,gssu@usc.edu,+1 (408) 805-6944,8690629452,F21,S23,CSCI,,M,https://github.com/GordonSSu,https://www.linkedin.com/in/gordon-su/,"Industry, Research",,,,
 Dropped,Grace Shan,graceshan02@gmail.com,gracesha@usc.edu,+1 (408) 627-5246,7555388149,F21,S24,"CSCI, AMCM, PHIL",,F,https://github.com/graceshan,https://www.linkedin.com/in/grace-shan,"Whatever, whenever",,,,
@@ -176,7 +176,7 @@ E-Board,Karina Yang,karina.yang454@gmail.com,karinaya@usc.edu,+1 (623) 800-5342,
 E-Board,Leo Zhuang,leozhuang123@gmail.com,llzhuang@usc.edu,+1 (573) 529-1262,5488288739,F21,S23,CECS,,M,https://github.com/jianbow,https://www.linkedin.com/in/llzhuang,"Whatever, whenever",,,,"f22_asr, s22_sepsis"
 E-Board,Leslie Moreno,lemoreno237@gmail.com,morenola@usc.edu,+1 (201) 388-8428,,F21,S25,CECS,,F,https://github.com/lesliemor,https://www.linkedin.com/in/leslie-moreno/,"Whatever, whenever",,,F22,"f22_agroecology, s22_agroecology"
 Dropped,Lucas Huang,,lmhuang@usc.edu,,,F21,S23,,,M,,,,,,,
-E-Board,Maciej Kilian,kilianmaciej6@gmail.com,mkilian@usc.edu,+1 (626) 474-5301,5616625781,F20,S24,CECS,Neuroscience,M,https://github.com/iejMac,www.linkedin.com/in/maciej-kilian-9a70a022a,,,,,
+Inactive,Maciej Kilian,kilianmaciej6@gmail.com,mkilian@usc.edu,+1 (626) 474-5301,5616625781,F20,S24,CECS,Neuroscience,M,https://github.com/iejMac,www.linkedin.com/in/maciej-kilian-9a70a022a,,,,,
 Dropped,Madelyn Peng,maddy.peng@gmail.com,pengmade@usc.edu,+1 (781) 375-8668,3235789450,F21,S25,CSBA,Programming,F,,https://www.linkedin.com/in/madelyn-peng/,None,,,,
 Active,Madhumita Suraj,smadhu1803@gmail.com,msuraj@usc.edu,+1 (949) 558-9833,4644085832,F21,S25,CSBA,,F,https://github.com/madhusuraj,https://www.linkedin.com/in/madhumita-suraj/,Industry,,,F22,
 Dropped,Matthew Li,matthewli272@gmail.com,mhli@usc.edu,+1 (408) 718-5898,9167959065,F21,S24,CSCI,,M,https://github.com/mhli272,https://www.linkedin.com/in/mhli272,Industry,,,,
@@ -186,6 +186,36 @@ Dropped,Nicole Russack,,russack@usc.edu,,,F21,S24,,,F,,,,,,,
 Active,Rohan Sanjay,rohanpsanjay@gmail.com,rpsanjay@usc.edu,+1 (630) 605-5208,2840416656,F21,S23,"MS EEML, AMCM",CSCI,M,https://github.com/rohansanjay,https://www.linkedin.com/in/rohansanjay/,Industry,,,,
 [TEMP] Dropped,Ryan Shaw,rshawness@yahoo.com,rfshaw@usc.edu,+1 (408) 318-0745,4858298719,F21,S23,CSBA,,M,https://github.com/RShawness/Personal-Projects.git,www.linkedin.com/in/ryan-shaw-4a9b05192,"Industry, Research",,,,
 Active,Sana Jayaswal,jayaswalsana@gmail.com,jayaswal@usc.edu,+1 (949) 562-9682,5530449107,F21,S24,CPNS,,F,https://github.com/sjay8,https://www.linkedin.com/in/sana-jayaswal-43a83b1b8,"Industry, Research",,,F22,s22_sepsis
-Active,Tianyi (Lorena) Yan,lorena.yantianyi1020@gmail.com,tianyiy@usc.edu,+1 (213) 465-9176,5976545133,F21,S24,CSCI,"Data Analytics, Game Animation",F,https://github.com/Lorenayannnnn,https://www.linkedin.com/in/tianyi-yan-lorena/,Industry,,,F22,"f22_cv4qa, s22_sepsis"
+Inactive,Tianyi (Lorena) Yan,lorena.yantianyi1020@gmail.com,tianyiy@usc.edu,+1 (213) 465-9176,5976545133,F21,S24,CSCI,"Data Analytics, Game Animation",F,https://github.com/Lorenayannnnn,https://www.linkedin.com/in/tianyi-yan-lorena/,Industry,,,,s22_sepsis
 Dropped,Yuxing Zhou,tomzhouyuxing@outlook.com,yuxingz@usc.edu,+1 (213) 245-3051,9962189345,F21,S24,CSGM,"ARCH, BAEP",M,https://github.com/LLTOMZHOU,https://www.linkedin.com/in/yuxing-zhou-6a2506196,"Whatever, whenever",,,,
 Active,Zaid Abdulrehman ,zaidyp1310@gmail.com,zabdulre@usc.edu,+1 (310) 980-4515,9383975799,F21,S23,CSCI,,M,https://github.com/zabdulre,https://www.linkedin.com/in/zaid-abdulrehman-2a6980187,"Whatever, whenever",,,,
+Active,Aarav Monga,mongaaarav@gmail.com,armonga@usc.edu,+1 (213) 643-8977,7497740406,F22,S26,AMCM,,M,,https://www.linkedin.com/in/aarav-monga-517457246/,,,,,
+Active,Aditya Kumar,adityak2003@gmail.com,akumar35@usc.edu,+1 (510) 634-6907,5199668762,F22,S25,CSCI,,M,,https://www.linkedin.com/in/adityak2003,,,,,
+Active,Advik Unni,adviku15@gmail.com,aunni@usc.edu,+1 (213) 431-9699,1093795458,F22,S26,PHY/CS,,M,,https://www.linkedin.com/in/advik-unni-a40954240,,,,,
+Active,Amanda Omehe,amandaomehe@gmail.com,aomehe@usc.edu,+1 (469) 601-4209,1423842531,F22,S25,CGSC,CSCI,F,,https://www.linkedin.com/in/amanda-omehe-a78352228,,,,,
+Active,Armando Chirinos,armando2057@live.com,achirino@usc.edu,+1 (702) 426-7806,2164420578,F22,S24,"CSCI, NEUR",,M,,https://www.linkedin.com/in/armando-chirinos-750576204/,,,,,
+Active,Brice Mbakop Patchou,legentilrenard2004@gmail.com,patchou@usc.edu,+1 (301) 624-9842,9034007215,F22,S26,CECS,,M,,https://www.linkedin.com/in/brice-patchou-1a6428245,,,,,
+Active,Claude (Hana) Yoo,tohanayoo@gmail.com,hanayoo@usc.edu,+1 (213) 248-4076,2179274959,F22,S26,CSCI,,NB,,,,,,,
+Active,George Danzelaud,georgedanzelaud@gmail.com,danzelau@usc.edu,+1 (971) 303-4992,7395743590,F22,S25,CSBA,,M,,https://www.linkedin.com/in/george-danzelaud,,,,,
+Active,Guillermo Basterra,guillebasterra@gmail.com,basterra@usc.edu,+1 (347) 571-3280,2705453920,F22,S26,CSCI,,M,,https://www.linkedin.com/in/guillermo-basterra-8901b5232/,,,,,
+Active,Jarret Spino,jarretspino@gmail.com,spino@usc.edu,+1 (626) 236-0176,8713006071,F22,S24,"MS CSCI, CSCI",,M,https://github.com/spinonoir,https://www.linkedin.com/in/jspino/,,,,,
+Active,Jayne Bottarini,jebottarini@gmail.com,bottarin@usc.edu,+1 (773) 554-6922,4532072032,F22,S25,CSBA,,F,https://github.com/jaynebottarini,https://www.linkedin.com/in/jayne-bottarini-b9aba71a8,,,,,
+Active,Jessica Fu,jesscaphou@gmail.com,fujessic@usc.edu,+1 (650) 443-8319,7794752893,F22,S26,CSCI,,F,,,,,,,
+Active,Jonathan Duc Ong,dragonstudi0s2003@gmail.com,ongjd@usc.edu,+1 (626) 899-7373,6122064324,F22,S26,CSCI,,M,,https://www.linkedin.com/in/jonathan-ong-506585235,,,,,
+Active,Jonathan Qin,jonathan.qin@gmail.com,qinjonat@usc.edu,+1 (669) 210-6637,2543994797,F22,S25,"CSCI, AMCM, BUAD (Finance)",Musical Studies (Piano),M,https://github.com/jonathanqin,https://www.linkedin.com/in/jonathan-qin-906a71203/,,,,,
+Active,Joseph Gozon,josephgoz@icloud.com,gozon@usc.edu,+1 (414) 305-2212,7493241223,F22,S25,CSBA,,M,,http://linkedin.com/in/joseph-gozon-859234230,,,,,
+Active,Lucia Zhang,zhang.luciaor@gmail.com,lrzhang@usc.edu,+1 (503) 740-1246,3121411310,F22,S26,QBIO,,F,,,,,,,
+Active,Matthew Rodriguez,matthewcristoferrodriguez@gmail.com,mcr49879@usc.com,+1 (914) 525-8596,7501317366,F22,S26,HBIO,,M,,,,,,,
+Active,Mia Angelucci,mfa0131@gmail.com,mangeluc@usc.edu,+1 (856) 577-5304,8546063849,F22,S25,CSCI,,F,https://github.com/mangeluc,https://www.linkedin.com/in/mia-angelucci,,,,,
+Active,Naina Panjwani,nainapanj@gmail.com,npanjwan@usc.edu,+1 (408) 660-9201,3745153121,F22,S26,CSBA,,F,,https://www.linkedin.com/in/naina-panjwani-033264211/,,,,,
+Active,Nathaniel Johnson,nathanieljohnson009@gmail.com,nlj@usc.edu,+1 (408) 834-3537,1225212770,F22,S26,CSCI,,M,https://github.com/nathaniellamjohnson/,https://www.linkedin.com/in/nathaniellamjohnson/,,,,,
+Active,Oscar Clavijo Bernal,oscarcl.13@icloud.com,oclavijo@usc.edu,+1 (786) 318-4984,9117707182,F22,F24,CSCI,,M,,https://www.linkedin.com/in/oscarclavijo/,,,,,
+Active,Pratyush Jaishanker,pratyush.jaishanker@gmail.com,pjaishan@usc.edu,+1 (571) 249-5524,9663038335,F22,S26,"CSCI, ENST",,M,,https://www.linkedin.com/in/pratyush-jaishanker/,,,,,
+Active,Rajakrishnan Somou,rajakrishnan.somou@hotmail.com,somou@usc.edu,+1 (210) 502-4561,3174799201,F22,S26,CSCI,MATH,M,https://github.com/rsomou,https://www.linkedin.com/in/rajakrishnan-somou-483a31227/,,,,,
+Active,Santiago Larretape,slarretape17@gmail.com,larretap@usc.edu,+1 (786) 302-3261,9407392602,F22,S25,CSCI,Biotechnology,M,,,,,,,
+Active,Sanya Verma,sanyaverma31415@gmail.com,sanyaver@usc.edu,+1 (626) 561-8995,4012041187,F22,S25,CSCI,CTCS,F,https://github.com/sanyaver-blue,https://www.linkedin.com/in/sanya-verma-27062021/,,,,,
+Active,Seoho (Sean) Ahn,seanbeanby@gmail.com,seohoahn@usc.edu,+1 (929) 351-6436,3806830552,F22,S26,CSBA,,M,https://github.com/seanpixel,https://www.linkedin.com/in/sean-ahn-437423220/,,,,,
+Active,Seena Pourzand,seenapourzand@gmail.com,spourzan@usc.edu,+1 (925) 558-5111,5099532465,F22,F24,CSCI,,M,https://github.com/pourzand,https://www.linkedin.com/in/seena-pourzand/,,,,,
+Active,Sonia Zhang,sonia.zhang.2004@gmail.com,skzhang@usc.edu,+1 (626) 716-1708,4426276985,F22,S26,EE,,F,https://github.com/szhang004,https://www.linkedin.com/in/sonia-zhang-64274b245/,,,,,
+Active,William Dolan,willrdolan@gmail.com,wrdolan@usc.edu,+1 (314) 402-9983,3254131118,F22,S25,CSCI,PHIL,M,https://github.com/will-dolan,https://www.linkedin.com/in/will-dolan-53995b217/,,,,,
+Active,Xiaoyuan Zhu,amoszhu1973@gmail.com,xzhu9839@usc.edu,+1 (213) 551-1747,6303396136,F22,F26,INCO,,M,https://github.com/whythemoon,https://www.linkedin.com/in/xiaoyuan-zhu-38005a224/,,,,,
