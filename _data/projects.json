@@ -12,10 +12,11 @@
             "Allen Chang"
           ],
           "authors": [
-            "Jordan Cahoon",
-            "Leo Zhuang"
+            "Leo Zhuang",
+            "Xiaoyuan Zhu",
+            "Aarav Monga"
           ],
-          "description": "In Vision Language Navigation (VLN) tasks, an embodied agent must navigate a 3D environment by utilizing both natural language instruction given from an oracle and visual observation of the surroundings. Due to the difficulty of the task, VLN agents are trained under the assumption that the oracle will always offer standard instructions. For text-based instructions, this means commands contain zero content errors and are written in impeccable grammar. Adding speech into the mix introduces another layer of complexity. Since speech input widely varies between oracles, VLN agents can struggle with decoding meaning from this form of instruction. This makes training a VLN agent on speech particularly challenging. Yet in VLN, the agent has access to visual observations from the environment, which can aid in determining plausible meaning during moments of ambiguous instruction. Our solution is to expand this intuition and develop a robust Automatic Speech Recognition (ASR) model that will utilize visual context to recover semantic meaning from corrupted commands. Ultimately, our project aims to make VLN agents more robust to non-standard speech instruction."
+          "description": "In Vision Language Navigation (VLN) tasks, an embodied agent must navigate a 3D environment by utilizing both natural language instruction given from an oracle and visual observation of the surroundings. Due to the difficulty of the task, VLN agents are trained under the assumption that the oracle will offer standard instructions. For text-based instructions, this means commands contain few content errors and are written in impeccable grammar. Adding speech into the mix introduces another layer of complexity. Since speech input widely varies between oracles, VLN agents can struggle with decoding meaning from this form of instruction. This makes training a VLN agent on speech particularly challenging. Yet in VLN, the agent has access to visual observations from the environment, which can aid in determining plausible meaning during moments of ambiguous instruction. Our solution is to expand this intuition and develop a robust Automatic Speech Recognition (ASR) model that will utilize visual context to recover semantic meaning from corrupted commands. Ultimately, our project aims to make VLN agents more robust to non-standard speech instruction."
         },
         {
           "title": "Culver City Transit",
@@ -30,6 +31,14 @@
           "title": "ProjectX: Interaction",
           "id": "f22_projectx",
           "image": "/images/projects/conversation.png",
+          "leadAuthors": [
+            "Jordan Cahoon"
+          ],
+          "authors": [
+            "Josheta Srinivasan",
+            "Armando Chirinos",
+            "Jonathan Qin"
+          ],
           "description": "ProjectX is the world’s largest undergraduate machine learning research competition with competing teams from top universities across the world. The winning team from each of the three subtopic focuses will be awarded a cash prize of CAD $25,000, and all participants will be invited to attend the annual UofT AI Conference in January 2023 where the ProjectX award ceremony will take place. Last year we had ~800 participants and our keynote speaker was Geoffrey Hinton."
         },
         {
@@ -41,9 +50,12 @@
             "Jaiv Doshi"
           ],
           "authors": [
-            "Lorena Yan"
+            "Jarret Spino",
+            "Seena Pourzand",
+            "Irika Katiyar",
+            "Xiaoyuan Zhu"
           ],
-          "description": "We are applying computer vision to quality assurance for computer chip manufacturing."
+          "description": "We are partnering with <a href='https://www.linkedin.com/company/wintec-industries/' target='_blank'>Wintec Industries</a> to introduce an automated system for quality assurance on their manufactured computer modules, including PCB boards, SSD drives, and other hardware components. Currently, the main method of quality assurance is done through manual inspection. With manual inspection, there are a few main limitations: 1) throughput is slow; 2) reliability is variable, especially when considering worker fatigue; 3) manual, repeatable labor can be costly. We want to introduce a computer vision system to automatically detect damages to these modules. There are two main components to this project: 1) consulting with Wintec to advise the optimal hardware for data collection; 2) using the collected data, construct a deep learning model to recognize damages and defects."
         },
         {
           "title": "Reinforcement Learning on Agroecology (2.0)",
@@ -53,7 +65,8 @@
             "Aryan Gulati"
           ],
           "authors": [
-            "Leslie Moreno"
+            "Leslie Moreno",
+            "Claude Yoo"
           ],
           "description": "Industrial agriculture is unsustainable and destroys local ecosystems. An alternative approach is to instead plant crops within existing microclimates instead of destroying them entirely. This approach has seen success on small scales, such as a Wisconsin farmer successfully growing his crops in a local forest. However, microclimates are very different from one another, and that Wisconsin farmer would have no idea how to succeed in growing crops in a Californian forest, for example. There is no universal method for doing things. CAIS++ students collaborated with Professor Raghavan’s lab to construct a reinforcement learning system using a blackbox environment that can simulate any arbitrary microclimate. Our mission is to model any given microclimate and find the optimal policies for growing crops in that microclimate.",
           "slides": "/assets/files/projects/s22_agroecology.pdf"
