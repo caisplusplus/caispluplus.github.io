@@ -5,30 +5,21 @@
       "pageID": "f22-s23",
       "projects": [
         {
-          "title": "Robust Automatic Speech Recognition for Vision-Language Navigation",
+          "title": "Toward Robust Automatic Speech Recognition for Embodied Agents",
           "id": "f22_asr",
           "image": "/images/projects/music.png",
           "leadAuthors": [
             "Allen Chang"
           ],
           "authors": [
-            "Leo Zhuang",
             "Xiaoyuan Zhu",
-            "Aarav Monga"
+            "Aarav Monga",
+            "Seoho Ahn"
           ],
           "description": "In Vision Language Navigation (VLN) tasks, an embodied agent must navigate a 3D environment by utilizing both natural language instruction given from an oracle and visual observation of the surroundings. Due to the difficulty of the task, VLN agents are trained under the assumption that the oracle will offer standard instructions. For text-based instructions, this means commands contain few content errors and are written in impeccable grammar. Adding speech into the mix introduces another layer of complexity. Since speech input widely varies between oracles, VLN agents can struggle with decoding meaning from this form of instruction. This makes training a VLN agent on speech particularly challenging. Yet in VLN, the agent has access to visual observations from the environment, which can aid in determining plausible meaning during moments of ambiguous instruction. Our solution is to expand this intuition and develop a robust Automatic Speech Recognition (ASR) model that will utilize visual context to recover semantic meaning from corrupted commands. Ultimately, our project aims to make VLN agents more robust to non-standard speech instruction."
         },
         {
-          "title": "Culver City Transit",
-          "id": "f22_transit",
-          "image": "/images/projects/city.png",
-          "leadAuthors": [
-            "Spencer Davis"
-          ],
-          "description": "Los Angeles is one of the least walkable cities in the country, a fact made true by its historic urban sprawl, high reliance on car-dependent infrastructure, and its infamous traffic patterns, among other things. While individual neighborhoods of Los Angeles may boast a high walkability score, such as West Hollywood, navigating the city at large can take up most of an afternoon depending on one’s method of transportation. This project focuses on improving the efficiency of certain public transportation routes, with a preliminary focus on the Culver City Bus System. This project will attempt to develop a machine learning model that maximizes ridership levels, minimizes traffic time, and makes the system in question more commutable as a whole. Specifically, this project asks a fundamental question: can we design a machine learning-centered approach to improve the efficiency of certain bus routes given ridership data and traffic patterns?"
-        },
-        {
-          "title": "ProjectX: Interaction",
+          "title": "ProjectX: Stress Recognition for Health Workers using Human Activity Recognition",
           "id": "f22_projectx",
           "image": "/images/projects/conversation.png",
           "leadAuthors": [
@@ -53,23 +44,24 @@
             "Jarret Spino",
             "Seena Pourzand",
             "Irika Katiyar",
-            "Xiaoyuan Zhu"
+            "Leo Zhuang"
           ],
           "description": "We are partnering with <a href='https://www.linkedin.com/company/wintec-industries/' target='_blank'>Wintec Industries</a> to introduce an automated system for quality assurance on their manufactured computer modules, including PCB boards, SSD drives, and other hardware components. Currently, the main method of quality assurance is done through manual inspection. With manual inspection, there are a few main limitations: 1) throughput is slow; 2) reliability is variable, especially when considering worker fatigue; 3) manual, repeatable labor can be costly. We want to introduce a computer vision system to automatically detect damages to these modules. There are two main components to this project: 1) consulting with Wintec to advise the optimal hardware for data collection; 2) using the collected data, construct a deep learning model to recognize damages and defects."
         },
         {
-          "title": "Reinforcement Learning on Agroecology (2.0)",
-          "id": "f22_agroecology",
-          "image": "/images/projects/agriculture.png",
+          "title": "Indigenous Language Translation with Sparse Data",
+          "id": "f22_linguistics",
+          "image": "/images/projects/conversation.png",
           "leadAuthors": [
             "Aryan Gulati"
           ],
           "authors": [
             "Leslie Moreno",
-            "Claude Yoo"
+            "Abhinav Gupta",
+            "Nathan Huh",
+            "Zaid Abdulrehman"
           ],
-          "description": "Industrial agriculture is unsustainable and destroys local ecosystems. An alternative approach is to instead plant crops within existing microclimates instead of destroying them entirely. This approach has seen success on small scales, such as a Wisconsin farmer successfully growing his crops in a local forest. However, microclimates are very different from one another, and that Wisconsin farmer would have no idea how to succeed in growing crops in a Californian forest, for example. There is no universal method for doing things. CAIS++ students collaborated with Professor Raghavan’s lab to construct a reinforcement learning system using a blackbox environment that can simulate any arbitrary microclimate. Our mission is to model any given microclimate and find the optimal policies for growing crops in that microclimate.",
-          "slides": "/assets/files/projects/s22_agroecology.pdf"
+          "description": "Globalization has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages."
         }
       ]
     },
@@ -78,7 +70,7 @@
       "pageID": "f21-s22",
       "projects": [
         {
-          "title": "Reinforcement Learning on Agroecology (1.0)",
+          "title": "Reinforcement Learning on Agroecology",
           "id": "s22_agroecology",
           "image": "/images/projects/agriculture.png",
           "leadAuthors": [
