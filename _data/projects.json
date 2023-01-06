@@ -5,7 +5,7 @@
       "pageID": "f22-s23",
       "projects": [
         {
-          "title": "Toward Robust Automatic Speech Recognition for Embodied Agents",
+          "title": "Toward Robust Multimodal Speech Recognition for Embodied Agents",
           "id": "f22_asr",
           "image": "/images/projects/music.png",
           "leadAuthors": [
@@ -16,7 +16,9 @@
             "Aarav Monga",
             "Seoho Ahn"
           ],
-          "description": "In Vision Language Navigation (VLN) tasks, an embodied agent must navigate a 3D environment by utilizing both natural language instruction given from an oracle and visual observation of the surroundings. Due to the difficulty of the task, VLN agents are trained under the assumption that the oracle will offer standard instructions. For text-based instructions, this means commands contain few content errors and are written in impeccable grammar. Adding speech into the mix introduces another layer of complexity. Since speech input widely varies between oracles, VLN agents can struggle with decoding meaning from this form of instruction. This makes training a VLN agent on speech particularly challenging. Yet in VLN, the agent has access to visual observations from the environment, which can aid in determining plausible meaning during moments of ambiguous instruction. Our solution is to expand this intuition and develop a robust Automatic Speech Recognition (ASR) model that will utilize visual context to recover semantic meaning from corrupted commands. Ultimately, our project aims to make VLN agents more robust to non-standard speech instruction."
+          "description": "In Vision Language Navigation (VLN) tasks, an embodied agent must navigate a 3D environment by utilizing both natural language instruction given from an oracle and visual observation of the surroundings. Due to the difficulty of the task, VLN agents are trained under the assumption that the oracle will offer standard instructions. For text-based instructions, this means commands contain few content errors and are written in impeccable grammar. Adding speech into the mix introduces another layer of complexity. Since speech input widely varies between oracles, VLN agents can struggle with decoding meaning from this form of instruction. This makes training a VLN agent on speech particularly challenging. Yet in VLN, the agent has access to visual observations from the environment, which can aid in determining plausible meaning during moments of ambiguous instruction. Our solution is to expand this intuition and develop a robust Automatic Speech Recognition (ASR) model that will utilize visual context to recover semantic meaning from corrupted commands. Ultimately, our project aims to make VLN agents more robust to non-standard speech instruction.",
+          "poster": "https://drive.google.com/file/d/1GFaG69PbDCApSY3AZPEg7zhKKALLfKFX/view?usp=share_link",
+          "media": "https://drive.google.com/file/d/1Rpc6MXPTketJuQte4NqJxWOc5ZlYdG0w/view?usp=sharing"
         },
         {
           "title": "ProjectX: Stress Recognition for Health Workers using Human Activity Recognition",
@@ -30,7 +32,8 @@
             "Armando Chirinos",
             "Jonathan Qin"
           ],
-          "description": "ProjectX is the world’s largest undergraduate machine learning research competition with competing teams from top universities across the world. The winning team from each of the three subtopic focuses will be awarded a cash prize of CAD $25,000, and all participants will be invited to attend the annual UofT AI Conference in January 2023 where the ProjectX award ceremony will take place. Last year we had ~800 participants and our keynote speaker was Geoffrey Hinton."
+          "description": "ProjectX is the world’s largest undergraduate machine learning research competition with competing teams from top universities across the world. The winning team from each of the three subtopic focuses will be awarded a cash prize of CAD $25,000, and all participants will be invited to attend the annual UofT AI Conference in January 2023 where the ProjectX award ceremony will take place. Last year we had ~800 participants and our keynote speaker was Geoffrey Hinton.",
+          "media": "https://drive.google.com/file/d/1uh7-sDBwPaaBRAbj7jR09vlq6nUz_iLw/view?usp=sharing"
         },
         {
           "title": "Computer Vision for Quality Assurance",
@@ -46,7 +49,8 @@
             "Irika Katiyar",
             "Leo Zhuang"
           ],
-          "description": "We are partnering with <a href='https://www.linkedin.com/company/wintec-industries/' target='_blank'>Wintec Industries</a> to introduce an automated system for quality assurance on their manufactured computer modules, including PCB boards, SSD drives, and other hardware components. Currently, the main method of quality assurance is done through manual inspection. With manual inspection, there are a few main limitations: 1) throughput is slow; 2) reliability is variable, especially when considering worker fatigue; 3) manual, repeatable labor can be costly. We want to introduce a computer vision system to automatically detect damages to these modules. There are two main components to this project: 1) consulting with Wintec to advise the optimal hardware for data collection; 2) using the collected data, construct a deep learning model to recognize damages and defects."
+          "description": "We are partnering with <a href='https://www.linkedin.com/company/wintec-industries/' target='_blank'>Wintec Industries</a> to introduce an automated system for quality assurance on their manufactured computer modules, including PCB boards, SSD drives, and other hardware components. Currently, the main method of quality assurance is done through manual inspection. With manual inspection, there are a few main limitations: 1) throughput is slow; 2) reliability is variable, especially when considering worker fatigue; 3) manual, repeatable labor can be costly. We want to introduce a computer vision system to automatically detect damages to these modules. There are two main components to this project: 1) consulting with Wintec to advise the optimal hardware for data collection; 2) using the collected data, construct a deep learning model to recognize damages and defects.",
+          "media": "https://drive.google.com/file/d/1fVQ7IMt-828Hs52qLQl7xH7pnojgKqxQ/view?usp=share_link"
         },
         {
           "title": "Indigenous Language Translation with Sparse Data",
@@ -61,7 +65,8 @@
             "Nathan Huh",
             "Zaid Abdulrehman"
           ],
-          "description": "Globalization has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages."
+          "description": "Globalization has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages.",
+          "poster": "https://drive.google.com/file/d/1h55PJNrygidCwKZOl_0A22pD6kgsd4EN/view?usp=share_link"
         }
       ]
     },
