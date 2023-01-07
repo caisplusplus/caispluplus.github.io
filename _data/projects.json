@@ -57,15 +57,15 @@
           "id": "f22_linguistics",
           "image": "/images/projects/conversation.png",
           "leadAuthors": [
-            "Aryan Gulati"
+            "Aryan Gulati",
+            "Leslie Moreno"
           ],
           "authors": [
-            "Leslie Moreno",
             "Abhinav Gupta",
             "Nathan Huh",
             "Zaid Abdulrehman"
           ],
-          "description": "Globalization has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages.",
+          "description": "Imperialism has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages.",
           "poster": "https://drive.google.com/file/d/1h55PJNrygidCwKZOl_0A22pD6kgsd4EN/view?usp=share_link"
         }
       ]
