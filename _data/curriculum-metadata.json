@@ -71,6 +71,10 @@
     {
       "fullLessonID": "reading-list",
       "title": "Reading List"
+    },
+    {
+      "fullLessonID": "seminar",
+      "title": "Speaker Seminar"
     }
   ],
   "categories": {
