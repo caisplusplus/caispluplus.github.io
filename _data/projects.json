@@ -1,11 +1,123 @@
 {
   "projects":[
     {
+      "term":"Spring 2023",
+      "pageID": "f22-s23",
+      "projects": [
+        {
+          "title": "Toward Multimodal Speech Recognition for Embodied Agents",
+          "id": "s23_asr",
+          "image": "/images/projects/music.png",
+          "leadAuthors": [
+            "Allen Chang"
+          ],
+          "authors": [
+            "Xiaoyuan Zhu",
+            "Aarav Monga",
+            "Seoho Ahn"
+          ],
+          "description": "Variability and corruption in speech signals commonly contribute to errors in automatic speech recognition (ASR) systems. Recent work has demonstrated visual information to be useful for decoding noisy or masked audio. We explore the extension of this approach in the embodied agent domain, a more challenging setting, since audio and visual sensors do not always synchronously capture the same semantic information. To introduce variability in speech signals, we employ multiple text-to-speech and masking techniques to synthesize noisy audio with different speaker accents. We observe that integrating first-person perspective visual information can achieve up to 8.96% improvement in masked word recovery. Our results reveal novel evidence of the viability of multimodal speech recognition for embodied agents. We also plan to present analysis on error propagation from speech recognition to action selection of agents."
+        },
+        {
+          "title": "Computer Vision for Quality Assurance",
+          "id": "s23_cv4qa",
+          "image": "/images/projects/fpga.png",
+          "leadAuthors": [
+            "Jaiv Doshi",
+            "Irika Katiyar"
+          ],
+          "authors": [
+            "Jarret Spino",
+            "Seena Pourzand",
+            "Irika Katiyar",
+            "Hilari Fan",
+            "Sanya Verma"
+          ],
+          "description": "We are partnering with <a href='https://www.linkedin.com/company/wintec-industries/' target='_blank'>Wintec Industries</a> to introduce an automated system for quality assurance on their manufactured computer modules, including PCB boards, SSD drives, and other hardware components. Currently, the main method of quality assurance is done through manual inspection. With manual inspection, there are a few main limitations: 1) throughput is slow; 2) reliability is variable, especially when considering worker fatigue; 3) manual, repeatable labor can be costly. We want to introduce a computer vision system to automatically detect damages to these modules. There are two main components to this project: 1) consulting with Wintec to advise the optimal hardware for data collection; 2) using the collected data, construct a deep learning model to recognize damages and defects."
+        },
+        {
+          "title": "Indigenous Language Translation with Sparse Data",
+          "id": "s23_linguistics",
+          "image": "/images/projects/conversation.png",
+          "leadAuthors": [
+            "Aryan Gulati",
+            "Leslie Moreno"
+          ],
+          "authors": [
+            "Abhinav Gupta",
+            "Nathan Huh",
+            "Aditya Kumar",
+            "Sana Jayaswal"
+          ],
+          "description": "Imperialism has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages.",
+        },
+        {
+          "title": "Zero-Shot Robot Navigation",
+          "id": "s23_robotics",
+          "image": "/images/projects/roomba.png",
+          "leadAuthors": [
+            "Leo Zhuang"
+          ],
+          "authors": [
+            "Nathaniel Johnson",
+            "Pratyush Jaishanker",
+            "Rajakrishnan Somou",
+            "Matthew Rodriguez",
+            "Jonathan Ong"
+          ],
+          "description": "Robots have many challenges to face when navigating unknown environments, such as moving obstacles and uneven terrain. Currently, robots can leverage computer vision to generate optimal waypoints that robots can follow to reach their goal. However, this approach fails when robots navigate uncommon objects and close proximity areas. The project aims to incorporate multimodal sensor input to make navigation more robust in unknown environments."
+        },
+        {
+          "title": "Predicting Californian Wildfires",
+          "id": "s23_wildfires",
+          "image": "/images/projects/wildfire.png",
+          "leadAuthors": [
+            "Advik Unni"
+          ],
+          "authors": [
+            "Sonia Zhang",
+            "George Danzelaud",
+            "Guillermo Basterra",
+            "Brice Patchou"
+          ],
+          "description": "When temperatures rise, extreme weather patterns have become ever so pervasive. Every year, thousands of wildfires are sparked in the state of california, leading to millions of acres being burned and accumulating to billions of dollars in property damage. Effective surveillance and prediction can help public service workers prevent and alleviate wildfires. This project aims to use historical fire trends, coupled with air quality metrics and meteorological data to forecast wildfires in the state of california. This will help lawmakers implement policy to deter fires and allocate resources to high risk areas."
+        },
+        {
+          "title": "Emote Recommendation in Live Stream Chats",
+          "id": "s23_emote",
+          "image": "/images/projects/emote.png",
+          "leadAuthors": [
+            "Jessica Fu"
+          ],
+          "authors": [
+            "Joseph Gozon",
+            "Lucia Zhang"
+          ],
+          "description": "Recommender systems make a large impact in human communication (e.g., autocomplete), shopping (e.g., targeted advertisements), recommended news coverage (e.g., CNN vs Fox News), and entertainment (e.g., Netflix recommendations). This project plans to help teach and implement the mechanisms of recommender systems in the context of emoji autocompletion in live stream chats."
+        },
+        {
+          "title": "Slide Generation for Presentations",
+          "id": "s23_slides",
+          "image": "/images/projects/slides.png",
+          "leadAuthors": [
+            "Aryan Gulati"
+          ],
+          "authors": [
+            "Jayne Bottarini",
+            "Claude Yoo",
+            "Naina Panjwani",
+            "Mia Angelucci"
+          ],
+          "description": "We are working on using AI to make the process of creating presentations more efficient, a large time-sink in-team and project communication. Our goal is to develop an AI system that generates professional and visually appealing slides from textual input. This system will build on advancements in natural language processing and computer vision to augment generative models to produce slides that communicate the message effectively, thus helping to save time on manual slide creation and allow users to focus on delivering their message."
+        }
+      ]
+    },
+    {
       "term":"Fall 2022",
       "pageID": "f22-s23",
       "projects": [
         {
-          "title": "Toward Robust Multimodal Speech Recognition for Embodied Agents",
+          "title": "Toward Multimodal Speech Recognition for Embodied Agents",
           "id": "f22_asr",
           "image": "/images/projects/music.png",
           "leadAuthors": [

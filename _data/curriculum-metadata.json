@@ -201,7 +201,7 @@
           "D": "Deep learning models do not require training, but machine learning models do"
         },
         "correct": "C",
-        "reasoning": "Deep learning is one technique for implementing machine learning. It uses <code>artificial neural networks</code>, no need to worry about how these work right now. We will cover it in future lessons."
+        "reasoning": "Deep learning is one technique for implementing machine learning. It uses <strong>artificial neural networks</strong>, no need to worry about how these work right now. We will cover it in future lessons."
       }, {
         "question": "Which is most likely <strong>NOT</strong> an example of artificial intelligence?",
         "answers": {

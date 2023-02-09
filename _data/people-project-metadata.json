@@ -1,7 +1,36 @@
 {
+  "s23_asr": {
+    "displayName": "Automatic Speech Recognition",
+    "link": "/projects/f22-s23#s23_asr"
+  },
+  "s23_linguistics": {
+    "displayName": "Indigenous Linguistics",
+    "link": "/projects/f22-s23#s23_linguistics"
+  },
+  "s23_cv4qa": {
+    "displayName": "CV for Quality Assurance",
+    "link": "/projects/f22-s23#s23_cv4qa"
+  },
+  "s23_robotics": {
+    "displayName": "Robot Drone Navigation",
+    "link": "/projects/f22-s23#s23_robotics"
+  },
+  "s23_emote": {
+    "displayName": "Emote Recommender",
+    "link": "/projects/f22-s23#s23_emote"
+  },
+  "s23_slides": {
+    "displayName": "Slides Generation",
+    "link": "/projects/f22-s23#s23_slides"
+  },
+  "s23_wildfires": {
+    "displayName": "Wildfire Detection",
+    "link": "/projects/f22-s23#s23_wildfires"
+  },
   "f22_asr": {
     "displayName": "Automatic Speech Recognition",
-    "link": "/projects/f22-s23#f22_asr"
+    "link": "/projects/f22-s23#f22_asr",
+    "updated": "s23_asr"
   },
   "f22_projectx": {
     "displayName": "ProjectX: Interaction",
@@ -9,11 +38,13 @@
   },
   "f22_cv4qa": {
     "displayName": "CV for Quality Assurance",
-    "link": "/projects/f22-s23#f22_cv4qa"
+    "link": "/projects/f22-s23#f22_cv4qa",
+    "updated": "s23_cv4qa"
   },
   "f22_linguistics": {
     "displayName": "Indigenous Linguistics",
-    "link": "/projects/f22-s23#f22_linguistics"
+    "link": "/projects/f22-s23#f22_linguistics",
+    "updated": "s23_linguistics"
   },
   "s22_agroecology": {
     "displayName": "Agroecology",
