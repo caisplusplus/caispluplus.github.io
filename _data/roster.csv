@@ -18,9 +18,9 @@ Advisor-Active,Eric Ye,eye942@gmail.com,eye@usc.edu,+1 (480) 233-1648,7354787805
 [TEMP] Alumni,Adina Kruijssen,,kruijsse@usc.edu,,,F17,S21,,,,,,,,,,
 Advisor-Active,Zane Durante,durante@stanford.edu,durante@usc.edu,+1 (573) 397-3989,3128180931,F17,S21,"PhD CSCI, CSCI, AMCM",,M,https://github.com/zanedurante,https://www.linkedin.com/in/zane-durante/,Research,"Computer Science PhD @ Stanford, NSF GRFP Honorable Mention","F20, S20",,"f20_language, s20_games, s20_language, s19_language, f18_language, s18_melanoma"
 Advisor-Newsletter,Sean Syed,seanasyed@gmail.com,seansyed@usc.edu,+1 (310) 919-6278,,F17,S21,"MS EE, CECS",,M,https://github.com/seanasyed,https://www.linkedin.com/in/seansyed/,Industry,,,,s18_ndsb
-Advisor-Active,Shomik Jain,shomik.jain@gmail.com,shomikja@usc.edu,+1 (408) 960-3402,,F17,S20,"MS EE, AMCM",CSCI,M,https://github.com/shomikj,https://www.linkedin.com/in/shomikjain,"Industry, Research",Societal Engineering PhD @ MIT; Forward Deployed Engineer @ Palantir,S18,,s18_sports
+Advisor-Active,Shomik Jain,shomik.jain@gmail.com,shomikja@usc.edu,+1 (408) 960-3402,,F17,S20,"MS EE, AMCM",CSCI,M,https://github.com/shomikj,https://www.linkedin.com/in/shomikjain,"Industry, Research",Societal Engineering PhD @ MIT; Forward Deployed Engineer @ Palantir,"S19, S18",,"s19_airbnb, s18_sports"
 [TEMP] Alumni,Qianze Zhang,,qianzezh@usc.edu,,,F17,S20,,,,,,,,,,
-[TEMP] Alumni,Sahil Agarwal,,sahilaga@usc.edu,,,F17,S20,,,,,,,,,,
+[TEMP] Alumni,Sahil Agarwal,,sahilaga@usc.edu,,,F17,S20,,,,,,,,,,s19_airbnb
 [TEMP] Alumni,Suvir Copparam,,scoppara@usc.edu,,,F17,S20,,,,,,,,,,
 [TEMP] Alumni,Aditya Shah,,shahaa@usc.edu,,,F17,S20,,,,,,,,,,
 [TEMP] Alumni,Mariano Bonilla,,marianob@usc.edu,,,F17,S20,,,,,,,,,,
@@ -51,7 +51,7 @@ Alumni-Newsletter,Vikash Mody,009vik@gmail.com,vikasham@usc.edu,+1 (310) 251-545
 Dropped,Melissa Ahn,,ahnmelis@usc.edu,,,S18,S22,,,F,,,,,,,
 [TEMP] Alumni,Markie Wagner,,markiero@usc.edu,,,S18,S22,,,F,,,,,,,
 Alumni-Newsletter,Ishan Shah,ishu.shah@ymail.com,ishans@usc.edu,+1 (408) 800-1591,,S18,S21,"MS CSCI, CECS",,M,github.com/theishah,linkedin.com/in/theishah,Industry,Nvidia,,,
-[TEMP] Alumni,Lauren Phillips,,laurenph@usc.edu,,,S18,S20,,,F,,,,,,,
+[TEMP] Alumni,Lauren Phillips,,laurenph@usc.edu,,,S18,S20,,,F,,,,,,,s19_airbnb
 Dropped,Melissa Wen,,wenm@usc.edu,,,S18,S21,,,F,,,,,,,
 Dropped,Divya Narayanan,,divyanar@usc.edu,,,S18,S22,,,F,,,,,,,
 Alumni-Active,Michelle Huntley,michellehuntleys@gmail.com,huntleym@usc.edu,+1 (818) 741-7201,,S18,S19,CSBA,,F,https://github.com/huntleym,https://www.linkedin.com/in/michelle-h-26a687b0/,"Whatever, Whenever",Mental patient/Northrop Grumman employee,,,"s19_brain, f18_brain"
@@ -63,14 +63,14 @@ Alumni-Newsletter,Dale Yu,dale2yu@gmail.com,daleyu@usc.edu,+1 (860) 539-6593,391
 Dropped,Caroline Reiser,caroline@reiserfamily.net,creiser@usc.edu,+1 (925) 818-1843,,F18,S22,CSCI,Business Finance,F,https://github.com/creiser1,https://www.linkedin.com/in/caroline-reiser/,Industry,Meta,,,
 Alumni-Inactive,Chris Hailey,chris.hailey8@gmail.com,hailey@usc.edu,+1 (408) 348-8437,,F18,S21,CSCI,,M,github.com/chailey,linkedin.com/in/chrishailey8,Industry,SWE at Coinbase,,,
 Alumni-Active,Christopher Fucci,wuzguccifucci@gmail.com,cfucci@usc.edu,+1 (602) 571-2781,5346206277,F18,S22,"MS CSCI, CSCI",,M,https://github.com/fuccichris,https://www.linkedin.com/in/christopher-fucci-497196146/,Industry,SDE at Amazon,S20,,"f20_projectx, s19_fairness"
-[TEMP] Alumni,Isaac Gelman,,igelman@usc.edu,,,F18,S22,,,M,,,,,,,s20_gene
+[TEMP] Alumni,Isaac Gelman,,igelman@usc.edu,,,F18,S22,,,M,,,,,,,"s20_gene, s19_airbnb"
 [TEMP] Alumni,Jamie Flores,,jamieflo@usc.edu,,,F18,S21,,,F,,,,,,,
 Dropped,Jenny Lee,,haeminle@usc.edu,,,F18,S22,,,F,,,,,,,s19_fairness
 [TEMP] Alumni,Jincheng Zhou,,jinchenz@usc.edu,,,F18,S21,,,M,,,,,,,
 Dropped,Julia Wang,meiyan99@gmail.com,juliamwa@usc.edu,+1 (314) 600-5976,6554851995,F18,S22,CSBA,,F,https://github.com/JuliaMWang,https://www.linkedin.com/in/juliamwang,Industry,,,,
 Alumni-Inactive,Lena Ye,lenafye@gmail.com,lenaye@usc.edu,,,F18,S21,CSCI,,F,,https://www.linkedin.com/in/lena-ye/,Industry,PM @ Microsoft,,,
 Alumni-Newsletter,Lily Perry,perrylm888@gmail.com,lilyperr@usc.edu,+1 (808) 426-3823,6485217452,F18,S22,CSCI,Comedy (Performance),F,https://github.com/LilyPerr,https://www.linkedin.com/in/lilyperry,Industry,Cybersecurity Industry Full-time,,,
-Alumni-Newsletter,Nathaniel Redfern,ntredfern@gmail.com,,+1 (415) 990-9437,,F18,,CGSC,,M,,www.linkedin.com/in/natred,Commercial Real Estate,Disney+,,,
+Alumni-Newsletter,Nathaniel Redfern,ntredfern@gmail.com,,+1 (415) 990-9437,,F18,,CGSC,,M,,www.linkedin.com/in/natred,Commercial Real Estate,Disney+,,,s19_airbnb
 Dropped,Noah Forman,,nhforman@usc.edu,,,F18,S20,,,M,,,,,,,
 Dropped,Peter Guangji,,guangjil@usc.edu,,,F18,S22,,,M,,,,,,,
 [TEMP] Advisor,Rajvir Dua,,rajvirdu@usc.edu,,,F18,S22,,,M,,,,,,,
