@@ -49,7 +49,7 @@
             "Aditya Kumar",
             "Sana Jayaswal"
           ],
-          "description": "Imperialism has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages.",
+          "description": "Imperialism has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages."
         },
         {
           "title": "Zero-Shot Robot Navigation",
@@ -539,7 +539,7 @@
             "Tejas Ramdas"
           ],
           "description":  "Approximately ~60% of the world’s current 7,000 languages is predicted to go extinct by the end of the century; the death of any language represents an irreversible loss of information across multiple fields, including linguistics, psychology, sociology, and anthropology. A CAIS++ team is continuing their work on developing unsupervised representation learning techniques for automatically extracting and preserving the phonemes of endangered languages. Their focus is on Ladin, a language spoken by about 20,000 people in the Italian Alps, in a research collaboration with USC’s Department of Linguistics.",
-          "paper": "https://arxiv.org/pdf/2108.12531.pdf"
+          "paper": "https://arxiv.org/abs/2108.12531"
         }
       ]
     }, {
@@ -597,11 +597,22 @@
             "Tejas Ramdas"
           ],
           "description": "In this project, we are trying to speed up the process of language documentation by building a model that produces phonetic transcriptions from audio samples of human languages. The ultimate goal of our project is to develop a model that could be applied to any human language with minimal changes. We will be using around 3-4 hours of partially labeled audio data in an endangered language called Ladin, which we are using as our main training/test data. As of now we have produced some decent results in vowel identifications and are currently working on phoneme segmentation and identification of larger consonant categories.",
-          "paper": "https://arxiv.org/pdf/2108.12531.pdf"
+          "paper": "https://arxiv.org/abs/2108.12531"
         }, {
-          "title": "Natural Language Processing: AirBnB",
+          "title": "Nowcasting Gentrification Using Airbnb Data",
+          "id": "s19_airbnb",
           "image": "/images/projects/house.png",
-          "description": "This project will utilize NLP to analyze the correlation between Airbnb reviews and gentrification in neighborhoods. In particular, we will attempt to predict crime rates, race/income diversity, house prices, and other similar statistics from Airbnb reviews in a particular geographical region. This is advantageous because it provides a detailed local picture and real time statistics about a neighborhood compared to years old government data. This project builds on a recent Harvard study that used Yelp data to predict economic opportunity in neighborhoods, and can expand to include other consumer based data as well."
+          "leadAuthors": [
+            "Shomik Jain"
+          ],
+          "authors": [
+            "Isaac Gelman",
+            "Lauren Phillips",
+            "Nat Redfern",
+            "Sahil Agarwal"
+          ],
+          "description": "This project will utilize NLP to analyze the correlation between Airbnb reviews and gentrification in neighborhoods. In particular, we will attempt to predict crime rates, race/income diversity, house prices, and other similar statistics from Airbnb reviews in a particular geographical region. This is advantageous because it provides a detailed local picture and real time statistics about a neighborhood compared to years old government data. This project builds on a recent Harvard study that used Yelp data to predict economic opportunity in neighborhoods, and can expand to include other consumer based data as well.",
+          "paper": "https://arxiv.org/abs/2101.05924"
         }, {
           "title": "Building a Chess Engine",
           "image": "/images/projects/chess.png",
