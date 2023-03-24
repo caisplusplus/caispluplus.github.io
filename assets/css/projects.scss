@@ -43,6 +43,9 @@ article {
       &.accent {
         color: _palette(accent);
       }
+      &.accent-yellow {
+        color: #f39d0b;
+      }
     }
   }
   .image {
