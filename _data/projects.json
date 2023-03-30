@@ -73,6 +73,10 @@
             "Matthew Rodriguez",
             "Jonathan Ong"
           ],
+          "advisorAuthors": [
+            "Kaustav Chakraborty",
+            "Somil Bansal"
+          ],
           "description": "Robots have many challenges to face when navigating unknown environments, such as moving obstacles and uneven terrain. Currently, robots can leverage computer vision to generate optimal waypoints that robots can follow to reach their goal. However, this approach fails when robots navigate uncommon objects and close proximity areas. The project aims to incorporate multimodal sensor input to make navigation more robust in unknown environments."
         },
         {
