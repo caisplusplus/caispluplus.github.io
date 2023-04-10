@@ -78,13 +78,15 @@
   }
 }
 
-#founders {
+#founders, #eboard {
   width: 100%;
 
   img {
     width: 100%;
   }
+}
 
+#founders {
   &:hover {
     img {
       transform: none;
