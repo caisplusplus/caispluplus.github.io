@@ -5,123 +5,131 @@
 ///
 
 /* Posts */
+$gutter: (_size(gutter) * 2);
+.posts, .posts-advisory {
+	@include vendor('display', 'flex');
+	@include vendor('flex-wrap', 'wrap');
+	margin: 0 0 _size(element-margin) ($gutter * -1);
+	width: calc(100% + #{$gutter});
 
-	.posts, .posts-advisory {
-		$gutter: (_size(gutter) * 2);
+	article {
+		@include vendor('flex-grow', '0');
+		@include vendor('flex-shrink', '1');
+		margin: 0 0 $gutter $gutter;
+		position: relative;
+		width: calc(#{(100% / 3)} - #{$gutter});
 
-		@include vendor('display', 'flex');
-		@include vendor('flex-wrap', 'wrap');
+		&:before, &:after {
+			content: none;
+		}
+
+		> :last-child {
+			margin-bottom: 0;
+		}
+
+		.image {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+
+			img {
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+
+	@include breakpoint('<=medium') {
+		$gutter: _size(gutter) * 1.5;
+
 		margin: 0 0 _size(element-margin) ($gutter * -1);
 		width: calc(100% + #{$gutter});
 
 		article {
-			@include vendor('flex-grow', '0');
-			@include vendor('flex-shrink', '1');
 			margin: 0 0 $gutter $gutter;
-			position: relative;
-			width: calc(#{(100% / 3)} - #{$gutter});
+			width: calc(33% - #{$gutter});
 
-			&:before, &:after {
-				content: none;
-			}
-
-			> :last-child {
-				margin-bottom: 0;
-			}
-
-			.image {
-				display: block;
-				margin: 0 0 _size(element-margin) 0;
-
-				img {
-					display: block;
-					width: 100%;
-				}
-			}
-		}
-
-		@include breakpoint('<=xlarge') {
-			article {
-				width: calc(50% - #{$gutter});
-
-				&:nth-last-child(3) {
-					margin-bottom: $gutter;
-				}
-			}
-		}
-
-		@include breakpoint('small-to-xlarge') {
-			article {
-				width: calc(33% - #{$gutter});
-			}
-		}
-
-		@include breakpoint('<=medium') {
-			$gutter: _size(gutter) * 1.5;
-
-			margin: 0 0 _size(element-margin) ($gutter * -1);
-			width: calc(100% + #{$gutter});
-
-			article {
-				margin: 0 0 $gutter $gutter;
-				width: calc(33% - #{$gutter});
-
-				&:nth-last-child(3) {
-					margin-bottom: $gutter;
-				}
-			}
-		}
-
-		@include breakpoint('<=xsmall') {
-			$gutter: _size(gutter) * 1.2;
-
-			margin: 0 0 _size(element-margin) ($gutter * -1);
-			width: calc(100% + #{$gutter});
-
-			article {
-				margin: 0 0 $gutter $gutter;
-				width: calc(50% - #{$gutter});
-
-				&:last-child {
-					margin-bottom: 0;
-
-					&:after {
-						display: none;
-					}
-				}
+			&:nth-last-child(3) {
+				margin-bottom: $gutter;
 			}
 		}
 	}
-	.posts-advisory {
-		$gutter: (_size(gutter) * 2);
+
+	@include breakpoint('<=xsmall') {
+		$gutter: _size(gutter) * 1.2;
+
+		margin: 0 0 _size(element-margin) ($gutter * -1);
+		width: calc(100% + #{$gutter});
 
 		article {
-			width: calc(#{(100% / 5)} - #{$gutter});
-		}
+			margin: 0 0 $gutter $gutter;
+			width: calc(50% - #{$gutter});
 
-		@include breakpoint('<=xlarge') {
-			article {
-				width: calc(33% - #{$gutter});
-			}
-		}
+			&:last-child {
+				margin-bottom: 0;
 
-		@include breakpoint('small-to-xlarge') {
-			article {
-				width: calc(33% - #{$gutter});
-			}
-		}
-
-		@include breakpoint('<=medium') {
-			$gutter: _size(gutter) * 1.5;
-			article {
-				width: calc(33% - #{$gutter});
-			}
-		}
-
-		@include breakpoint('<=xsmall') {
-			$gutter: _size(gutter) * 1.5;
-			article {
-				width: calc(50% - #{$gutter});
+				&:after {
+					display: none;
+				}
 			}
 		}
 	}
+}
+.posts {
+	@include breakpoint('<=xlarge') {
+		article {
+			width: calc(25% - #{$gutter});
+
+			&:nth-child(1), &:nth-child(2), &:nth-child(3) {
+				margin: 0 0 $gutter calc(1.75 * #{$gutter});
+			}
+		}
+	}
+	@include breakpoint('<=medium') {
+		$gutter: _size(gutter) * 1.5;
+
+		margin: 0 0 _size(element-margin) ($gutter * -1);
+		width: calc(100% + #{$gutter});
+
+		article {
+			margin: 0 0 $gutter $gutter;
+			width: calc(33% - #{$gutter});
+
+			&:nth-child(1), &:nth-child(2), &:nth-child(3) {
+				margin: 0 0 $gutter $gutter;
+			}
+		}
+	}
+}
+.posts-advisory {
+	$gutter: (_size(gutter) * 2);
+
+	article {
+		width: calc(#{(100% / 5)} - #{$gutter});
+	}
+
+	@include breakpoint('<=xlarge') {
+		article {
+			width: calc(33% - #{$gutter});
+		}
+	}
+
+	@include breakpoint('small-to-xlarge') {
+		article {
+			width: calc(33% - #{$gutter});
+		}
+	}
+
+	@include breakpoint('<=medium') {
+		$gutter: _size(gutter) * 1.5;
+		article {
+			width: calc(33% - #{$gutter});
+		}
+	}
+
+	@include breakpoint('<=xsmall') {
+		$gutter: _size(gutter) * 1.5;
+		article {
+			width: calc(50% - #{$gutter});
+		}
+	}
+}
