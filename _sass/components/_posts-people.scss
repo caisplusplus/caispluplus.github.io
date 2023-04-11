@@ -101,13 +101,13 @@
 
 		@include breakpoint('<=xlarge') {
 			article {
-				width: calc(25% - #{$gutter});
+				width: calc(33% - #{$gutter});
 			}
 		}
 
 		@include breakpoint('small-to-xlarge') {
 			article {
-				width: calc(25% - #{$gutter});
+				width: calc(33% - #{$gutter});
 			}
 		}
 
