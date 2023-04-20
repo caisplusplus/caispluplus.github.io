@@ -42,15 +42,15 @@ scripts:
       <h3>{{ project.title }}</h3>
       <h5>
         {% for leadAuthor in project.leadAuthors %}
-        {{ leadAuthor }}&nbsp;<span class='accent'>*</span>{% unless forloop.last %}{{","}}{% endunless %}
+        {{ leadAuthor }}&nbsp;<span class='accent'>*</span>{% unless forloop.last %}{{" ,"}}{% endunless %}
         {% endfor %}
-        {% if project.authors %}{{","}}{% endif %}&nbsp;
+        {% if project.authors %}{{","}}{% endif %}
         {% for author in project.authors %}
-        <span>{{ author }}</span>{% unless forloop.last %}{{",&nbsp;"}}{% endunless %}&nbsp;
+        <span>{{ author }}</span>{% unless forloop.last %}{{" ,"}}{% endunless %}
         {% endfor %}
-        {% if project.advisorAuthors %}{{",&nbsp;"}}{% endif %}&nbsp;
+        {% if project.advisorAuthors %}{{","}}{% endif %}
         {% for advisorAuthor in project.advisorAuthors %}
-        <span>{{ advisorAuthor }}</span>&nbsp;<span class='accent-yellow'>*</span>{% unless forloop.last %}{{","}}{% endunless %}&nbsp;
+        <span>{{ advisorAuthor }}</span>&nbsp;<span class='accent-yellow'>*</span>{% unless forloop.last %}{{" ,"}}{% endunless %}&nbsp;
         {% endfor %}
       </h5>
       {% if project.leadAuthors or project.advisorAuthors %}
