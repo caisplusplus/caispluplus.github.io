@@ -1,4 +1,20 @@
 {
+  "f23_turbulence": {
+    "displayName": "Air Turbulence",
+    "link": "/projects/f22-s23#f23_turbulence"
+  },
+  "f23_ear": {
+    "displayName": "Ear Disease Detection",
+    "link": "/projects/f22-s23#f23_ear"
+  },
+  "f23_graph": {
+    "displayName": "Graph Signal Processing",
+    "link": "/projects/f22-s23#f23_graph"
+  },
+  "f23_linguistics": {
+    "displayName": "Indigenous Linguistics",
+    "link": "/projects/f23-s24#f23_linguistics"
+  },
   "s23_asr": {
     "displayName": "Automatic Speech Recognition",
     "link": "/projects/f22-s23#s23_asr"

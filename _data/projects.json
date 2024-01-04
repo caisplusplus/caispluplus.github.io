@@ -1,6 +1,86 @@
 {
   "projects":[
     {
+      "term":"Fall 2023",
+      "pageID": "f23-s24",
+      "projects": [
+        {
+          "title": "Predicting Climate Change using Turbulence Data",
+          "id": "f23_turbulence",
+          "image": "/images/projects/turbulence.png",
+          "leadAuthors": [
+            "Jayne Bottarini",
+            "Jaiv Doshi"
+          ],
+          "authors": [
+            "Pratyush Jaishanker",
+            "Naina Panjwani",
+            "Sanya Verma"
+          ],
+          "advisorAuthors": [
+            "Sam Silva"
+          ],
+          "description": "Explainable modelling of turbulence proxies using climate data, with insight how climate change might affect turbulence using feature analysis or other methods.",
+          "media": "https://docs.google.com/presentation/d/1vQKWCxAcEtK2Ltn9a4QaxLIJicI_SVbZcfC9B6-9NWo/edit?usp=sharing"
+        },
+        {
+          "title": "Non-invasive Ear Disease Detection with OCT Scans and Computer Vision",
+          "id": "f23_ear",
+          "image": "/images/projects/ear.png",
+          "leadAuthors": [
+            "Claude Yoo",
+            "Lucia Zhang"
+          ],
+          "authors": [
+            "Sana Jayaswal",
+            "Seena Pourzand",
+            "Irika Katiyar",
+            "Will Dolan"
+          ],
+          "advisorAuthors": [
+            "Brian Applegate"
+          ],
+          "description": "This project focuses on segmentation of ear membrane images using 3D data and classifying ear diseases from images."
+        },
+        {
+          "title": "Bias in Data and Graph Signal Processing",
+          "id": "f23_graph",
+          "image": "/images/projects/graph.png",
+          "leadAuthors": [
+            "Aarav Monga",
+            "Sonia Zhang"
+          ],
+          "authors": [
+            "Advik Unni",
+            "Shahzeb Lakhani",
+            "Rajakrishnan Somou"
+          ],
+          "advisorAuthors": [
+            "Antonio Ortega"
+          ],
+          "description": "With the rise in large datasets, there is a limited understanding of the contents of the dataset. Can Graph Signal Processing methods be used to understand what is in a dataset and detect any biases?"
+        },
+        {
+          "title": "Indigenous Language Translation with Sparse Data (3.0)",
+          "id": "f23_linguistics",
+          "image": "/images/projects/conversation.png",
+          "leadAuthors": [
+            "Aryan Gulati",
+            "Leslie Moreno"
+          ],
+          "authors": [
+            "Abhinav Gupta",
+            "Aditya Kumar"
+          ],
+          "advisorAuthors": [
+            "Jonathan May"
+          ],
+          "description": "Imperialism has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages.",
+          "media": "https://docs.google.com/presentation/d/19ezxhtr_IyDeBOfpTy0n5D1HxNwC2tjIbMfSOFoBSvg/edit#slide=id.g29fa061d36d_0_0"
+        }
+      ]
+    },
+    {
       "term":"Spring 2023",
       "pageID": "f22-s23",
       "projects": [
