@@ -1,11 +1,161 @@
 {
   "projects":[
     {
+      "term":"Spring 2024",
+      "pageID": "f23-s24",
+      "projects": [
+        {
+          "title": "Gen-AI for Multi-Agent Deformable Object Manipulation",
+          "id": "s24_robotics",
+          "image": "/images/projects/robotics.png",
+          "leadAuthors": [
+            "Jonathan Ong",
+            "Zitong Huang"
+          ],
+          "authors": [
+            "Rida Faraz",
+            "Vijay Kumaravelrajan",
+            "Siddharth Rudharaju",
+            "Anisha Chitta"
+          ],
+          "advisorAuthors": [
+            "Daniel Seita"
+          ],
+          "description": "Robots hold great potential for automating tasks across various environments, yet their adoption is limited by their current capabilities, especially in complex scenarios like caregiving. To enhance automation and accessibility, this project works to advance robotic manipulation of objects that require multiple manipulators and deformable items such as bread and clothing. In this work, we integrate various robotic platforms, including ALOHA and Baxter, into the MuJoCo simulation environment using Robosuite, and set up bimanual configurations to explore different arm controllers. To robustly assess robotic performance, we identify specific tasks involving deformable objects and continuously refine our evaluation protocols.",
+          "media": "https://www.canva.com/design/DAF1mxXM5j4/j3Ka5dkVim1q-4FYeW4xzA/edit?utm_content=DAF1mxXM5j4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        },
+        {
+          "title": "Harmful Brain Activity Classification through EEG Spectrogram Data",
+          "id": "s24_brain",
+          "image": "/images/projects/eegbrain.png",
+          "leadAuthors": [
+            "Jessica Fu"
+          ],
+          "authors": [
+            "Vayun Mathur",
+            "Ryan Nene",
+            "Brice Patchou"
+          ],
+          "description": "Currently, electroencephalogram (EEG) monitoring heavily relies on manual analysis by specialized neurologists, leading to time-consuming and expensive procedures with potential errors. By applying deep learning techniques for EEG analysis, the Harmful Brain Activity Project strives to enhance the accuracy of electroencephalography pattern classification of harmful brain activities, such as seizures, to facilitate greater diagnoses and treatments for patients. By training convolutional neural networks (CNNs) in a specialized pipeline, we aim to create a highly effective model as a contribution towards AI applications in EEG analysis, thus positively impacting the preservation and advancement of human brain health.",
+          "media": "https://docs.google.com/presentation/d/1xrhAqk4LP2bnbUJZrILtj2ECVtaHzhzzoxRfzY2mGbM/edit?usp=sharing"
+        },
+        {
+          "title": "Comparing Encoder-Decoder Architectures for Multimodal Hate Speech Detection in Hateful Memes Dataset",
+          "id": "s24_hatespeech",
+          "image": "/images/projects/hatespeech.png",
+          "leadAuthors": [
+            "Nathan Johnson"
+          ],
+          "authors": [
+            "Maohe (Mo) Jiang",
+            "Jonathan Aydin",
+            "Catherine Lu",
+            "Darius Mahjoob",
+            "Catherine He"
+          ],
+          "description": "Multimodal hate speech detection presents additional challenges beyond unimodal detection, as subtle forms of hate speech often surface only when both text and images are analyzed together. This project examines the effectiveness and limitations of various pre-trained multimodal encoders in classifying content as hate speech. By comparing these models, we aim to identify the most viable approaches for accurately detecting hate speech in complex, multimodal contexts.",
+          "media": "https://www.canva.com/design/DAGCu8a4mJ8/8MfftUbnzWRh4RzkQmyR5w/edit?utm_content=DAGCu8a4mJ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        },
+        {
+          "title": "Gender Workplace Bias in Large Language Models",
+          "id": "s24_llmbias",
+          "image": "/images/projects/llmbias.png",
+          "leadAuthors": [
+            "Rachita Jain"
+          ],
+          "authors": [
+            "Jessica Luna",
+            "Kailin Xia",
+            "Arjun Bedi",
+            "Malina Freeman"
+          ],
+          "description": "As large language models (LLMs) like ChatGPT gain prominence, addressing the biases embedded within these models is of paramount importance, particularly regarding gender and gender roles in the workplace. Historically, certain occupations have been linked with specific genders, resulting in significant imbalances across various sectors. To bridge this gender gap, it is essential that AI technologies do not perpetuate these biases. This project leverages LLaMA, a widely adopted open-source LLM, and employs prompt engineering techniques to investigate methods for reducing workplace gender bias in model responses. The objective is to ensure that LLMs exhibit gender neutrality, particularly in contexts characterized by ambiguity or uncertainty.",
+          "media": "https://docs.google.com/presentation/d/1g1ZWQciXAJ2kxgY8lZbXCsxTLJJ46rKMTEo_QNJwA-0/edit?usp=sharing"
+        },
+        {
+          "title": "Navigating Climate-Induced Turbulence: Optimizing Aviation Emissions Through Neural Network-Based Turbulence Detection",
+          "id": "s24_turbulence",
+          "image": "/images/projects/turbulence.png",
+          "leadAuthors": [
+            "Jayne Bottarini",
+            "Jaiv Doshi"
+          ],
+          "authors": [
+            "Pratyush Jaishanker",
+            "Naina Panjwani",
+            "Sanya Verma",
+            "Lauren Sun",
+            "Jay Campanell"
+          ],
+          "advisorAuthors": [
+            "Sam Silva"
+          ],
+          "description": "Aviation currently contributes to over 3% of global carbon dioxide emissions and will only contribute more as global travel levels increase [1], which is why implementing optimal flight paths based on emissions is essential. As the Earth warms, however, atmospheric wind patterns change unpredictably, inducing a cycle of more turbulent air, suboptimal flight paths, and increased emissions of carbon dioxide and other pollutants. We aim to contribute to breaking this cycle by employing generative and spatial machine learning techniques to downscale wind patterns in order to improve finer-scale wind speed predictions and inform emissions-based optimization techniques in flight paths.",
+          "media": "https://docs.google.com/presentation/d/1vQKWCxAcEtK2Ltn9a4QaxLIJicI_SVbZcfC9B6-9NWo/edit?usp=sharing"
+        },
+        {
+          "title": "Computer Vision and Machine Learning on Optical Coherence Tomography for Middle Ear Pathology Detection",
+          "id": "s24_ear",
+          "image": "/images/projects/ear.png",
+          "leadAuthors": [
+            "Claude Yoo",
+            "Lucia Zhang"
+          ],
+          "authors": [
+            "Sana Jayaswal",
+            "Seena Pourzand",
+            "Irika Katiyar",
+            "Will Dolan"
+          ],
+          "advisorAuthors": [
+            "Brian Applegate"
+          ],
+          "description": "Current diagnostic methods for middle ear diseases in otology are primarily qualitative and limited to examining only the surface of the tympanic membrane (TM). Optical Coherence Tomography (OCT) offers a non-invasive, quantitative imaging technique that enables three-dimensional reconstruction of the TM and middle ear, providing more detailed information than traditional methods. However, manually interpreting OCT scans can be time-consuming and challenging, and while OCT-based disease detection models are well-established in retinal imaging and ophthalmology, their application in otology remains relatively unexplored. This project focuses on creating a multi-classification machine learning model capable of identifying conditions such as retraction pockets, perforations, and cholesteatomas, and distinguishing them from healthy ear scans."
+        },
+        {
+          "title": "Performance-based Feature Sampling for Reducing Bias in Image Recognition Models",
+          "id": "s24_graph",
+          "image": "/images/projects/graph.png",
+          "leadAuthors": [
+            "Aarav Monga",
+            "Sonia Zhang"
+          ],
+          "authors": [
+            "Advik Unni",
+            "Shahzeb Lakhani",
+            "Rajakrishnan Somou"
+          ],
+          "advisorAuthors": [
+            "Antonio Ortega"
+          ],
+          "description": "The presence of unseen bias in machine learning models remains a significant barrier to achieving trusted AI. While class imbalance is often addressed through training set sampling methods, this project targets a more nuanced challenge: bias within specific groups of a class. Such biases can create harmful, spurious correlations—like associating certain demographics with particular roles—that undermine the accuracy and fairness of representation learning. Addressing these issues involves a two-step process: first, identifying and labeling the bias groups, and second, adaptively sampling from these groups during training. This approach aims to correct the hidden biases that complicate model training and ultimately enhance the reliability of AI systems."
+        },
+        {
+          "title": "Indigenous Language Translation with Sparse Data (4.0)",
+          "id": "s24_linguistics",
+          "image": "/images/projects/conversation.png",
+          "leadAuthors": [
+            "Aryan Gulati",
+            "Leslie Moreno"
+          ],
+          "authors": [
+            "Abhinav Gupta",
+            "Aditya Kumar"
+          ],
+          "advisorAuthors": [
+            "Jonathan May"
+          ],
+          "description": "Imperialism has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages.",
+          "media": "https://docs.google.com/presentation/d/19ezxhtr_IyDeBOfpTy0n5D1HxNwC2tjIbMfSOFoBSvg/edit#slide=id.g29fa061d36d_0_0"
+        }
+      ]
+    },
+    {
       "term":"Fall 2023",
       "pageID": "f23-s24",
       "projects": [
         {
-          "title": "Predicting Climate Change using Turbulence Data",
+          "title": "Navigating Climate-Induced Turbulence: Optimizing Aviation Emissions Through Neural Network-Based Turbulence Detection",
           "id": "f23_turbulence",
           "image": "/images/projects/turbulence.png",
           "leadAuthors": [
@@ -20,11 +170,11 @@
           "advisorAuthors": [
             "Sam Silva"
           ],
-          "description": "Explainable modelling of turbulence proxies using climate data, with insight how climate change might affect turbulence using feature analysis or other methods.",
+          "description": "Aviation currently contributes to over 3% of global carbon dioxide emissions and will only contribute more as global travel levels increase [1], which is why implementing optimal flight paths based on emissions is essential. As the Earth warms, however, atmospheric wind patterns change unpredictably, inducing a cycle of more turbulent air, suboptimal flight paths, and increased emissions of carbon dioxide and other pollutants. We aim to contribute to breaking this cycle by employing generative and spatial machine learning techniques to downscale wind patterns in order to improve finer-scale wind speed predictions and inform emissions-based optimization techniques in flight paths.",
           "media": "https://docs.google.com/presentation/d/1vQKWCxAcEtK2Ltn9a4QaxLIJicI_SVbZcfC9B6-9NWo/edit?usp=sharing"
         },
         {
-          "title": "Non-invasive Ear Disease Detection with OCT Scans and Computer Vision",
+          "title": "Computer Vision and Machine Learning on Optical Coherence Tomography for Middle Ear Pathology Detection",
           "id": "f23_ear",
           "image": "/images/projects/ear.png",
           "leadAuthors": [
@@ -40,10 +190,10 @@
           "advisorAuthors": [
             "Brian Applegate"
           ],
-          "description": "This project focuses on segmentation of ear membrane images using 3D data and classifying ear diseases from images."
+          "description": "Current diagnostic methods for middle ear diseases in otology are primarily qualitative and limited to examining only the surface of the tympanic membrane (TM). Optical Coherence Tomography (OCT) offers a non-invasive, quantitative imaging technique that enables three-dimensional reconstruction of the TM and middle ear, providing more detailed information than traditional methods. However, manually interpreting OCT scans can be time-consuming and challenging, and while OCT-based disease detection models are well-established in retinal imaging and ophthalmology, their application in otology remains relatively unexplored. This project focuses on creating a multi-classification machine learning model capable of identifying conditions such as retraction pockets, perforations, and cholesteatomas, and distinguishing them from healthy ear scans."
         },
         {
-          "title": "Bias in Data and Graph Signal Processing",
+          "title": "Performance-based Feature Sampling for Reducing Bias in Image Recognition Models",
           "id": "f23_graph",
           "image": "/images/projects/graph.png",
           "leadAuthors": [
@@ -58,7 +208,7 @@
           "advisorAuthors": [
             "Antonio Ortega"
           ],
-          "description": "With the rise in large datasets, there is a limited understanding of the contents of the dataset. Can Graph Signal Processing methods be used to understand what is in a dataset and detect any biases?"
+          "description": "The presence of unseen bias in machine learning models remains a significant barrier to achieving trusted AI. While class imbalance is often addressed through training set sampling methods, this project targets a more nuanced challenge: bias within specific groups of a class. Such biases can create harmful, spurious correlations—like associating certain demographics with particular roles—that undermine the accuracy and fairness of representation learning. Addressing these issues involves a two-step process: first, identifying and labeling the bias groups, and second, adaptively sampling from these groups during training. This approach aims to correct the hidden biases that complicate model training and ultimately enhance the reliability of AI systems."
         },
         {
           "title": "Indigenous Language Translation with Sparse Data (3.0)",
