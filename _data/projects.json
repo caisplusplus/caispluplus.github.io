@@ -40,6 +40,22 @@
           "media": "https://docs.google.com/presentation/d/1xrhAqk4LP2bnbUJZrILtj2ECVtaHzhzzoxRfzY2mGbM/edit?usp=sharing"
         },
         {
+          "title": "CityLearn",
+          "id": "s24_citylearn",
+          "image": "/images/projects/citylearn.png",
+          "leadAuthors": [
+            "Sanjana Ilango",
+            "Spencer Tran"
+          ],
+          "authors": [
+            "Vidur Mushran",
+            "Andrew Choi",
+            "Joanne Lee",
+            "Jimena Arce"  ],
+          "description": "Buildings account for 30% of greenhouse gas emissions, making energy efficiency a critical focus for sustainability efforts. Distributed energy resources, such as domestic hot water systems that store electricity and solar panels that generate it, play a key role in alleviating the strain on building electric grids. To optimize the management and allocation of these resources across multiple buildings, it is essential to develop accurate and reliable energy usage predictions. This project aims to create robust predictive models that will enhance energy efficiency and contribute to reducing the environmental impact of buildings.",
+          "media": "https://www.canva.com/design/DAGCuq1cTtk/itS-dWmLqUJKZJanR3W9tw/edit?utm_content=DAGCuq1cTtk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        },
+        {
           "title": "Comparing Encoder-Decoder Architectures for Multimodal Hate Speech Detection in Hateful Memes Dataset",
           "id": "s24_hatespeech",
           "image": "/images/projects/hatespeech.png",
