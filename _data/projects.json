@@ -90,23 +90,6 @@
           "media": "https://www.canva.com/design/DAGChMQRHWE/mk30RZopkH3Sk0deJQq0ag/edit?utm_content=DAGChMQRHWE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
-          "title": "Comparing Encoder-Decoder Architectures for Multimodal Hate Speech Detection in Hateful Memes Dataset",
-          "id": "s24_hatespeech",
-          "image": "/images/projects/hatespeech.png",
-          "leadAuthors": [
-            "Nathan Johnson"
-          ],
-          "authors": [
-            "Maohe (Mo) Jiang",
-            "Jonathan Aydin",
-            "Catherine Lu",
-            "Darius Mahjoob",
-            "Catherine He"
-          ],
-          "description": "Multimodal hate speech detection presents additional challenges beyond unimodal detection, as subtle forms of hate speech often surface only when both text and images are analyzed together. This project examines the effectiveness and limitations of various pre-trained multimodal encoders in classifying content as hate speech. By comparing these models, we aim to identify the most viable approaches for accurately detecting hate speech in complex, multimodal contexts.",
-          "media": "https://www.canva.com/design/DAGCu8a4mJ8/8MfftUbnzWRh4RzkQmyR5w/edit?utm_content=DAGCu8a4mJ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-        },
-        {
           "title": "Gender Workplace Bias in Large Language Models",
           "id": "s24_llmbias",
           "image": "/images/projects/llmbias.png",
