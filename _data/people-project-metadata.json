@@ -1,15 +1,55 @@
 {
+  "s24_robotics": {
+    "displayName": "Deformable Object Gen-AI",
+    "link": "/projects/f23-s24#s24_robotics"
+  },
+  "s24_brain": {
+    "displayName": "Brain Activity Classification",
+    "link": "/projects/f23-s24#s24_brain"
+  },
+  "s24_citylearn": {
+    "displayName": "CityLearn",
+    "link": "/projects/f23-s24#s24_citylearn"
+  },
+  "s24_hatespeech": {
+    "displayName": "Hate Speech Detection",
+    "link": "/projects/f23-s24#s24_hatespeech"
+  },
+  "s24_reranking": {
+    "displayName": "ASR Reranking",
+    "link": "/projects/f23-s24#s24_reranking"
+  },
+  "s24_llmbias": {
+    "displayName": "LLM Gender Bias",
+    "link": "/projects/f23-s24#s24_llmbias"
+  },
+  "s24_turbulence": {
+    "displayName": "Air Turbulence",
+    "link": "/projects/f23-s24#s24_turbulence"
+  },
+  "s24_ear": {
+    "displayName": "Ear Disease Detection",
+    "link": "/projects/f23-s24#s24_ear"
+  },
+  "s24_graph": {
+    "displayName": "Graph Signal Processing",
+    "link": "/projects/f23-s24#s24_graph"
+  },
+  "s24_linguistics": {
+    "displayName": "Indigenous Linguistics",
+    "link": "/projects/f23-s24#s24_linguistics"
+  },
   "f23_turbulence": {
     "displayName": "Air Turbulence",
-    "link": "/projects/f22-s23#f23_turbulence"
+    "link": "/projects/f23-s24#f23_turbulence"
   },
   "f23_ear": {
     "displayName": "Ear Disease Detection",
-    "link": "/projects/f22-s23#f23_ear"
+    "link": "/projects/f23-s24#f23_ear"
   },
   "f23_graph": {
     "displayName": "Graph Signal Processing",
-    "link": "/projects/f22-s23#f23_graph"
+    "link": "/projects/f23-s24#f23_graph"
   },
   "f23_linguistics": {
     "displayName": "Indigenous Linguistics",
