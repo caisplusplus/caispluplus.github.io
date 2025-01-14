@@ -1,6 +1,141 @@
 {
   "projects":[
     {
+      "term":"Fall 2024",
+      "pageID": "f24-s25",
+      "projects": [
+        {
+          "title": "Substance Abuse Treatment Engagement",
+          "id": "f24_substance",
+          "image": "/images/projects/substance.png",
+          "leadAuthors": [
+            "Naina Panjwani",
+            "Jay Campanell"
+          ],
+          "authors": [
+            "Andrew Choi",
+            "Joanne Lee",
+            "Jimena Arce Cantu",
+            "Daniel Yang"
+          ],
+          "description": "Existing approaches to predicting treatment success in individuals with substance use disorders predominantly utilize model-specific explainable AI (XAI) techniques, which are constrained by their reliance on specific model architectures and thus limit generalizability. This project advances prior research by investigating the application of model-agnostic and post-hoc XAI methods, which provide model-independent explanations and are applied after model training, respectively. Through the integration of random forest models with these sophisticated XAI methodologies, the study aims to identify key factors that influence treatment success or failure. The findings are intended to optimize resource allocation, enable timely interventions, and enhance treatment outcomes for individuals with substance use disorders.",
+          "slides": "https://docs.google.com/presentation/d/1JgFePzMNuMTon_YIpr0bxjrxiJD98Bx2KdDoXumtUrA/edit?usp=sharing"
+        },
+        {
+          "title": "Digital Well-being for College Students",
+          "id": "f24_wellbeing",
+          "image": "/images/projects/wellbeing.png",
+          "leadAuthors": [
+            "Darius Mahjoob",
+            "Rachita Jain"
+          ],
+          "authors": [
+            "Spencer Tran",
+            "Kailin Xia",
+            "Catherine He"
+          ],
+          "advisorAuthors": [
+            "Yixue Zhao",
+            "Wei Xuan"
+          ],
+          "description": "Understanding college student mental health often relies on self-reported surveys, which lack depth and real-time insights. The College Experience Dataset, a five-year mobile sensing study, combines demographics, sensor data, and ecological momentary assessments (EMA) to explore mental health and resilience. Analyzing patterns like the pandemic's impact, gender differences, and anomalies in behaviors such as sleep or phone usage remains complex. This project aims to use machine learning to uncover meaningful insights, enhancing understanding and guiding interventions.",
+          "slides": "https://docs.google.com/presentation/d/1FdoH74UTjF2mAosIyXpeq5msb8jOFOvHYDtRXuXpg38/edit?usp=sharing"
+        },
+        {
+          "title": "Nanopore for Radiation Damage Detection",
+          "id": "f24_nanopore",
+          "image": "/images/projects/nanopore.png",
+          "leadAuthors": [
+            "Vidur Mushran"
+          ],
+          "authors": [
+            "Mo Jiang",
+            "Pratyush Jaishanker",
+            "Ryan Nene",
+            "Anisha Chitta",
+            "Vayun Mathur"
+          ],
+          "advisorAuthors": [
+            "Aram Modrek",
+            "Khoi Huynh"
+          ],
+          "description": "Assessing radiation exposure and DNA damage in human cells currently relies on methods that lack the ability to provide real-time, quantitative insights into molecular changes. Nanopore sequencing offers a promising approach by enabling high-resolution analysis of DNA and RNA structures through electrical signal detection. However, interpreting nanopore signals for radiation-induced DNA damage remains a complex and underexplored challenge. This project focuses on developing a machine learning-based model to predict radiation exposure levels and detect specific biomarkers of DNA damage, facilitating applications in precision radiotherapy dosing, exposure monitoring in space and nuclear environments, ecological assessments after nuclear incidents, and early cancer prevention through timely intervention.",
+          "slides": "https://docs.google.com/presentation/d/1uj1Pa8h4apaLThDxI4D1qUfemM8MUDOFPlAGS7FLNR8/edit?usp=sharing"
+        },
+        {
+          "title": "Recovering Text from Scans of Preserved Scrolls",
+          "id": "f24_scroll",
+          "image": "/images/projects/scroll.png",
+          "leadAuthors": [
+            "Leslie Moreno",
+            "Jaiv Doshi"
+          ],
+          "authors": [
+            "Aditya Kumar",
+            "Aryan Gulati"
+          ],
+          "description": "Efforts to decode the ancient Herculaneum scrolls, preserved in the aftermath of Mount Vesuvius, have made significant strides through machine learning and computer vision, with the 2023 Vesuvius Challenge awarding over $1,000,000 for breakthroughs such as recovering Epicurean philosophy from Scroll 1. However, current ink detection methods, reliant on crackle patterns, fail to generalize to other scrolls. This project seeks to scale these techniques by leveraging unlabeled segmented data through self-supervised denoising and fine-tuning on labeled fragments, with the virtual unwrapping process—transforming 3D X-ray volumes into 2D surfaces—serving as the foundation for training models capable of generalizing across various scrolls, ultimately unlocking the hidden historical knowledge within.",
+          "slides": "https://docs.google.com/presentation/d/1XESs7UbUor657K1Vn2VflH7A8njIn1KR-nLD3RhJdYQ/edit?usp=sharing"
+        },
+        {
+          "title": "Multimodale Hate and Misinformation Detection Toolkit",
+          "id": "f24_misinformation",
+          "image": "/images/projects/misinformation.png",
+          "leadAuthors": [
+            "Jonathan Aydin",
+            "Siddarth Rudraraju"
+          ],
+          "authors": [
+            "Youqi Huang",
+            "Arjun Bedi",
+            "Malina Freeman"
+          ],
+          "advisorAuthors": [
+            "Jonathan Gomez"
+          ],
+          "description": "Current tools for detecting hate speech and misinformation on social media often lack transparency and adaptability, making it challenging for researchers and policymakers to address these issues effectively. This project aims to develop an explainable, open-source toolkit for analyzing multimodal social media video content, leveraging a dataset of over 32TB of videos, 200 million posts, and 1 million images from the Parler platform. While existing models focus primarily on single-modal data or closed systems, this toolkit will integrate advanced machine learning techniques to analyze text, audio, and visual components simultaneously. By prioritizing explainability, the project seeks to uncover patterns in hate speech and misinformation, fostering a better understanding of their spread and enabling more effective intervention strategies.",
+          "poster": "https://www.canva.com/design/DAGYLQxhIpg/s3SYKRuiD0ES1xvH_OTRiw/view"
+        },
+        {
+          "title": "Post-generation ASR Hypothesis Reranking Utilizing Visual Contexts",
+          "id": "f24_reranking",
+          "image": "/images/projects/reranking.png",
+          "leadAuthors": [
+            "Marcus Au",
+            "Tommy Shu"
+          ],
+          "authors": [
+            "Yirui Song",
+            "Zitong Huang",
+            "Catherine Lu"
+          ],
+          "description": "The Automatic Speech Recognition (ASR) pipeline proposed in \"Multimodal Speech Recognition for Language-Guided Embodied Agents\" (Chang et al.) processes both unimodal (audio-only) and multimodal (audiovisual) data to generate multiple ranked hypotheses based on a given ground truth statement. However, the model often fails to rank the hypothesis with the lowest Word Error Rate (WER) as the top choice. To address this issue, we propose a multimodal reranking pipeline that leverages the same visual cues used in the ASR process.",
+          "poster": "https://www.canva.com/design/DAGYBaFq7QY/DY4oTWA8yqB7tdV4voyR-A/view"
+        },
+        {
+          "title": "Computer Vision and Machine Learning on Optical Coherence Tomography for Middle Ear Pathology Detection",
+          "id": "f24_ear",
+          "image": "/images/projects/ear.png",
+          "leadAuthors": [
+            "Claude Yoo",
+            "Lucia Zhang"
+          ],
+          "authors": [
+            "Irika Katiyar",
+            "Will Dolan",
+            "Matthew Rodriguez",
+            "Lauren Sun",
+            "Sana Jayaswal"
+          ],
+          "advisorAuthors": [
+            "Brian Applegate"
+          ],
+          "description": "Current diagnostic methods for middle ear diseases in otology are primarily qualitative and limited to examining only the surface of the tympanic membrane (TM). Optical Coherence Tomography (OCT) offers a non-invasive, quantitative imaging technique that enables three-dimensional reconstruction of the TM and middle ear, providing more detailed information than traditional methods. However, manually interpreting OCT scans can be time-consuming and challenging, and while OCT-based disease detection models are well-established in retinal imaging and ophthalmology, their application in otology remains relatively unexplored. This project focuses on creating a multi-classification machine learning model capable of identifying conditions such as retraction pockets, perforations, and cholesteatomas, and distinguishing them from healthy ear scans.",
+          "slides": "https://docs.google.com/presentation/d/1OOsHgjhT2zlJJDHK_HXvYxj3KLoxKAwtTfmiBsNConE/edit?usp=sharing"
+        }
+      ]
+    },
+    {
       "term":"Spring 2024",
       "pageID": "f23-s24",
       "projects": [
@@ -22,7 +157,7 @@
             "Daniel Seita"
           ],
           "description": "Robots hold great potential for automating tasks across various environments, yet their adoption is limited by their current capabilities, especially in complex scenarios like caregiving. To enhance automation and accessibility, this project works to advance robotic manipulation of objects that require multiple manipulators and deformable items such as bread and clothing. In this work, we integrate various robotic platforms, including ALOHA and Baxter, into the MuJoCo simulation environment using Robosuite, and set up bimanual configurations to explore different arm controllers. To robustly assess robotic performance, we identify specific tasks involving deformable objects and continuously refine our evaluation protocols.",
-          "media": "https://www.canva.com/design/DAF1mxXM5j4/j3Ka5dkVim1q-4FYeW4xzA/edit?utm_content=DAF1mxXM5j4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          "poster": "https://www.canva.com/design/DAF1mxXM5j4/j3Ka5dkVim1q-4FYeW4xzA/edit?utm_content=DAF1mxXM5j4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
           "title": "Harmful Brain Activity Classification through EEG Spectrogram Data",
@@ -37,7 +172,7 @@
             "Brice Patchou"
           ],
           "description": "Currently, electroencephalogram (EEG) monitoring heavily relies on manual analysis by specialized neurologists, leading to time-consuming and expensive procedures with potential errors. By applying deep learning techniques for EEG analysis, the Harmful Brain Activity Project strives to enhance the accuracy of electroencephalography pattern classification of harmful brain activities, such as seizures, to facilitate greater diagnoses and treatments for patients. By training convolutional neural networks (CNNs) in a specialized pipeline, we aim to create a highly effective model as a contribution towards AI applications in EEG analysis, thus positively impacting the preservation and advancement of human brain health.",
-          "media": "https://docs.google.com/presentation/d/1xrhAqk4LP2bnbUJZrILtj2ECVtaHzhzzoxRfzY2mGbM/edit?usp=sharing"
+          "slides": "https://docs.google.com/presentation/d/1xrhAqk4LP2bnbUJZrILtj2ECVtaHzhzzoxRfzY2mGbM/edit?usp=sharing"
         },
         {
           "title": "CityLearn: Reducing Greenhouse Gas Emissions by Improving Energy Distribution via Time Series Forecasting",
@@ -53,7 +188,7 @@
             "Joanne Lee",
             "Jimena Arce"  ],
           "description": "Buildings account for 30% of greenhouse gas emissions, making energy efficiency a critical focus for sustainability efforts. Distributed energy resources, such as domestic hot water systems that store electricity and solar panels that generate it, play a key role in alleviating the strain on building electric grids. To optimize the management and allocation of these resources across multiple buildings, it is essential to develop accurate and reliable energy usage predictions. This project aims to create robust predictive models that will enhance energy efficiency and contribute to reducing the environmental impact of buildings.",
-          "media": "https://www.canva.com/design/DAGCuq1cTtk/itS-dWmLqUJKZJanR3W9tw/edit?utm_content=DAGCuq1cTtk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          "poster": "https://www.canva.com/design/DAGCuq1cTtk/itS-dWmLqUJKZJanR3W9tw/edit?utm_content=DAGCuq1cTtk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
           "title": "Comparing Encoder-Decoder Architectures for Multimodal Hate Speech Detection in Hateful Memes Dataset",
@@ -70,7 +205,7 @@
             "Catherine He"
           ],
           "description": "Multimodal hate speech detection presents additional challenges beyond unimodal detection, as subtle forms of hate speech often surface only when both text and images are analyzed together. This project examines the effectiveness and limitations of various pre-trained multimodal encoders in classifying content as hate speech. By comparing these models, we aim to identify the most viable approaches for accurately detecting hate speech in complex, multimodal contexts.",
-          "media": "https://www.canva.com/design/DAGCu8a4mJ8/8MfftUbnzWRh4RzkQmyR5w/edit?utm_content=DAGCu8a4mJ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          "poster": "https://www.canva.com/design/DAGCu8a4mJ8/8MfftUbnzWRh4RzkQmyR5w/edit?utm_content=DAGCu8a4mJ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
           "title": "Post-generation ASR Hypothesis Reranking Utilizing Visual Contexts",
@@ -87,7 +222,7 @@
             "Yirui Song"
           ],
           "description": "The Automatic Speech Recognition (ASR) pipeline proposed in \"Multimodal Speech Recognition for Language-Guided Embodied Agents\" (Chang et al.) processes both unimodal (audio-only) and multimodal (audiovisual) data to generate multiple ranked hypotheses based on a given ground truth statement. However, the model often fails to rank the hypothesis with the lowest Word Error Rate (WER) as the top choice. To address this issue, we propose a multimodal reranking pipeline that leverages the same visual cues used in the ASR process.",
-          "media": "https://www.canva.com/design/DAGChMQRHWE/mk30RZopkH3Sk0deJQq0ag/edit?utm_content=DAGChMQRHWE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          "poster": "https://www.canva.com/design/DAGChMQRHWE/mk30RZopkH3Sk0deJQq0ag/edit?utm_content=DAGChMQRHWE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
         },
         {
           "title": "Gender Workplace Bias in Large Language Models",
@@ -103,7 +238,7 @@
             "Malina Freeman"
           ],
           "description": "As large language models (LLMs) like ChatGPT gain prominence, addressing the biases embedded within these models is of paramount importance, particularly regarding gender and gender roles in the workplace. Historically, certain occupations have been linked with specific genders, resulting in significant imbalances across various sectors. To bridge this gender gap, it is essential that AI technologies do not perpetuate these biases. This project leverages LLaMA, a widely adopted open-source LLM, and employs prompt engineering techniques to investigate methods for reducing workplace gender bias in model responses. The objective is to ensure that LLMs exhibit gender neutrality, particularly in contexts characterized by ambiguity or uncertainty.",
-          "media": "https://docs.google.com/presentation/d/1g1ZWQciXAJ2kxgY8lZbXCsxTLJJ46rKMTEo_QNJwA-0/edit?usp=sharing"
+          "poster": "https://docs.google.com/presentation/d/1g1ZWQciXAJ2kxgY8lZbXCsxTLJJ46rKMTEo_QNJwA-0/edit?usp=sharing"
         },
         {
           "title": "Navigating Climate-Induced Turbulence: Optimizing Aviation Emissions Through Neural Network-Based Turbulence Detection",
@@ -124,7 +259,7 @@
             "Sam Silva"
           ],
           "description": "Aviation currently contributes to over 3% of global carbon dioxide emissions and will only contribute more as global travel levels increase [1], which is why implementing optimal flight paths based on emissions is essential. As the Earth warms, however, atmospheric wind patterns change unpredictably, inducing a cycle of more turbulent air, suboptimal flight paths, and increased emissions of carbon dioxide and other pollutants. We aim to contribute to breaking this cycle by employing generative and spatial machine learning techniques to downscale wind patterns in order to improve finer-scale wind speed predictions and inform emissions-based optimization techniques in flight paths.",
-          "media": "https://docs.google.com/presentation/d/1vQKWCxAcEtK2Ltn9a4QaxLIJicI_SVbZcfC9B6-9NWo/edit?usp=sharing"
+          "slides": "https://docs.google.com/presentation/d/1vQKWCxAcEtK2Ltn9a4QaxLIJicI_SVbZcfC9B6-9NWo/edit?usp=sharing"
         },
         {
           "title": "Computer Vision and Machine Learning on Optical Coherence Tomography for Middle Ear Pathology Detection",
@@ -135,15 +270,17 @@
             "Lucia Zhang"
           ],
           "authors": [
-            "Sana Jayaswal",
             "Seena Pourzand",
             "Irika Katiyar",
-            "Will Dolan"
+            "Will Dolan",
+            "Matthew Rodriguez",
+            "Sana Jayaswal"
           ],
           "advisorAuthors": [
             "Brian Applegate"
           ],
-          "description": "Current diagnostic methods for middle ear diseases in otology are primarily qualitative and limited to examining only the surface of the tympanic membrane (TM). Optical Coherence Tomography (OCT) offers a non-invasive, quantitative imaging technique that enables three-dimensional reconstruction of the TM and middle ear, providing more detailed information than traditional methods. However, manually interpreting OCT scans can be time-consuming and challenging, and while OCT-based disease detection models are well-established in retinal imaging and ophthalmology, their application in otology remains relatively unexplored. This project focuses on creating a multi-classification machine learning model capable of identifying conditions such as retraction pockets, perforations, and cholesteatomas, and distinguishing them from healthy ear scans."
+          "description": "Current diagnostic methods for middle ear diseases in otology are primarily qualitative and limited to examining only the surface of the tympanic membrane (TM). Optical Coherence Tomography (OCT) offers a non-invasive, quantitative imaging technique that enables three-dimensional reconstruction of the TM and middle ear, providing more detailed information than traditional methods. However, manually interpreting OCT scans can be time-consuming and challenging, and while OCT-based disease detection models are well-established in retinal imaging and ophthalmology, their application in otology remains relatively unexplored. This project focuses on creating a multi-classification machine learning model capable of identifying conditions such as retraction pockets, perforations, and cholesteatomas, and distinguishing them from healthy ear scans.",
+          "slides": "https://docs.google.com/presentation/d/1OOsHgjhT2zlJJDHK_HXvYxj3KLoxKAwtTfmiBsNConE/edit?usp=sharing"
         },
         {
           "title": "Performance-based Feature Sampling for Reducing Bias in Image Recognition Models",
@@ -179,7 +316,7 @@
             "Jonathan May"
           ],
           "description": "Imperialism has led to a loss of many indigenous cultures and with this, their languages. Based on the NeurIPS 2022 Competition “Second AmericasNLP Competition: Speech-to-Text Translation for Indigenous Languages of the Americas,” this project aims to use machine translation (MT) and automatic speech recognition (ASR) approaches to develop a translator for endangered or extinct indigenous languages. This will involve finding and/or building an appropriately sized corpus and using this to train MT and ASR models due to the sparsity of data on these indigenous languages.",
-          "media": "https://docs.google.com/presentation/d/19ezxhtr_IyDeBOfpTy0n5D1HxNwC2tjIbMfSOFoBSvg/edit#slide=id.g29fa061d36d_0_0"
+          "slides": "https://docs.google.com/presentation/d/19ezxhtr_IyDeBOfpTy0n5D1HxNwC2tjIbMfSOFoBSvg/edit#slide=id.g29fa061d36d_0_0"
         }
       ]
     },

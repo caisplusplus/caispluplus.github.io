@@ -1,4 +1,32 @@
 {
+  "f24_substance": {
+    "displayName": "Substance Abuse Treatment",
+    "link": "/projects/f24-s25#f24_substance"
+  },
+  "f24_wellbeing": {
+    "displayName": "Digital Well-being",
+    "link": "/projects/f24-s25#f24_wellbeing"
+  },
+  "f24_nanopore": {
+    "displayName": "Nanopore",
+    "link": "/projects/f24-s25#f24_nanopore"
+  },
+  "f24_scroll": {
+    "displayName": "Preserved Scrolls",
+    "link": "/projects/f24-s25#f24_scroll"
+  },
+  "f24_misinformation": {
+    "displayName": "Misinformation Toolkit",
+    "link": "/projects/f24-s25#f24_misinformation"
+  },
+  "f24_reranking": {
+    "displayName": "ASR Reranking",
+    "link": "/projects/f24-s25#f24_reranking"
+  },
+  "f24_ear": {
+    "displayName": "Ear Disease Detection",
+    "link": "/projects/f24-s25#f24_ear"
+  },
   "s24_robotics": {
     "displayName": "Deformable Object Gen-AI",
     "link": "/projects/f23-s24#s24_robotics"
